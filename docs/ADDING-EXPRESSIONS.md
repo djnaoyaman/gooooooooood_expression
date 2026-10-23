@@ -19,3 +19,9 @@
 mainへのpushでGitHub Pagesがビルド・検査・公開します。検査失敗時は公開されません。公開後に不具合が見つかった場合は修正、または該当コミットをrevertして同じ経路で公開します。
 
 ブラウザで共通ラボを一括確認するには `npm run qa:prepare` を実行し、ローカルプレビューの `/_qa.html` を開きます。初期描画、スライダーの最小・最大、Canvasの非有限数、キーボード代替を検査し、幅を切り替えて実ページを確認できます。`npm run qa:clean` で内部検査画面を削除してから公開してください。残っている場合は検査が失敗します。WebGLを利用できない環境では同じパラメーターを使うCanvas描画へ切り替えます。動画はWebMとMP4を同梱します。
+
+## 応用例・完成例の追加
+
+`level` は `basic` / `applied` / `advanced` / `composition`。`targets` と `contexts` は `dist/coverage.js` の語彙に従います。`support` に機能検出・代替描画・必要な許可を記述し、`related` に構成要素のIDを付けて完成例と技法を相互リンクします。今回の追加対象は同ファイルの13領域で管理し、欠けたIDは `check-coverage.mjs` で検出します。
+
+Expression Axis Studyは図鑑オリジナルの幾何学書体です。`python scripts/build-axis-font.py` で再生成します（fontToolsが必要）。通常ビルドでは生成済みデータを使うためPython依存はありません。

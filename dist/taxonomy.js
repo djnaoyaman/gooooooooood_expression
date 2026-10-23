@@ -26,5 +26,7 @@ export function enrichEntry(e){
  const code=e.code||'',html=e.html||'';
  const engine=e.engine||(/AudioContext/.test(code)?'audio':/<video/.test(html)?'video':/getContext\(['"]webgl/.test(code)?'webgl':/<canvas/.test(html)?'canvas':/<svg/.test(html)?'svg':'css');
  const inputs=e.inputs||[...(e.type==='motion'||engine==='video'||engine==='audio'||/animation/.test(e.css||'')?['watch']:[]),...(/<input/.test(html)||e.type==='motion'?['adjust']:[]),...(categories.some(c=>['gesture','physics'].includes(c))?['pointer']:[]),...(categories.includes('scroll')?['scroll']:[]),...(engine==='audio'||e.type==='sound'?['listen']:[])];
- return {...e,categories,engine,inputs:inputs.length?[...new Set(inputs)]:['watch']};
+ const targets=e.targets||[e.category==='type'?'text':e.category==='data'?'data':e.category==='media'?'video':categories.includes('sound')?'sound':e.category==='layout'?'layout':['ui','interaction','gesture','transition'].includes(e.category)?'ui':['image','texture','gradient','color','blend','mask'].includes(e.category)?'image':'shape'];
+ const contexts=e.contexts||['foundation'];
+ return {...e,level:e.level||'basic',targets,contexts,support:e.support||'対応状況は使用する機能と端末により異なります。公式資料も参照してください。',categories,engine,inputs:inputs.length?[...new Set(inputs)]:['watch']};
 }

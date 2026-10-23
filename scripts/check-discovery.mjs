@@ -5,7 +5,7 @@ import {trails,normalize,filterEntries,connections} from '../dist/discovery.js';
 assert.equal(normalize('ＰＡＲＡＬＬＡＸ'),'parallax');
 assert.deepEqual(filterEntries({query:'ﾊﾟﾗﾗｯｸｽ'}).map(e=>e.id),filterEntries({query:'パララックス'}).map(e=>e.id));
 const multi=filterEntries({query:'スクロール 文字'});
-assert.ok(multi.length>0 && multi.every(e=>e.category==='scroll'));
+assert.ok(multi.length>0 && multi.every(e=>belongsTo(e,'scroll')));
 assert.ok(filterEntries({query:'ふわっと'}).some(e=>e.id==='float'));
 assert.equal(filterEntries({query:'not-a-real-expression-z999'}).length,0);
 for(const t of trails){

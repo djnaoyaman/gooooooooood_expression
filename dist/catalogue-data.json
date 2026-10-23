@@ -1,8 +1,8 @@
 {
-  "specimens": 271,
+  "specimens": 331,
   "categories": 31,
   "areas": 6,
-  "trails": 10,
+  "trails": 13,
   "note": "Specimen totals are unique. Category totals include cross-references.",
   "groups": [
     {
@@ -17,7 +17,7 @@
         "morph",
         "scroll"
       ],
-      "count": 133
+      "count": 148
     },
     {
       "id": "surface",
@@ -32,7 +32,7 @@
         "mask",
         "blend"
       ],
-      "count": 62
+      "count": 75
     },
     {
       "id": "composition",
@@ -42,7 +42,7 @@
         "layout",
         "style"
       ],
-      "count": 33
+      "count": 45
     },
     {
       "id": "response",
@@ -52,7 +52,7 @@
         "interaction",
         "gesture"
       ],
-      "count": 19
+      "count": 36
     },
     {
       "id": "systems",
@@ -66,7 +66,7 @@
         "three",
         "data"
       ],
-      "count": 42
+      "count": 59
     },
     {
       "id": "listening",
@@ -76,7 +76,7 @@
         "audiovisual",
         "media"
       ],
-      "count": 34
+      "count": 39
     }
   ],
   "categoryCounts": [
@@ -84,7 +84,7 @@
       "id": "motion",
       "name": "アニメーション",
       "primary": 55,
-      "indexed": 63
+      "indexed": 64
     },
     {
       "id": "easing",
@@ -95,68 +95,68 @@
     {
       "id": "physics",
       "name": "物理・慣性",
-      "primary": 4,
-      "indexed": 7
+      "primary": 8,
+      "indexed": 11
     },
     {
       "id": "rhythm",
       "name": "時間・リズム",
-      "primary": 4,
-      "indexed": 12
+      "primary": 7,
+      "indexed": 15
     },
     {
       "id": "transition",
       "name": "画面遷移",
-      "primary": 4,
-      "indexed": 9
+      "primary": 5,
+      "indexed": 12
     },
     {
       "id": "morph",
       "name": "モーフィング・変形",
       "primary": 4,
-      "indexed": 6
+      "indexed": 10
     },
     {
       "id": "scroll",
       "name": "スクロール・視差",
-      "primary": 16,
-      "indexed": 18
+      "primary": 17,
+      "indexed": 21
     },
     {
       "id": "shape",
       "name": "形・線・輪郭",
       "primary": 5,
-      "indexed": 10
+      "indexed": 11
     },
     {
       "id": "color",
       "name": "色・配色",
-      "primary": 5,
-      "indexed": 6
+      "primary": 8,
+      "indexed": 10
     },
     {
       "id": "gradient",
       "name": "グラデーション",
-      "primary": 5,
-      "indexed": 5
+      "primary": 6,
+      "indexed": 6
     },
     {
       "id": "shadow",
       "name": "影・光・奥行き",
       "primary": 4,
-      "indexed": 5
+      "indexed": 6
     },
     {
       "id": "texture",
       "name": "質感・印刷表現",
       "primary": 7,
-      "indexed": 16
+      "indexed": 19
     },
     {
       "id": "image",
       "name": "写真・画像表現",
-      "primary": 5,
-      "indexed": 19
+      "primary": 8,
+      "indexed": 25
     },
     {
       "id": "mask",
@@ -168,61 +168,61 @@
       "id": "blend",
       "name": "合成・ブレンド",
       "primary": 4,
-      "indexed": 6
+      "indexed": 8
     },
     {
       "id": "type",
       "name": "タイポグラフィ",
-      "primary": 11,
-      "indexed": 15
+      "primary": 15,
+      "indexed": 21
     },
     {
       "id": "layout",
       "name": "レイアウト・余白",
-      "primary": 10,
-      "indexed": 13
+      "primary": 13,
+      "indexed": 18
     },
     {
       "id": "style",
       "name": "デザイン様式",
-      "primary": 5,
-      "indexed": 5
+      "primary": 9,
+      "indexed": 9
     },
     {
       "id": "ui",
       "name": "UIパーツ",
-      "primary": 5,
-      "indexed": 5
+      "primary": 13,
+      "indexed": 15
     },
     {
       "id": "interaction",
       "name": "UIの反応",
-      "primary": 6,
-      "indexed": 11
+      "primary": 9,
+      "indexed": 17
     },
     {
       "id": "gesture",
       "name": "ジェスチャー・追従",
-      "primary": 4,
-      "indexed": 9
+      "primary": 5,
+      "indexed": 11
     },
     {
       "id": "particles",
       "name": "粒子・群れ",
       "primary": 4,
-      "indexed": 6
+      "indexed": 7
     },
     {
       "id": "generative",
       "name": "生成・アルゴリズム",
-      "primary": 4,
-      "indexed": 8
+      "primary": 6,
+      "indexed": 11
     },
     {
       "id": "shader",
       "name": "シェーダー・映像変形",
-      "primary": 4,
-      "indexed": 5
+      "primary": 7,
+      "indexed": 8
     },
     {
       "id": "illusion",
@@ -233,55 +233,55 @@
     {
       "id": "svg",
       "name": "SVG・アイコン",
-      "primary": 6,
-      "indexed": 8
+      "primary": 7,
+      "indexed": 9
     },
     {
       "id": "three",
       "name": "3D・立体表現",
-      "primary": 8,
-      "indexed": 9
+      "primary": 12,
+      "indexed": 15
     },
     {
       "id": "data",
       "name": "データの見せ方",
-      "primary": 4,
-      "indexed": 6
+      "primary": 10,
+      "indexed": 12
     },
     {
       "id": "sound",
       "name": "音・サウンド",
-      "primary": 22,
-      "indexed": 26
+      "primary": 23,
+      "indexed": 29
     },
     {
       "id": "audiovisual",
       "name": "音と映像の連動",
-      "primary": 4,
-      "indexed": 5
+      "primary": 6,
+      "indexed": 8
     },
     {
       "id": "media",
       "name": "映像の見せ方",
-      "primary": 8,
-      "indexed": 8
+      "primary": 10,
+      "indexed": 10
     }
   ],
   "engines": [
     {
       "id": "css",
       "name": "HTML / CSS",
-      "count": 185
+      "count": 216
     },
     {
       "id": "svg",
       "name": "SVG",
-      "count": 19
+      "count": 20
     },
     {
       "id": "canvas",
       "name": "Canvas 2D",
-      "count": 29
+      "count": 52
     },
     {
       "id": "webgl",
@@ -291,39 +291,39 @@
     {
       "id": "audio",
       "name": "Web Audio",
-      "count": 26
+      "count": 29
     },
     {
       "id": "video",
       "name": "HTML Video",
-      "count": 5
+      "count": 7
     }
   ],
   "inputs": [
     {
       "id": "watch",
       "name": "動きを見る",
-      "count": 248
+      "count": 256
     },
     {
       "id": "adjust",
       "name": "数値を変える",
-      "count": 182
+      "count": 223
     },
     {
       "id": "pointer",
       "name": "触って動かす",
-      "count": 16
+      "count": 54
     },
     {
       "id": "scroll",
       "name": "スクロールする",
-      "count": 18
+      "count": 21
     },
     {
       "id": "listen",
       "name": "音を聴く",
-      "count": 26
+      "count": 29
     }
   ],
   "entries": [
@@ -340,7 +340,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "fade-out",
@@ -355,7 +363,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "slide-up",
@@ -370,7 +386,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "slide-down",
@@ -385,7 +409,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "slide-left",
@@ -400,7 +432,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "slide-right",
@@ -415,7 +455,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "zoom-in",
@@ -430,7 +478,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "zoom-out",
@@ -445,7 +501,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "pop-in",
@@ -460,7 +524,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "bounce",
@@ -475,7 +547,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "float",
@@ -490,7 +570,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "pulse",
@@ -505,7 +593,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "swing",
@@ -520,7 +616,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "wobble",
@@ -535,7 +639,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shake-x",
@@ -550,7 +662,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shake-y",
@@ -565,7 +685,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "rubber-band",
@@ -580,7 +708,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "jelly",
@@ -595,7 +731,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "spin",
@@ -610,7 +754,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "flip-x",
@@ -625,7 +777,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "flip-y",
@@ -640,7 +800,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "tilt-3d",
@@ -655,7 +823,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "orbit",
@@ -670,7 +846,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "figure-eight",
@@ -685,7 +869,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "spiral-in",
@@ -700,7 +892,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "hinge-out",
@@ -715,7 +915,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "roll-in",
@@ -730,7 +938,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blur-in",
@@ -745,7 +961,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blur-out",
@@ -760,7 +984,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "wipe-right",
@@ -777,7 +1009,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "wipe-up",
@@ -794,7 +1034,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "circle-reveal",
@@ -810,7 +1058,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "diamond-reveal",
@@ -826,7 +1082,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "curtain-open",
@@ -843,7 +1107,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "diagonal-wipe",
@@ -858,7 +1130,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blob-morph",
@@ -874,7 +1154,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "square-to-circle",
@@ -889,7 +1177,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-shift",
@@ -904,7 +1200,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "glow",
@@ -919,7 +1223,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shadow-lift",
@@ -934,7 +1246,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "letter-spread",
@@ -949,7 +1269,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "tracking-in",
@@ -964,7 +1292,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "text-glow",
@@ -979,7 +1315,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "skew-in",
@@ -994,7 +1338,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "typewriter",
@@ -1009,7 +1361,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "squash-stretch",
@@ -1024,7 +1384,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "grow-x",
@@ -1039,7 +1407,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "elastic-in",
@@ -1054,7 +1430,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-hex",
@@ -1068,7 +1452,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/hex-color"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/hex-color",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-alpha",
@@ -1082,7 +1474,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/rgb"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/rgb",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-hsl",
@@ -1096,7 +1496,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/hsl"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/hsl",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-oklch",
@@ -1110,7 +1518,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "color-mix",
@@ -1124,7 +1540,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gradient-linear",
@@ -1138,7 +1562,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gradient-radial",
@@ -1152,7 +1584,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gradient-conic",
@@ -1166,7 +1606,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gradient-repeat",
@@ -1180,7 +1628,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gradient-layered",
@@ -1194,7 +1650,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-image"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-image",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-tracking",
@@ -1208,7 +1672,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-leading",
@@ -1222,7 +1694,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-height"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-height",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-outline",
@@ -1236,7 +1716,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-gradient",
@@ -1250,7 +1738,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-vertical",
@@ -1264,7 +1760,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/writing-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/writing-mode",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-grid",
@@ -1278,7 +1782,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-flex",
@@ -1292,7 +1804,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-bento",
@@ -1306,7 +1826,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-overlap",
@@ -1320,7 +1848,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-spacing",
@@ -1334,7 +1870,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/gap"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/gap",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shape-radius",
@@ -1348,7 +1892,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shape-blob",
@@ -1362,7 +1914,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shape-polygon",
@@ -1376,7 +1936,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shape-border",
@@ -1390,7 +1958,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shadow-soft",
@@ -1404,7 +1980,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shadow-hard",
@@ -1418,7 +2002,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shadow-inset",
@@ -1432,7 +2024,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shadow-glow",
@@ -1446,7 +2046,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-glass",
@@ -1460,7 +2068,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-halftone",
@@ -1474,7 +2090,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-multiply",
@@ -1488,7 +2112,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-checker",
@@ -1502,7 +2134,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "image-grayscale",
@@ -1516,7 +2156,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/grayscale"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/grayscale",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "image-hue",
@@ -1530,7 +2178,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "image-mask",
@@ -1545,7 +2201,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "image-crop",
@@ -1559,7 +2223,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "svg-linecap",
@@ -1573,7 +2245,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-linecap"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-linecap",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "svg-dash",
@@ -1587,7 +2267,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "svg-bezier",
@@ -1601,7 +2289,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "svg-fill-rule",
@@ -1615,7 +2311,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/fill-rule"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/fill-rule",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "ui-details",
@@ -1629,7 +2333,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "ui-toggle",
@@ -1643,7 +2355,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "ui-range",
@@ -1657,7 +2377,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/range"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/range",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "ui-segmented",
@@ -1671,7 +2399,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "interaction-hover",
@@ -1685,7 +2421,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "interaction-focus",
@@ -1699,7 +2443,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "interaction-scroll-snap",
@@ -1713,7 +2465,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "interaction-resize",
@@ -1727,7 +2487,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/resize"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/resize",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "data-bars",
@@ -1741,7 +2509,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role",
+      "level": "basic",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "data-donut",
@@ -1755,7 +2531,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient",
+      "level": "basic",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "data-sparkline",
@@ -1769,7 +2553,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/polyline"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/polyline",
+      "level": "basic",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "data-heatmap",
@@ -1783,7 +2575,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity",
+      "level": "basic",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-perspective",
@@ -1797,7 +2597,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-cube",
@@ -1811,7 +2619,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-style"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-style",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-flip",
@@ -1825,7 +2641,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backface-visibility"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backface-visibility",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-isometric",
@@ -1839,7 +2663,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-waveform",
@@ -1853,7 +2685,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-aspect",
@@ -1867,7 +2707,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-captions",
@@ -1881,7 +2729,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "style-minimal",
@@ -1895,7 +2751,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "style-swiss",
@@ -1909,7 +2773,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "style-brutal",
@@ -1923,7 +2795,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "style-editorial",
@@ -1937,7 +2817,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "style-retro",
@@ -1951,7 +2839,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-linear",
@@ -1966,7 +2862,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-ease",
@@ -1981,7 +2885,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-ease-in",
@@ -1996,7 +2908,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-ease-out",
@@ -2011,7 +2931,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-ease-in-out",
@@ -2026,7 +2954,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-sine-in",
@@ -2041,7 +2977,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-sine-out",
@@ -2056,7 +3000,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-sine-in-out",
@@ -2071,7 +3023,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quad-in",
@@ -2086,7 +3046,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quad-out",
@@ -2101,7 +3069,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quad-in-out",
@@ -2116,7 +3092,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-cubic-in",
@@ -2131,7 +3115,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-cubic-out",
@@ -2146,7 +3138,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-cubic-in-out",
@@ -2161,7 +3161,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quart-in",
@@ -2176,7 +3184,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quart-out",
@@ -2191,7 +3207,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quart-in-out",
@@ -2206,7 +3230,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quint-in",
@@ -2221,7 +3253,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quint-out",
@@ -2236,7 +3276,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-quint-in-out",
@@ -2251,7 +3299,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-expo-in",
@@ -2266,7 +3322,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-expo-out",
@@ -2281,7 +3345,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-expo-in-out",
@@ -2296,7 +3368,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-circ-in",
@@ -2311,7 +3391,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-circ-out",
@@ -2326,7 +3414,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-circ-in-out",
@@ -2341,7 +3437,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-back-in",
@@ -2356,7 +3460,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-back-out",
@@ -2371,7 +3483,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-back-in-out",
@@ -2386,7 +3506,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-bounce-in",
@@ -2401,7 +3529,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-bounce-out",
@@ -2416,7 +3552,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-bounce-in-out",
@@ -2431,7 +3575,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-elastic-in",
@@ -2446,7 +3598,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-elastic-out",
@@ -2461,7 +3621,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-elastic-in-out",
@@ -2476,7 +3644,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "easing-steps-4",
@@ -2491,7 +3667,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-click",
@@ -2506,7 +3690,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-pop",
@@ -2521,7 +3713,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-tap",
@@ -2536,7 +3736,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-notify-up",
@@ -2551,7 +3759,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-notify-down",
@@ -2566,7 +3782,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-success",
@@ -2581,7 +3805,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-error",
@@ -2596,7 +3828,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-warning",
@@ -2611,7 +3851,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-switch",
@@ -2626,7 +3874,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-bell",
@@ -2641,7 +3897,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-chime",
@@ -2656,7 +3920,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-shimmer",
@@ -2671,7 +3943,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-sweep",
@@ -2686,7 +3966,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-whoosh",
@@ -2701,7 +3989,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-pulse",
@@ -2716,7 +4012,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-heartbeat",
@@ -2731,7 +4035,15 @@
         "watch",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-scroll-scrub",
@@ -2747,7 +4059,15 @@
         "watch",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-scroll-reveal",
@@ -2764,7 +4084,15 @@
         "watch",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-stagger",
@@ -2780,7 +4108,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-stroke-draw",
@@ -2794,7 +4130,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-pointer-spotlight",
@@ -2811,7 +4155,15 @@
         "watch",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-spring-drag",
@@ -2828,7 +4180,15 @@
         "watch",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-flip-layout",
@@ -2844,7 +4204,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "adv-eased-path",
@@ -2858,7 +4226,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getPointAtLength"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getPointAtLength",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-layered-parallax",
@@ -2874,7 +4250,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-depth-parallax",
@@ -2890,7 +4274,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-counter-parallax",
@@ -2906,7 +4298,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-pinned-story",
@@ -2922,7 +4322,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-horizontal-track",
@@ -2938,7 +4346,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-zoom-out",
@@ -2954,7 +4370,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-circle-reveal",
@@ -2970,7 +4394,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-text-fill",
@@ -2986,7 +4418,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-scene-crossfade",
@@ -3003,7 +4443,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-reading-ring",
@@ -3019,7 +4467,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-snap-story",
@@ -3035,7 +4491,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-direction-header",
@@ -3051,7 +4515,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-stacked-cards",
@@ -3067,7 +4539,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-split-typography",
@@ -3083,7 +4563,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-view-progress",
@@ -3099,7 +4587,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "scroll-velocity-skew",
@@ -3115,7 +4611,15 @@
         "adjust",
         "scroll"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "motion-css-path",
@@ -3130,7 +4634,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/offset-path"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/offset-path",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "svg-displacement",
@@ -3147,7 +4659,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-text-path",
@@ -3163,7 +4683,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/textPath"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/textPath",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-line-reveal",
@@ -3179,7 +4707,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overflow"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overflow",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "ui-skeleton",
@@ -3193,7 +4729,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-container-query",
@@ -3208,7 +4752,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shape-composite-mask",
@@ -3225,7 +4777,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-composite"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-composite",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "motion-seamless-loop",
@@ -3241,7 +4801,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "physics-spring",
@@ -3258,7 +4826,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "physics-gravity",
@@ -3274,7 +4850,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "physics-pendulum",
@@ -3290,7 +4874,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "physics-inertia",
@@ -3308,7 +4900,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "rhythm-stagger",
@@ -3324,7 +4924,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "rhythm-wave",
@@ -3340,7 +4948,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "rhythm-alternate",
@@ -3355,7 +4971,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "rhythm-anticipation",
@@ -3371,7 +4995,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "particles-constellation",
@@ -3387,7 +5019,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "particles-confetti",
@@ -3404,7 +5044,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "particles-attraction",
@@ -3422,7 +5070,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "particles-phyllotaxis",
@@ -3438,7 +5094,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "generative-flow",
@@ -3453,7 +5117,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "generative-fractal",
@@ -3467,7 +5139,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "generative-voronoi",
@@ -3481,7 +5161,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "generative-automaton",
@@ -3495,7 +5183,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "transition-crossfade",
@@ -3511,7 +5207,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "transition-shared",
@@ -3527,7 +5231,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "transition-wipe",
@@ -3544,7 +5256,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "transition-fold",
@@ -3560,7 +5280,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "morph-star",
@@ -3575,7 +5303,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "morph-blob",
@@ -3590,7 +5326,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "morph-superellipse",
@@ -3605,7 +5349,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "morph-curve",
@@ -3621,7 +5373,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "mask-feather",
@@ -3637,7 +5397,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "mask-blinds",
@@ -3653,7 +5421,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "mask-type",
@@ -3669,7 +5445,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "mask-scratch",
@@ -3685,7 +5469,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blend-screen",
@@ -3702,7 +5494,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blend-overlay",
@@ -3719,7 +5519,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blend-difference",
@@ -3736,7 +5544,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "blend-luminosity",
@@ -3753,7 +5569,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gesture-magnetic",
@@ -3770,7 +5594,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gesture-trail",
@@ -3787,7 +5619,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gesture-snap",
@@ -3804,7 +5644,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "gesture-pinch",
@@ -3821,7 +5669,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "basic",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "illusion-moire",
@@ -3836,7 +5692,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "illusion-contrast",
@@ -3851,7 +5715,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "illusion-figure",
@@ -3865,7 +5737,15 @@
       "inputs": [
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "illusion-length",
@@ -3880,7 +5760,15 @@
         "adjust",
         "pointer"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shader-ripple",
@@ -3896,7 +5784,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shader-heat",
@@ -3913,7 +5809,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shader-chromatic",
@@ -3929,7 +5833,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "shader-dither",
@@ -3945,7 +5857,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-light",
@@ -3959,7 +5879,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-material",
@@ -3974,7 +5902,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-reflect",
@@ -3989,7 +5925,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "three-orbit",
@@ -4003,7 +5947,15 @@
       "inputs": [
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+      "level": "basic",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-envelope",
@@ -4019,7 +5971,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-timbre",
@@ -4035,7 +5995,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-filter",
@@ -4051,7 +6019,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-delay",
@@ -4067,7 +6043,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-reverb",
@@ -4083,7 +6067,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "sound-spatial",
@@ -4101,7 +6093,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "av-amplitude",
@@ -4119,7 +6119,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "av-spectrum",
@@ -4137,7 +6145,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "av-waveform",
@@ -4155,7 +6171,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "av-particles",
@@ -4173,7 +6197,15 @@
         "adjust",
         "listen"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "basic",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-variable",
@@ -4188,7 +6220,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-kinetic",
@@ -4205,7 +6245,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-disassemble",
@@ -4221,7 +6269,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "type-picture",
@@ -4238,7 +6294,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "level": "basic",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-grain",
@@ -4255,7 +6319,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-paper",
@@ -4271,7 +6343,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "texture-registration",
@@ -4288,7 +6368,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "image-collage",
@@ -4305,7 +6393,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-intrinsic",
@@ -4320,7 +6416,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-density",
@@ -4335,7 +6439,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-alignment",
@@ -4350,7 +6462,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "layout-hierarchy",
@@ -4365,7 +6485,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "basic",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-loop",
@@ -4381,7 +6509,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-pingpong",
@@ -4396,7 +6532,15 @@
       "inputs": [
         "watch"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-speed",
@@ -4412,7 +6556,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-scrub",
@@ -4428,7 +6580,15 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
     },
     {
       "id": "media-cinemagraph",
@@ -4445,7 +6605,1406 @@
         "watch",
         "adjust"
       ],
-      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "basic",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "foundation"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "ui-dialog",
+      "name": "Modal dialog",
+      "ja": "集中する場所をつくる",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-popover",
+      "name": "Anchored popover",
+      "ja": "きっかけの近くで開く",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Popover非対応時は通常表示。Anchor Positioning非対応時は中央配置。"
+    },
+    {
+      "id": "ui-tooltip",
+      "name": "Tooltip with focus",
+      "ja": "触れる・選ぶで補足を読む",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-menu",
+      "name": "Disclosure navigation",
+      "ja": "メニューを開いて選ぶ",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-validation",
+      "name": "Inline validation",
+      "ja": "直す場所がすぐわかる",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-submit",
+      "name": "Async submit states",
+      "ja": "待つ・完了・再試行を伝える",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-empty",
+      "name": "Empty state",
+      "ja": "空の場所から次へ進める",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "ui-undo",
+      "name": "Undo feedback",
+      "ja": "取り消せる安心感をつくる",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "layout-fluid",
+      "name": "Fluid type & spacing",
+      "ja": "文字も余白も、連続して変わる",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp",
+      "level": "applied",
+      "targets": [
+        "text",
+        "layout"
+      ],
+      "contexts": [
+        "responsive"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "layout-art-direction",
+      "name": "Responsive art direction",
+      "ja": "幅に応じて、構図を変える",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "responsive"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "layout-subgrid",
+      "name": "Subgrid alignment",
+      "ja": "部品をまたいで列を揃える",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid",
+      "level": "applied",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "responsive"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "layout-input",
+      "name": "Input-adaptive controls",
+      "ja": "指とマウスで、触れる幅を変える",
+      "category": "interaction",
+      "categories": [
+        "interaction",
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "responsive"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "rhythm-timeline",
+      "name": "Coordinated timeline",
+      "ja": "複数の動きを、一つの流れにする",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "rhythm-interrupt",
+      "name": "Interruptible motion",
+      "ja": "動いている途中でも、自然に戻る",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "rhythm-enter-exit",
+      "name": "Enter & exit choreography",
+      "ja": "登場と退場の役割を変える",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "transition-native",
+      "name": "Native view transition",
+      "ja": "ブラウザが画面の変化をつなぐ",
+      "category": "transition",
+      "categories": [
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "document.startViewTransitionを検出。非対応時は即時切り替え。"
+    },
+    {
+      "id": "scroll-native",
+      "name": "CSS scroll timeline",
+      "ja": "スクロールを、CSSの時間にする",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "scroll",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-timeline",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "CSSの対応を検出し、非対応時はscrollイベントで代替。"
+    },
+    {
+      "id": "access-motion",
+      "name": "Reduced-motion alternative",
+      "ja": "動きを減らしても、意味を残す",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "accessibility"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "access-feedback",
+      "name": "Multimodal feedback",
+      "ja": "色だけに、意味を預けない",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "accessibility"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "case-product",
+      "name": "Object shop — composed example",
+      "ja": "商品を知り、選び、加える",
+      "category": "style",
+      "categories": [
+        "style",
+        "layout",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "composition",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "case-editorial",
+      "name": "Reading room — composed example",
+      "ja": "読む進度と、余白を組み合わせる",
+      "category": "style",
+      "categories": [
+        "style",
+        "type",
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "scroll",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "composition",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "case-gallery",
+      "name": "Small gallery — composed example",
+      "ja": "選ぶ動作で、作品の見え方が変わる",
+      "category": "style",
+      "categories": [
+        "style",
+        "image",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "composition",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "portfolio"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "case-form",
+      "name": "Thoughtful form — composed example",
+      "ja": "迷わず入力して、完了を知る",
+      "category": "style",
+      "categories": [
+        "style",
+        "ui",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility",
+      "level": "composition",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "forms"
+      ],
+      "support": "標準機能。端末ごとの検証状況は収録マップを参照。"
+    },
+    {
+      "id": "type-variable-axes",
+      "name": "Variable font axes",
+      "ja": "幅・傾斜・光学サイズを触る",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "type-ruby",
+      "name": "Ruby typography",
+      "ja": "読みに、小さな手がかりを添える",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "type-kinsoku",
+      "name": "Japanese line breaking",
+      "ja": "行頭と行末の、整え方",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-break",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "type-line-break",
+      "name": "Balanced headlines",
+      "ja": "改行の位置も、デザインする",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-wrap",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "color-palette",
+      "name": "Palette relationships",
+      "ja": "色同士の距離から配色する",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "color-contrast",
+      "name": "Contrast ratio",
+      "ja": "読める明暗差を確かめる",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "accessibility"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "color-interpolation",
+      "name": "Color-space interpolation",
+      "ja": "中間の色は、混ぜ方で変わる",
+      "category": "gradient",
+      "categories": [
+        "gradient",
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-method",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "OKLCH補間に非対応の環境では同じsRGBグラデーションで表示。"
+    },
+    {
+      "id": "color-theme",
+      "name": "Semantic theme",
+      "ja": "役割を保ちながら、明暗を変える",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "svg-icon-morph",
+      "name": "Icon state morph",
+      "ja": "メニューの線が、閉じる印へ",
+      "category": "svg",
+      "categories": [
+        "svg",
+        "morph",
+        "ui"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/line",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "image-duotone",
+      "name": "Duotone mapping",
+      "ja": "二色で、画像の調子を整える",
+      "category": "image",
+      "categories": [
+        "image",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "portfolio"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "image-posterize",
+      "name": "Posterization",
+      "ja": "階調を減らして、面を見つける",
+      "category": "image",
+      "categories": [
+        "image",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "portfolio"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "image-displacement",
+      "name": "Image displacement",
+      "ja": "画像を読む場所を、ずらす",
+      "category": "image",
+      "categories": [
+        "image",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "portfolio"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "svg-freehand",
+      "name": "Freehand stroke",
+      "ja": "指の軌跡を、一本の線にする",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "shape"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "portfolio"
+      ],
+      "support": "対応状況は使用する機能と端末により異なります。公式資料も参照してください。"
+    },
+    {
+      "id": "physics-collisions",
+      "name": "Multi-body collisions",
+      "ja": "ぶつかる物体の力を読む",
+      "category": "physics",
+      "categories": [
+        "physics"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "physics-cloth",
+      "name": "Constraint cloth",
+      "ja": "点と線から、布が生まれる",
+      "category": "physics",
+      "categories": [
+        "physics",
+        "gesture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "physics-softbody",
+      "name": "Shape-matching soft body",
+      "ja": "押すと変わり、元の形へ戻る",
+      "category": "physics",
+      "categories": [
+        "physics",
+        "morph"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "physics-fluid",
+      "name": "Fluid advection study",
+      "ja": "流れが、次の流れを運ぶ",
+      "category": "physics",
+      "categories": [
+        "physics",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "generative-boids",
+      "name": "Boids flocking",
+      "ja": "個体のルールから、群れが生まれる",
+      "category": "generative",
+      "categories": [
+        "generative",
+        "particles"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://www.red3d.com/cwr/boids/",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "generative-reaction",
+      "name": "Reaction–diffusion",
+      "ja": "反応する二つの量が、模様をつくる",
+      "category": "generative",
+      "categories": [
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "three-model",
+      "name": "Embedded glTF mesh",
+      "ja": "モデルのデータから立体を描く",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "three-skeleton",
+      "name": "Weighted skeletal deformation",
+      "ja": "骨の動きを、表面へ伝える",
+      "category": "three",
+      "categories": [
+        "three",
+        "morph"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "three-camera",
+      "name": "Camera framing",
+      "ja": "同じ立体を、違う距離感で見る",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "three-deform",
+      "name": "Mesh twist",
+      "ja": "頂点をねじって、面を変える",
+      "category": "three",
+      "categories": [
+        "three",
+        "morph"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "shader-raymarch",
+      "name": "SDF ray marching",
+      "ja": "距離の関数から、立体を見つける",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "three"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "shader-bloom",
+      "name": "Bloom compositing",
+      "ja": "強い光が、周りへにじむ",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "blend",
+        "shadow"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "shader-dof",
+      "name": "Depth-of-field layers",
+      "ja": "焦点を、奥行きの中で選ぶ",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "three",
+        "image"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "advanced",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-scatter",
+      "name": "Scatter plot",
+      "ja": "二つの量の関係を、点で読む",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-network",
+      "name": "Network diagram",
+      "ja": "つながりを、線で読む",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-map",
+      "name": "Proportional symbol map",
+      "ja": "場所と量を、重ねて読む",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-treemap",
+      "name": "Slice-and-dice treemap",
+      "ja": "面積で、内訳を読む",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-time",
+      "name": "Time-series reveal",
+      "ja": "変化を、時間に沿って読む",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "data-story",
+      "name": "Data storytelling",
+      "ja": "全体から、注目点へ導く",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "data"
+      ],
+      "contexts": [
+        "data"
+      ],
+      "support": "Canvas 2D。負荷を抑えるため点数・解像度を制限。"
+    },
+    {
+      "id": "av-beat",
+      "name": "Audio-clock beat sync",
+      "ja": "音の拍と、動きの拍を揃える",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "listen",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "advanced",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Web Audio・ユーザー操作が必要。"
+    },
+    {
+      "id": "sound-crossfade",
+      "name": "Equal-power audio crossfade",
+      "ja": "二つの音源を、なめらかに渡す",
+      "category": "sound",
+      "categories": [
+        "sound",
+        "audiovisual"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "listen",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "advanced",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Web Audio・ユーザー操作が必要。"
+    },
+    {
+      "id": "av-microphone",
+      "name": "Microphone reactive shape",
+      "ja": "今いる場所の音が、形になる",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "listen",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "level": "advanced",
+      "targets": [
+        "sound"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "HTTPS・マイク許可が必要。埋め込み制限時はラボ画面で操作。"
+    },
+    {
+      "id": "media-scroll-video",
+      "name": "Scroll-linked video",
+      "ja": "スクロールが、動画の時間になる",
+      "category": "media",
+      "categories": [
+        "media",
+        "scroll"
+      ],
+      "engine": "video",
+      "inputs": [
+        "scroll",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "applied",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "WebMとMP4の二形式。シークの滑らかさは端末と動画形式によります。"
+    },
+    {
+      "id": "media-composite",
+      "name": "Video compositing",
+      "ja": "動く映像を、別の層と重ねる",
+      "category": "media",
+      "categories": [
+        "media",
+        "blend"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+      "level": "applied",
+      "targets": [
+        "video"
+      ],
+      "contexts": [
+        "editorial"
+      ],
+      "support": "WebMとMP4の二形式。シークの滑らかさは端末と動画形式によります。"
     }
   ]
 }

@@ -1,0 +1,41 @@
+import {domLab} from './lab-kit.js';
+import {motionVideo,motionPoster,motionWebm} from './media-data.js';
+const c=(key,label,min,max,value,step=1)=>({key,label,min,max,value,step});
+function audioSetup({root,values:v,kind,on}){
+ const canvas=root.querySelector('canvas'),g=canvas.getContext('2d'),status=root.querySelector('.lab-status'),button=root.querySelector('[data-reset]');let ac,stream,analyser,gains=[],frame=0,timer=0,clock=0,next=0,started=0,dead=false,starting=false,playing=false;
+ canvas.width=640;canvas.height=360;
+ const paint=(amount=0,beat=0)=>{g.setTransform(2,0,0,2,0,0);g.clearRect(0,0,320,180);g.strokeStyle='#bbb';g.beginPath();g.arc(160,90,60,0,Math.PI*2);g.stroke();g.fillStyle='#292929';g.beginPath();g.arc(160,90,15+amount*45,0,Math.PI*2);g.fill();for(let i=0;i<4;i++){g.fillStyle=i===beat?'#222':'#ccc';g.fillRect(125+i*20,160,10,4)}};
+ const stop=()=>{playing=false;cancelAnimationFrame(frame);clearTimeout(timer);clearInterval(clock);stream?.getTracks().forEach(t=>t.stop());stream=null;const old=ac;ac=null;old?.close().catch(()=>{});gains=[];button.textContent=kind==='av-microphone'?'マイクを許可して試す':'音を再生';button.setAttribute('aria-pressed','false');status.textContent='停止中';paint()};
+ const update=()=>{if(ac&&gains.length){gains[0].gain.setTargetAtTime(Math.cos(v.mix/100*Math.PI/2)*.09,ac.currentTime,.05);gains[1].gain.setTargetAtTime(Math.sin(v.mix/100*Math.PI/2)*.09,ac.currentTime,.05)}};
+ async function start(){if(starting||dead)return;if(playing){stop();return}starting=true;try{
+  const Audio=window.AudioContext||window.webkitAudioContext;if(!Audio)throw Error('この環境はWeb Audioに対応していません。');ac=new Audio();await ac.resume();if(dead){stop();return}
+  analyser=ac.createAnalyser();analyser.fftSize=256;
+  if(kind==='av-microphone'){
+   if(!navigator.mediaDevices?.getUserMedia)throw Error('個別ページの「ラボで詳しく試す」から開き、マイクの利用を許可してください。');
+   const granted=await navigator.mediaDevices.getUserMedia({audio:true});if(dead||!ac){granted.getTracks().forEach(t=>t.stop());return}stream=granted;ac.createMediaStreamSource(stream).connect(analyser);status.textContent='マイク入力を可視化中 · 録音・送信・スピーカー出力はしません';
+  }else if(kind==='sound-crossfade'){
+   analyser.connect(ac.destination);for(let voice=0;voice<2;voice++){const buffer=ac.createBuffer(1,ac.sampleRate,ac.sampleRate),data=buffer.getChannelData(0);for(let i=0;i<data.length;i++){const t=i/ac.sampleRate;data[i]=Math.sin(2*Math.PI*(voice?330:220)*t)*(.5+.35*Math.sin(2*Math.PI*(voice?3:2)*t))}const source=ac.createBufferSource(),gain=ac.createGain();source.buffer=buffer;source.loop=true;gain.gain.value=0;source.connect(gain);gain.connect(analyser);gains.push(gain);source.start()}update();status.textContent='生成した二つのループ音源 · 等電力クロスフェード';
+  }else{
+   analyser.connect(ac.destination);next=ac.currentTime+.05;started=next;const schedule=()=>{if(!ac)return;while(next<ac.currentTime+.12){const o=ac.createOscillator(),gain=ac.createGain();o.frequency.value=180;gain.gain.setValueAtTime(.12,next);gain.gain.exponentialRampToValueAtTime(.001,next+.1);o.connect(gain);gain.connect(analyser);o.start(next);o.stop(next+.12);next+=60/v.tempo}};schedule();clock=setInterval(schedule,30);status.textContent='音の時計に合わせて、拍と形を動かします';
+  }
+  playing=true;button.textContent='停止する';button.setAttribute('aria-pressed','true');const data=new Uint8Array(256);function tick(){if(!playing||!ac||dead)return;analyser.getByteTimeDomainData(data);let rms=Math.sqrt(data.reduce((sum,x)=>sum+((x-128)/128)**2,0)/data.length);const t=ac.currentTime-started,phase=Math.max(0,t*v.tempo/60);paint(kind==='av-beat'?Math.exp(-(phase%1)*8):Math.min(1,rms*(kind==='av-microphone'?v.sensitivity:6)),Math.floor(phase)%4);frame=requestAnimationFrame(tick)}tick();timer=setTimeout(stop,kind==='av-microphone'?20000:8000);
+ }catch(e){stop();status.textContent=kind==='av-microphone'?'マイクを開始できません。許可設定を確認し、ラボ画面から試してください。':e.message}finally{starting=false}}
+ on(document,'visibilitychange',()=>{if(document.hidden)stop()});paint();status.textContent=kind==='av-microphone'?'操作後にマイクの許可を求めます · 最大20秒':'操作後だけ音が鳴ります · 最大8秒';
+ return{update,action:start,setAuto(auto){if(!auto)stop()},destroy(){dead=true;stop()}};
+}
+export const mediaStudies=[];
+for(const [id,category,name,ja,description,controls]of[
+ ['av-beat','audiovisual','Audio-clock beat sync','音の拍と、動きの拍を揃える','Web Audioの時計に拍を予約し、同じ時刻から図形の位相を計算します。',[c('tempo','テンポ BPM',50,160,90)]],
+ ['sound-crossfade','sound','Equal-power audio crossfade','二つの音源を、なめらかに渡す','生成した二つのループ音源のゲインを、正弦と余弦でクロスフェードします。',[c('mix','音源 B の割合 %',0,100,0)]],
+ ['av-microphone','audiovisual','Microphone reactive shape','今いる場所の音が、形になる','許可されたマイクの音声波形から大きさを求め、円の半径へ変換します。音声は保存・送信しません。',[c('sensitivity','反応の強さ',1,20,8)]]
+])mediaStudies.push(domLab({id,category,categories:['sound','audiovisual'],name,ja,description,use:'音楽・環境音と視覚表現を結びつけるとき。',tip:id==='av-microphone'?'明示的な操作後に許可を求めます。終了時にマイクを解放します。個別ページの埋め込みで使えない場合はラボ画面で試してください。':'音量を控えめにして、音と形のタイミングを比べてください。',tags:['音楽','音源','同期',id==='av-microphone'?'マイク':'拍'],source:'https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API',engine:'audio',inputs:['listen','adjust'],level:'advanced',targets:['sound'],contexts:['art'],support:id==='av-microphone'?'HTTPS・マイク許可が必要。埋め込み制限時はラボ画面で操作。':'Web Audio・ユーザー操作が必要。'},audioSetup,controls,'<canvas role="img" aria-label="音の大きさと拍の可視化" style="width:100%;height:100%"></canvas>','.lab-scene{height:160px;width:100%;max-width:320px}',{static:true,action:id==='av-microphone'?'マイクを許可して試す':'音を再生'}));
+function videoSetup({root,values:v,kind,on}){const video=root.querySelector('video'),status=root.querySelector('.lab-status'),port=root.querySelector('.scroll-video');let playing=false,dead=false;
+ const seek=()=>{if(!Number.isFinite(video.duration))return;video.currentTime=Math.min(video.duration-.04,port.scrollTop/Math.max(1,port.scrollHeight-port.clientHeight)*video.duration);status.textContent='スクロールで実動画の再生位置を指定'};
+ if(port){on(port,'scroll',seek);on(video,'loadedmetadata',seek)}on(video,'error',()=>{status.textContent='この端末で動画を再生できませんでした'});
+ return{update(){if(kind==='media-composite')video.style.mixBlendMode=['normal','screen','multiply','difference'][v.mode]},async action(){if(port){port.scrollTop=port.scrollTop?0:port.scrollHeight;return}if(playing){video.pause();playing=false;return}try{await video.play();if(dead){video.pause();return}playing=true;status.textContent='無音動画を合成しています'}catch{status.textContent='再生を開始できませんでした'}},setAuto(auto){if(!auto){video.pause();playing=false}},destroy(){dead=true;video.pause();video.querySelectorAll('source').forEach(s=>s.remove());video.load()}};
+}
+const vid=`<video muted playsinline preload="metadata" loop poster="${motionPoster}" aria-label="図鑑オリジナルの無音映像"><source src="${motionWebm}" type="video/webm"><source src="${motionVideo}" type="video/mp4"></video>`;
+for(const [id,name,ja,description,scene,controls,categories]of[
+ ['media-scroll-video','Scroll-linked video','スクロールが、動画の時間になる','スクロール位置を実動画のcurrentTimeへ変換し、進む・戻るを手で操作します。',`<div class="scroll-video" tabindex="0" aria-label="動画をスクロール"><div class="video-sticky">${vid}</div><div style="height:500px"></div></div>`,[],['media','scroll']],
+ ['media-composite','Video compositing','動く映像を、別の層と重ねる','動画と文字の背景を重ね、合成モードによる見え方の違いを比較します。',`<div class="composite-back">MOVE</div>${vid}`,[c('mode','合成 0通常 1スクリーン 2乗算 3差分',0,3,0)],['media','blend']]
+])mediaStudies.push(domLab({id,category:'media',categories,name,ja,description,use:'映像を操作やページの構成に結びつけるとき。',tip:id==='media-scroll-video'?'オリジナルの3秒映像をスクロールで進めたり戻したりしてください。':'オリジナルの3秒映像を、通常・スクリーン・乗算・差分で比べてください。',tags:['映像','動画',id==='media-scroll-video'?'スクロール':'合成'],source:'https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement',engine:'video',inputs:id==='media-scroll-video'?['scroll','pointer']:['watch','adjust','pointer'],level:'applied',targets:['video'],contexts:['editorial'],support:'WebMとMP4の二形式。シークの滑らかさは端末と動画形式によります。'},videoSetup,controls,scene,'.lab-scene{height:170px;isolation:isolate}.lab-scene video{width:100%;height:140px;object-fit:cover;display:block}.scroll-video{height:160px;overflow:auto}.video-sticky{position:sticky;top:0}.composite-back{position:absolute;inset:0;background:linear-gradient(45deg,#292929,#aaa);display:grid;place-items:center;font:bold 60px Arial;color:#aaa}.lab-scene>video{position:relative}',{static:true,action:id==='media-scroll-video'?'動画の先頭／末尾へ':'再生／停止'}));

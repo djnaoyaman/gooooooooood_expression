@@ -2,7 +2,7 @@
 
 > アニメーション、イージング、パララックス、音、色、文字、質感を、見て、触って、覚えて、使えるWeb表現図鑑。実演・解説・用途・コピーできるコードを収録。
 
-日本語のWeb表現図鑑。271種類・31カテゴリー。表現名には通称・説明用の名称を含み、ブラウザ仕様そのものの名称とは限りません。件数は重複しない見本数です。同じ見本が複数カテゴリーに所属するため、カテゴリー別件数の合計とは異なります。各個別ページに実演、説明、用途、注意点、コピー可能なコード、公式資料へのリンクがあります。
+日本語のWeb表現図鑑。331種類・31カテゴリー。表現名には通称・説明用の名称を含み、ブラウザ仕様そのものの名称とは限りません。件数は重複しない見本数です。同じ見本が複数カテゴリーに所属するため、カテゴリー別件数の合計とは異なります。各個別ページに実演、説明、用途、注意点、コピー可能なコード、公式資料へのリンクがあります。
 
 ## 主要ページ
 - [全表現の索引](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html)
@@ -11,37 +11,37 @@
 - [サイトマップ](https://djnaoyaman.github.io/gooooooooood_expression/sitemap.xml)
 
 ## カテゴリー
-- [アニメーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#motion) — 63種類
+- [アニメーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#motion) — 64種類
 - [イージング](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#easing) — 36種類
-- [物理・慣性](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#physics) — 7種類
-- [時間・リズム](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#rhythm) — 12種類
-- [画面遷移](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#transition) — 9種類
-- [モーフィング・変形](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#morph) — 6種類
-- [スクロール・視差](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#scroll) — 18種類
-- [形・線・輪郭](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shape) — 10種類
-- [色・配色](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#color) — 6種類
-- [グラデーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#gradient) — 5種類
-- [影・光・奥行き](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shadow) — 5種類
-- [質感・印刷表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#texture) — 16種類
-- [写真・画像表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#image) — 19種類
+- [物理・慣性](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#physics) — 11種類
+- [時間・リズム](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#rhythm) — 15種類
+- [画面遷移](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#transition) — 12種類
+- [モーフィング・変形](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#morph) — 10種類
+- [スクロール・視差](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#scroll) — 21種類
+- [形・線・輪郭](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shape) — 11種類
+- [色・配色](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#color) — 10種類
+- [グラデーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#gradient) — 6種類
+- [影・光・奥行き](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shadow) — 6種類
+- [質感・印刷表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#texture) — 19種類
+- [写真・画像表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#image) — 25種類
 - [マスク・出現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#mask) — 17種類
-- [合成・ブレンド](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#blend) — 6種類
-- [タイポグラフィ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#type) — 15種類
-- [レイアウト・余白](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#layout) — 13種類
-- [デザイン様式](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#style) — 5種類
-- [UIパーツ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#ui) — 5種類
-- [UIの反応](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#interaction) — 11種類
-- [ジェスチャー・追従](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#gesture) — 9種類
-- [粒子・群れ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#particles) — 6種類
-- [生成・アルゴリズム](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#generative) — 8種類
-- [シェーダー・映像変形](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shader) — 5種類
+- [合成・ブレンド](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#blend) — 8種類
+- [タイポグラフィ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#type) — 21種類
+- [レイアウト・余白](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#layout) — 18種類
+- [デザイン様式](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#style) — 9種類
+- [UIパーツ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#ui) — 15種類
+- [UIの反応](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#interaction) — 17種類
+- [ジェスチャー・追従](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#gesture) — 11種類
+- [粒子・群れ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#particles) — 7種類
+- [生成・アルゴリズム](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#generative) — 11種類
+- [シェーダー・映像変形](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shader) — 8種類
 - [錯視・知覚](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#illusion) — 4種類
-- [SVG・アイコン](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#svg) — 8種類
-- [3D・立体表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#three) — 9種類
-- [データの見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#data) — 6種類
-- [音・サウンド](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#sound) — 26種類
-- [音と映像の連動](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#audiovisual) — 5種類
-- [映像の見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#media) — 8種類
+- [SVG・アイコン](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#svg) — 9種類
+- [3D・立体表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#three) — 15種類
+- [データの見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#data) — 12種類
+- [音・サウンド](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#sound) — 29種類
+- [音と映像の連動](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#audiovisual) — 8種類
+- [映像の見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#media) — 10種類
 
 ## 留意点
 音は明示的な再生操作でのみ鳴ります。各サンプルは独自制作です。これは検索やAIによる引用を保証する仕組みではありません。認証が必要な公開設定では、本文を取得できない場合があります。更新日 2026-10-24。

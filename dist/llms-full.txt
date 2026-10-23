@@ -2441,3 +2441,543 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-cine
 用途: 短い映像の編集、再生方法、静と動の組み合わせ。
 使い方: 動く領域を狭め、静止した部分との関係を観察する。
 公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Modal dialog — 集中する場所をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-dialog.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+dialog要素で背景の操作を止め、閉じると元の操作位置へ戻します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog
+
+## Anchored popover — きっかけの近くで開く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-popover.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+Popover APIとCSS Anchor Positioningで、操作元に結びついた補足を表示します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Anchor_positioning
+
+## Tooltip with focus — 触れる・選ぶで補足を読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-tooltip.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+ポインターとキーボードのフォーカスのどちらでも補足を表示します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Disclosure navigation — メニューを開いて選ぶ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-menu.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+ボタンでナビゲーションを開き、選択したら閉じます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Inline validation — 直す場所がすぐわかる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-validation.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+入力欄の近くに理由を表示し、誤りのある欄へフォーカスを移します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Async submit states — 待つ・完了・再試行を伝える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-submit.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+処理中は重複操作を防ぎ、成功と失敗を文字で伝えます。通信を模した900msの見本です。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Empty state — 空の場所から次へ進める
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-empty.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+内容がない理由と、次にできる操作を同じ場所に置きます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Undo feedback — 取り消せる安心感をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-undo.html
+カテゴリー: UIパーツ
+実装: HTML / CSS
+削除した項目を保持し、取り消し操作で同じ状態へ戻します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Fluid type & spacing — 文字も余白も、連続して変わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-fluid.html
+カテゴリー: レイアウト・余白 / タイポグラフィ
+実装: HTML / CSS
+clampとコンテナ単位で、枠の幅に合わせて文字と余白を連続的に変えます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp
+
+## Responsive art direction — 幅に応じて、構図を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-art-direction.html
+カテゴリー: レイアウト・余白 / 写真・画像表現
+実装: HTML / CSS
+同じ景色でも、小さい枠では主役を大きく切り取り、大きい枠では周囲を見せます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: これは構図の違いをCSSで再現する教材です。実画像ではpicture要素で縦横の素材を切り替えられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/picture
+
+## Subgrid alignment — 部品をまたいで列を揃える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-subgrid.html
+カテゴリー: レイアウト・余白
+実装: HTML / CSS
+内側のGridが外側の列を引き継ぎ、見出しと値の基準線を共有します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Subgrid
+
+## Input-adaptive controls — 指とマウスで、触れる幅を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-input.html
+カテゴリー: UIの反応 / レイアウト・余白
+実装: HTML / CSS
+入力機器の精度に合わせて操作領域を変える考え方を、切り替えて比較します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/pointer
+
+## Coordinated timeline — 複数の動きを、一つの流れにする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-timeline.html
+カテゴリー: 時間・リズム / アニメーション
+実装: HTML / CSS
+各要素の開始時刻をずらし、共通の長さと緩急で順序をつくります。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API
+
+## Interruptible motion — 動いている途中でも、自然に戻る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-interrupt.html
+カテゴリー: 時間・リズム / UIの反応
+実装: HTML / CSS
+再操作の瞬間の見た目を読み取り、その位置から次の目的地へ補間します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Enter & exit choreography — 登場と退場の役割を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-enter-exit.html
+カテゴリー: 時間・リズム / 画面遷移
+実装: HTML / CSS
+登場は認識しやすく、退場は次へ進みやすい長さに分けます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Native view transition — ブラウザが画面の変化をつなぐ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/transition-native.html
+カテゴリー: 画面遷移
+実装: HTML / CSS
+View Transition APIで、状態変更前後の画面を連続して見せます。非対応環境は通常の切り替えです。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+
+## CSS scroll timeline — スクロールを、CSSの時間にする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-native.html
+カテゴリー: スクロール・視差
+実装: HTML / CSS
+scroll()タイムラインで、スクロール量をアニメーションの進行度に接続します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-timeline
+
+## Reduced-motion alternative — 動きを減らしても、意味を残す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/access-motion.html
+カテゴリー: UIの反応
+実装: HTML / CSS
+同じ保存操作を、動きありと状態表示だけの二通りで比較します。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Multimodal feedback — 色だけに、意味を預けない
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/access-feedback.html
+カテゴリー: UIの反応
+実装: HTML / CSS
+記号・文章・読み上げ通知を重ね、状態を複数の方法で伝えます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Object shop — composed example — 商品を知り、選び、加える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/case-product.html
+カテゴリー: デザイン様式 / レイアウト・余白 / UIの反応
+実装: HTML / CSS
+タイポグラフィ、構図、操作の反応を一つの商品紹介に組み合わせます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 構図→文字の強弱→操作→完了の手応えを、一連の流れとして観察してください。販売や決済は行いません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Reading room — composed example — 読む進度と、余白を組み合わせる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/case-editorial.html
+カテゴリー: デザイン様式 / タイポグラフィ / スクロール・視差
+実装: HTML / CSS
+文字組み、段階的な情報、読了の進行度を一つの記事体験にまとめます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Small gallery — composed example — 選ぶ動作で、作品の見え方が変わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/case-gallery.html
+カテゴリー: デザイン様式 / 写真・画像表現 / 画面遷移
+実装: HTML / CSS
+作品一覧、選択状態、フェードを一つの小さなギャラリーに組み合わせます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Thoughtful form — composed example — 迷わず入力して、完了を知る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/case-form.html
+カテゴリー: デザイン様式 / UIパーツ / UIの反応
+実装: HTML / CSS
+見出し、入力の説明、検証、完了通知を一つのフォームにまとめます。
+用途: 実際の画面で、操作と情報の関係を設計するとき。
+使い方: 見本のボタンを操作し、変わる場所と、変わらない場所を見比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility
+
+## Variable font axes — 幅・傾斜・光学サイズを触る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-variable-axes.html
+カテゴリー: タイポグラフィ
+実装: HTML / CSS
+実際の可変フォントの三つの軸を操作します。このオリジナル幾何学書体では、光学サイズで線の厚さと送り幅を変えています。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 光学サイズを変え、線と文字間の調整を観察。一般的なフォントの軸の範囲や設計とは異なります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts
+
+## Ruby typography — 読みに、小さな手がかりを添える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-ruby.html
+カテゴリー: タイポグラフィ
+実装: HTML / CSS
+rubyとrtで、本文と読みを意味的にも視覚的にも結びつけます。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/ruby
+
+## Japanese line breaking — 行頭と行末の、整え方
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-kinsoku.html
+カテゴリー: タイポグラフィ
+実装: HTML / CSS
+厳格な日本語の禁則処理と、単純な文字単位の折り返しを比較します。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-break
+
+## Balanced headlines — 改行の位置も、デザインする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-line-break.html
+カテゴリー: タイポグラフィ
+実装: HTML / CSS
+見出しの各行の長さを均すtext-wrap:balanceを、通常の折り返しと比較します。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-wrap
+
+## Palette relationships — 色同士の距離から配色する
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-palette.html
+カテゴリー: 色・配色
+実装: HTML / CSS
+色相環上の間隔を変え、隣り合う配色から離れた配色まで比較します。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Contrast ratio — 読める明暗差を確かめる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-contrast.html
+カテゴリー: 色・配色
+実装: HTML / CSS
+sRGBの相対輝度から、文字と背景のコントラスト比を算出します。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 比率はグレースケールのsRGBから計算。文字サイズや太さなど、他の読みやすさの条件も確認してください。
+公式資料: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html
+
+## Color-space interpolation — 中間の色は、混ぜ方で変わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-interpolation.html
+カテゴリー: グラデーション / 色・配色
+実装: HTML / CSS
+同じ両端の色をsRGBとOKLCHで補間し、途中の彩度や明るさの違いを比べます。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/color-interpolation-method
+
+## Semantic theme — 役割を保ちながら、明暗を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-theme.html
+カテゴリー: 色・配色
+実装: HTML / CSS
+背景・本文・補助線の役割を変数にまとめ、ライトとダークで一緒に切り替えます。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Icon state morph — メニューの線が、閉じる印へ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-icon-morph.html
+カテゴリー: SVG・アイコン / モーフィング・変形 / UIパーツ
+実装: SVG
+対応する線分の端点を補間し、二つの状態がつながって見えるアイコンをつくります。
+用途: 文字・色・形の違いを比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値や切り替えを変え、読みやすさと印象の変化を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/line
+
+## Duotone mapping — 二色で、画像の調子を整える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-duotone.html
+カテゴリー: 写真・画像表現 / 質感・印刷表現
+実装: Canvas 2D
+図鑑オリジナルの濃淡画像を二色の間へ写像します。
+用途: ビジュアルの質感づくり、手描きの入力。
+使い方: 数値を変え、細部の情報がどう残るかを観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Posterization — 階調を減らして、面を見つける
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-posterize.html
+カテゴリー: 写真・画像表現 / 質感・印刷表現
+実装: Canvas 2D
+濃淡画像を指定した段階数へ量子化します。
+用途: ビジュアルの質感づくり、手描きの入力。
+使い方: 数値を変え、細部の情報がどう残るかを観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Image displacement — 画像を読む場所を、ずらす
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-displacement.html
+カテゴリー: 写真・画像表現 / 質感・印刷表現
+実装: Canvas 2D
+波形で横方向の参照座標を変え、元の構図をゆがめます。
+用途: ビジュアルの質感づくり、手描きの入力。
+使い方: 数値を変え、細部の情報がどう残るかを観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Freehand stroke — 指の軌跡を、一本の線にする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-freehand.html
+カテゴリー: ジェスチャー・追従 / 形・線・輪郭
+実装: Canvas 2D
+ポインターから集めた点をCanvasの丸い線で結びます。矢印キーにも対応します。
+用途: ビジュアルの質感づくり、手描きの入力。
+使い方: 数値を変え、細部の情報がどう残るかを観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Multi-body collisions — ぶつかる物体の力を読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-collisions.html
+カテゴリー: 物理・慣性
+実装: Canvas 2D
+等質量の円同士の衝突を解決し、速度と反発係数の関係を比べます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Constraint cloth — 点と線から、布が生まれる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-cloth.html
+カテゴリー: 物理・慣性 / ジェスチャー・追従
+実装: Canvas 2D
+Verlet積分と距離制約で格子をつなぎ、固定した二点から布を垂らします。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Shape-matching soft body — 押すと変わり、元の形へ戻る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-softbody.html
+カテゴリー: 物理・慣性 / モーフィング・変形
+実装: Canvas 2D
+輪郭の点に復元力を与え、指先の力で押し広げます。圧力流体ではない簡易弾性モデルです。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Fluid advection study — 流れが、次の流れを運ぶ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-fluid.html
+カテゴリー: 物理・慣性 / 生成・アルゴリズム
+実装: Canvas 2D
+粗い格子上で速度と濃度を移流し、圧力補正で発散を減らす流体の入門です。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 指で流れを加えてください。粗い格子の近似であり、科学計測向けのシミュレーターではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Boids flocking — 個体のルールから、群れが生まれる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-boids.html
+カテゴリー: 生成・アルゴリズム / 粒子・群れ
+実装: Canvas 2D
+近くの個体から離れる・向きを揃える・中心へ集まる三つの力を組み合わせます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://www.red3d.com/cwr/boids/
+
+## Reaction–diffusion — 反応する二つの量が、模様をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-reaction.html
+カテゴリー: 生成・アルゴリズム
+実装: Canvas 2D
+Gray–Scottモデルで二つの物質量の反応と拡散を計算し、自己組織化する模様を観察します。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Embedded glTF mesh — モデルのデータから立体を描く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-model.html
+カテゴリー: 3D・立体表現
+実装: Canvas 2D
+オリジナルのglTF 2.0データから頂点と三角形を読み、透視投影で描きます。対応はこの埋め込みモデルの構成に限定しています。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://registry.khronos.org/glTF/specs/2.0/glTF-2.0.html
+
+## Weighted skeletal deformation — 骨の動きを、表面へ伝える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-skeleton.html
+カテゴリー: 3D・立体表現 / モーフィング・変形
+実装: Canvas 2D
+四つのボーンの位置を隣接ウェイトで混ぜ、筒の頂点を連続して変形させます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Camera framing — 同じ立体を、違う距離感で見る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-camera.html
+カテゴリー: 3D・立体表現
+実装: Canvas 2D
+視点の回転と投影倍率を変え、立体の見え方とフレーミングを比較します。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Mesh twist — 頂点をねじって、面を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-deform.html
+カテゴリー: 3D・立体表現 / モーフィング・変形
+実装: Canvas 2D
+高さに比例する角度で頂点を回し、メッシュのつながりを保ったまま変形します。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## SDF ray marching — 距離の関数から、立体を見つける
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-raymarch.html
+カテゴリー: シェーダー・映像変形 / 3D・立体表現
+実装: Canvas 2D
+球とトーラスの符号付き距離を使い、視線上を進んで表面を探します。仕組みをCPUで描く教材です。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Bloom compositing — 強い光が、周りへにじむ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-bloom.html
+カテゴリー: シェーダー・映像変形 / 合成・ブレンド / 影・光・奥行き
+実装: Canvas 2D
+明るい形をぼかしてスクリーン合成し、光のにじみをつくります。Canvasで仕組みを再現します。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Depth-of-field layers — 焦点を、奥行きの中で選ぶ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-dof.html
+カテゴリー: シェーダー・映像変形 / 3D・立体表現 / 写真・画像表現
+実装: Canvas 2D
+焦点面からの距離に応じて各層をぼかし、見せたい奥行きを選びます。レンズ光学の簡略表現です。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: 値を変え、全体の振る舞いがどのように変わるか観察してください。簡略化した学習用モデルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Scatter plot — 二つの量の関係を、点で読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-scatter.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+二軸の位置へ値を割り当て、ばらつきの違いを見比べます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Network diagram — つながりを、線で読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-network.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+点の関係を線で結び、まとまりと離れた点を観察します。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Proportional symbol map — 場所と量を、重ねて読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-map.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+架空の地図上の地点に、大きさの異なる記号を配置します。実在地域の統計ではありません。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Slice-and-dice treemap — 面積で、内訳を読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-treemap.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+合計に対する比率を長方形の面積に割り当てます。一段の分割方式です。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Time-series reveal — 変化を、時間に沿って読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-time.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+横軸に時間を取り、進行度とともに折れ線を描きます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Data storytelling — 全体から、注目点へ導く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-story.html
+カテゴリー: データの見せ方
+実装: Canvas 2D
+同じグラフを三つの章で見せ、比較と強調で読み方を導きます。
+用途: 動きや模様を生む規則を理解し、表現の設計に使うとき。
+使い方: データは説明用の架空値です。変化させる条件と、伝わる情報の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Audio-clock beat sync — 音の拍と、動きの拍を揃える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-beat.html
+カテゴリー: 音と映像の連動 / 音・サウンド
+実装: Web Audio
+Web Audioの時計に拍を予約し、同じ時刻から図形の位相を計算します。
+用途: 音楽・環境音と視覚表現を結びつけるとき。
+使い方: 音量を控えめにして、音と形のタイミングを比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Equal-power audio crossfade — 二つの音源を、なめらかに渡す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-crossfade.html
+カテゴリー: 音・サウンド / 音と映像の連動
+実装: Web Audio
+生成した二つのループ音源のゲインを、正弦と余弦でクロスフェードします。
+用途: 音楽・環境音と視覚表現を結びつけるとき。
+使い方: 音量を控えめにして、音と形のタイミングを比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Microphone reactive shape — 今いる場所の音が、形になる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-microphone.html
+カテゴリー: 音と映像の連動 / 音・サウンド
+実装: Web Audio
+許可されたマイクの音声波形から大きさを求め、円の半径へ変換します。音声は保存・送信しません。
+用途: 音楽・環境音と視覚表現を結びつけるとき。
+使い方: 明示的な操作後に許可を求めます。終了時にマイクを解放します。個別ページの埋め込みで使えない場合はラボ画面で試してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Scroll-linked video — スクロールが、動画の時間になる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-scroll-video.html
+カテゴリー: 映像の見せ方 / スクロール・視差
+実装: HTML Video
+スクロール位置を実動画のcurrentTimeへ変換し、進む・戻るを手で操作します。
+用途: 映像を操作やページの構成に結びつけるとき。
+使い方: オリジナルの3秒映像をスクロールで進めたり戻したりしてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Video compositing — 動く映像を、別の層と重ねる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-composite.html
+カテゴリー: 映像の見せ方 / 合成・ブレンド
+実装: HTML Video
+動画と文字の背景を重ね、合成モードによる見え方の違いを比較します。
+用途: 映像を操作やページの構成に結びつけるとき。
+使い方: オリジナルの3秒映像を、通常・スクリーン・乗算・差分で比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement

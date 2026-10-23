@@ -6,7 +6,7 @@
   "description": "An interactive Japanese encyclopedia of web expression.",
   "scripts": {
     "build": "node scripts/build-pages.mjs",
-    "check": "node scripts/check.mjs && node scripts/check-discovery.mjs && node scripts/check-taxonomy.mjs",
+    "check": "node scripts/check.mjs && node scripts/check-discovery.mjs && node scripts/check-taxonomy.mjs && node scripts/check-coverage.mjs",
     "catalog:report": "node scripts/catalogue-report.mjs",
     "qa:prepare": "node scripts/browser-check.mjs",
     "qa:clean": "node scripts/browser-check.mjs --clean"

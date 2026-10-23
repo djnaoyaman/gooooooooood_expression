@@ -1,6 +1,10 @@
+import {learningOptions,targetOptions,contextOptions} from './coverage.js';
 import {all, categories, byId, categoryGroups, belongsTo, inputOptions, engineOptions} from './catalog.js';
 
 export const trails = [
+ {id:'practical',name:'ひとつの操作を、最後まで。',question:'迷わず触れて、安心して終えるには？',label:'UIから完成例へ',ids:['ui-dialog','ui-validation','ui-submit','access-feedback','case-form'],prompts:['操作する場所を絞る','直す場所を案内する','待ち時間と結果を伝える','色以外でも意味を伝える','一つの流れとして使う']},
+ {id:'adaptive',name:'幅が変わると、何を変える？',question:'縮めるだけでは届かない表現へ。',label:'端末と構図',ids:['layout-fluid','layout-art-direction','layout-subgrid','layout-input','case-product'],prompts:['文字と余白の関係を見る','主役の構図を変える','基準線を揃える','触れる大きさを比べる','商品紹介として組み合わせる']},
+ {id:'living',name:'規則から、生命感へ。',question:'小さな計算が、複雑な世界になる。',label:'群れ・流れ・模様',ids:['physics-collisions','physics-cloth','generative-boids','physics-fluid','generative-reaction'],prompts:['衝突を見比べる','点のつながりを見る','個体の判断が群れになる','流れを指でつくる','模様が育つのを待つ']},
  {id:'depth',name:'平面に、奥行きが生まれる。',question:'動く速さが違うだけで、なぜ遠くに見える？',label:'奥行きを探る',ids:['scroll-layered-parallax','three-perspective','shadow-lift','texture-glass','svg-displacement'],prompts:['手前と奥の速さを見比べる','遠近感をつくる角度を見る','影だけで浮いて見えるか試す','重なりと透け方を観察する','輪郭をゆがめて素材感を変える']},
  {id:'rhythm',name:'心地よさには、仕組みがある。',question:'同じ動きでも、止まり方が違うと？',label:'動きの心地よさ',ids:['fade-in','easing-back-out','adv-stagger','squash-stretch','sound-tap'],prompts:['登場の時間を短く、長くする','少し行き過ぎる動きを止めて見る','時間差がつくる順序を感じる','形の変化で重さを感じる','音が加わると印象がどう変わるか聴く']},
  {id:'letters',name:'文字は、どこまで表現できる？',question:'読めることと、見たくなることの間へ。',label:'文字の可能性',ids:['type-outline','letter-spread','type-text-path','scroll-text-fill','type-line-reveal'],prompts:['中を抜いた文字の存在感を見る','文字間を動かして空気を変える','文字を曲線に沿わせる','読む進度と文字の変化を重ねる','一行ずつ現れるリズムを試す']},
@@ -16,6 +20,9 @@ export const trails = [
 
 // Intent vocabulary connects everyday language with technical names.
 const concepts = [
+ {terms:['完成例','組み合わせ','実例'],ids:['case-product','case-editorial','case-gallery','case-form']},
+ {terms:['スマホ','レスポンシブ','端末'],ids:['layout-fluid','layout-art-direction','layout-subgrid','layout-input']},
+ {terms:['アクセシビリティ','誰にでも'],ids:['access-motion','access-feedback','color-contrast']},
  {terms:['粒子','粒','群れ','particle'],categories:['particles']},
  {terms:['重力','ばね','慣性','物理','physics'],categories:['physics']},
  {terms:['リズム','時間差','順番'],categories:['rhythm']},
@@ -44,21 +51,22 @@ const concepts = [
 ];
 export const suggestions=['ふわっと','弾む','奥行き','文字','反応'];
 export function normalize(value){return String(value??'').normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60)).replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim()}
-const fields=new Map(all.map(e=>[e.id,{name:normalize(e.name+' '+e.ja),body:normalize([e.description,e.use,e.tip,...e.tags,...categories.filter(c=>belongsTo(e,c[0])).flat(),...inputOptions.filter(x=>e.inputs.includes(x[0])).flat(),...engineOptions.find(x=>x[0]===e.engine)].join(' '))}]));
+const fields=new Map(all.map(e=>[e.id,{name:normalize(e.name+' '+e.ja),body:normalize([e.description,e.use,e.tip,...e.tags,...e.targets,...e.contexts,...learningOptions.filter(x=>x[0]===e.level).flat(),...targetOptions.filter(x=>e.targets.includes(x[0])).flat(),...contextOptions.filter(x=>e.contexts.includes(x[0])).flat(),...categories.filter(c=>belongsTo(e,c[0])).flat(),...inputOptions.filter(x=>e.inputs.includes(x[0])).flat(),...engineOptions.find(x=>x[0]===e.engine)].join(' '))}]));
 const aliases=new Map(all.map(e=>[e.id,concepts.filter(c=>c.ids?.includes(e.id)||c.categories?.some(id=>belongsTo(e,id))).flatMap(c=>c.terms).map(normalize)]));
 export function searchScore(e,query){
  const terms=normalize(query).split(' ').filter(Boolean);if(!terms.length)return 1;
  const f=fields.get(e.id);if(!f)return 0;
  let total=0;for(const term of terms){const score=f.name===term?100:f.name.includes(term)?30:aliases.get(e.id).some(a=>a===term)?24:f.body.includes(term)?8:0;if(!score)return 0;total+=score}return total;
 }
-export function filterEntries({query='',category='all',area='all',input='all',engine='all',trail='',favorites=new Set(),sort='curated',entries=all}={}){
- const path=trails.find(t=>t.id===trail);let rows=entries.map((e,i)=>({e,i,score:searchScore(e,query)})).filter(({e,score})=>score&&(category==='all'||category==='saved'&&favorites.has(e.id)||belongsTo(e,category))&&(area==='all'||categoryGroups.find(g=>g.id===area)?.categories.some(id=>belongsTo(e,id)))&&(input==='all'||e.inputs.includes(input))&&(engine==='all'||e.engine===engine)&&(!path||path.ids.includes(e.id)));
+export function filterEntries({query='',category='all',area='all',input='all',engine='all',level='all',target='all',context='all',trail='',favorites=new Set(),sort='curated',entries=all}={}){
+ const path=trails.find(t=>t.id===trail);let rows=entries.map((e,i)=>({e,i,score:searchScore(e,query)})).filter(({e,score})=>score&&(category==='all'||category==='saved'&&favorites.has(e.id)||belongsTo(e,category))&&(area==='all'||categoryGroups.find(g=>g.id===area)?.categories.some(id=>belongsTo(e,id)))&&(input==='all'||e.inputs.includes(input))&&(engine==='all'||e.engine===engine)&&(level==='all'||e.level===level)&&(target==='all'||e.targets.includes(target))&&(context==='all'||e.contexts.includes(context))&&(!path||path.ids.includes(e.id)));
  rows.sort((a,b)=>sort==='name'?a.e.name.localeCompare(b.e.name):query?b.score-a.score||a.i-b.i:path?path.ids.indexOf(a.e.id)-path.ids.indexOf(b.e.id):a.i-b.i);
  return rows.map(r=>r.e);
 }
 export function connections(id){
  const e=byId.get(id);if(!e)return [];
  const routes=trails.filter(t=>t.ids.includes(id));const related=[];
+ for(const other of all){if(e.related?.includes(other.id))related.push({entry:other,reason:'この完成例を構成する技法を試す'});else if(other.related?.includes(e.id))related.push({entry:other,reason:'この技法を使った完成例を見る'});} 
  for(const t of routes){const i=t.ids.indexOf(id),next=byId.get(t.ids[(i+1)%t.ids.length]);if(next)related.push({entry:next,reason:t.prompts[(i+1)%t.ids.length],trail:t});}
  const shared=all.filter(x=>x.id!==id&&x.category!==e.category).map(x=>({entry:x,score:x.tags.filter(tag=>e.tags.includes(tag)).length})).filter(x=>x.score).sort((a,b)=>b.score-a.score);
  for(const x of shared)related.push({...x,reason:`「${x.entry.tags.find(tag=>e.tags.includes(tag))}」を別の方法で表す`});
