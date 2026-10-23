@@ -2,34 +2,34 @@
 
 > アニメーション、イージング、パララックス、音、色、文字、質感を、見て、触って、覚えて、使えるWeb表現図鑑。実演・解説・用途・コピーできるコードを収録。
 
-日本語のWeb表現図鑑。188種類・19カテゴリー。表現名には通称・説明用の名称を含み、ブラウザ仕様そのものの名称とは限りません。各個別ページに実演、説明、用途、注意点、コピー可能なコード、公式資料へのリンクがあります。
+日本語のWeb表現図鑑。196種類・19カテゴリー。表現名には通称・説明用の名称を含み、ブラウザ仕様そのものの名称とは限りません。各個別ページに実演、説明、用途、注意点、コピー可能なコード、公式資料へのリンクがあります。
 
 ## 主要ページ
-- [全表現の索引](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html)
-- [作者と作品](https://gooooooooood-expression.mossyelf3.chatgpt.site/author.html)
-- [全項目のテキスト](https://gooooooooood-expression.mossyelf3.chatgpt.site/llms-full.txt)
-- [サイトマップ](https://gooooooooood-expression.mossyelf3.chatgpt.site/sitemap.xml)
+- [全表現の索引](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html)
+- [作者と作品](https://djnaoyaman.github.io/gooooooooood_expression/author.html)
+- [全項目のテキスト](https://djnaoyaman.github.io/gooooooooood_expression/llms-full.txt)
+- [サイトマップ](https://djnaoyaman.github.io/gooooooooood_expression/sitemap.xml)
 
 ## カテゴリー
-- [アニメーション](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#motion) — 53種類
-- [イージング](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#easing) — 36種類
-- [スクロール・視差](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#scroll) — 16種類
-- [色・配色](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#color) — 5種類
-- [グラデーション](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#gradient) — 5種類
-- [タイポグラフィ](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#type) — 5種類
-- [レイアウト・余白](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#layout) — 5種類
-- [形・線・輪郭](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#shape) — 4種類
-- [影・光・奥行き](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#shadow) — 4種類
-- [質感・合成](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#texture) — 4種類
-- [写真・画像表現](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#image) — 4種類
-- [SVG・アイコン](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#svg) — 5種類
-- [UIパーツ](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#ui) — 4種類
-- [操作・反応](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#interaction) — 6種類
-- [データの見せ方](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#data) — 4種類
-- [3D・立体表現](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#three) — 4種類
-- [音・サウンド](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#sound) — 16種類
-- [映像の見せ方](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#media) — 3種類
-- [デザイン様式](https://gooooooooood-expression.mossyelf3.chatgpt.site/catalog.html#style) — 5種類
+- [アニメーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#motion) — 55種類
+- [イージング](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#easing) — 36種類
+- [スクロール・視差](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#scroll) — 16種類
+- [色・配色](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#color) — 5種類
+- [グラデーション](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#gradient) — 5種類
+- [タイポグラフィ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#type) — 7種類
+- [レイアウト・余白](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#layout) — 6種類
+- [形・線・輪郭](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shape) — 5種類
+- [影・光・奥行き](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#shadow) — 4種類
+- [質感・合成](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#texture) — 4種類
+- [写真・画像表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#image) — 4種類
+- [SVG・アイコン](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#svg) — 6種類
+- [UIパーツ](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#ui) — 5種類
+- [操作・反応](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#interaction) — 6種類
+- [データの見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#data) — 4種類
+- [3D・立体表現](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#three) — 4種類
+- [音・サウンド](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#sound) — 16種類
+- [映像の見せ方](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#media) — 3種類
+- [デザイン様式](https://djnaoyaman.github.io/gooooooooood_expression/catalog.html#style) — 5種類
 
 ## 留意点
 音は明示的な再生操作でのみ鳴ります。各サンプルは独自制作です。これは検索やAIによる引用を保証する仕組みではありません。認証が必要な公開設定では、本文を取得できない場合があります。更新日 2026-10-24。

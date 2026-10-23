@@ -6,7 +6,9 @@
   "description": "An interactive Japanese encyclopedia of web expression.",
   "scripts": {
     "build": "node scripts/build-pages.mjs",
-    "check": "node scripts/check.mjs"
+    "check": "node scripts/check.mjs && node scripts/check-discovery.mjs"
   },
-  "engines": { "node": ">=20" }
+  "engines": {
+    "node": ">=20"
+  }
 }

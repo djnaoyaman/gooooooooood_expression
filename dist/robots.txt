@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://gooooooooood-expression.mossyelf3.chatgpt.site/sitemap.xml
+Sitemap: https://djnaoyaman.github.io/gooooooooood_expression/sitemap.xml

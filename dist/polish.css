@@ -8,3 +8,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{scroll-behavior:auto!important}.work-cover,.card-visual{transition:none}}
 @media print{.site-header,.site-footer,.back-top,.specimen-actions,.specimen-frame{display:none}.document-main{padding:0}.document-title{font-size:30pt}.specimen-layout{display:block}.specimen-copy p{color:#000}.work{break-inside:avoid}}
 @media(max-width:359px){.author-statement{font-size:27px;letter-spacing:-.055em}.document-eyebrow{font-size:9px;letter-spacing:.1em}.author-name{font-size:12px}}
+
+/* Approved two-line typographic identity. */
+.brand-image{display:block;width:180px;height:auto;max-width:100%}.brand:has(.brand-image){display:block;line-height:0;flex-shrink:0}@media(max-width:760px){.brand-image{width:165px}}
