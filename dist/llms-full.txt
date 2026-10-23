@@ -6,6 +6,7 @@
 ## Fade in — ふわっと現れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/fade-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 透明な状態から、少しずつ姿を現します。
 用途: 読み込み後の画像や補足情報を穏やかに表示するとき。
 使い方: 移動を加えず、透明度だけで変化を伝えられます。
@@ -14,6 +15,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/fade-in.ht
 ## Fade out — 静かに消える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/fade-out.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 輪郭を保ったまま、透明になって消えます。
 用途: 役目を終えた通知や補助表示を閉じるとき。
 使い方: 表示を消す処理は、アニメーションの終了後に行います。
@@ -22,6 +24,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/fade-out.h
 ## Slide up — 下からせり上がる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-up.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 下にある要素が、上へ移動して定位置に収まります。
 用途: カードや見出しを順に紹介するとき。
 使い方: この見本は位置だけが変わり、透明度は変わりません。
@@ -30,6 +33,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-up.h
 ## Slide down — 上から降りてくる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-down.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 上にある要素が、下へ移動して定位置に収まります。
 用途: 上部から出る案内やメニューを示すとき。
 使い方: 長い移動より、短い距離のほうが画面を追いやすくなります。
@@ -38,6 +42,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-down
 ## Slide left — 右から入る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-left.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 右側から左へ動き、中央に収まります。
 用途: 次のカードや横から開くパネルを見せるとき。
 使い方: 画面全体が横にはみ出さないよう、表示領域の外側を隠します。
@@ -46,6 +51,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-left
 ## Slide right — 左から入る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-right.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 左側から右へ動き、中央に収まります。
 用途: 前の画面に戻る方向や、左から開くパネルを示すとき。
 使い方: 進む・戻るの方向は、画面内で統一すると理解しやすくなります。
@@ -54,6 +60,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/slide-righ
 ## Zoom in — 小さく始まり、大きく
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/zoom-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 中心を保ちながら、小さな形から通常の大きさになります。
 用途: 注目してほしい画像や選択状態を見せるとき。
 使い方: 文字を大きく拡大すると、途中で輪郭が甘く見える場合があります。
@@ -62,6 +69,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/zoom-in.ht
 ## Zoom out — 大きく始まり、収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/zoom-out.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 大きな形が縮み、通常の大きさに収まります。
 用途: 写真や見出しの登場に奥行きを添えるとき。
 使い方: 過度な拡大を避けると、落ち着いた印象にできます。
@@ -70,6 +78,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/zoom-out.h
 ## Pop in — ぽん、と現れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/pop-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 一度少し大きくなってから、定位置の大きさに戻ります。
 用途: 追加した項目や、短い成功メッセージを見せるとき。
 使い方: 最終サイズを少しだけ超えることで、弾む感触が生まれます。
@@ -78,6 +87,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/pop-in.htm
 ## Bounce — ぽんぽん跳ねる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/bounce.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 上へ跳ね、次第に小さな跳ね方になって着地します。
 用途: 遊び心のある操作案内や、目を向けてほしい要素に。
 使い方: 高さが徐々に小さくなると、着地の終わりが伝わります。
@@ -86,6 +96,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/bounce.htm
 ## Float — ふわふわ浮く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/float.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 ゆっくり持ち上がり、同じ場所へ戻ります。
 用途: 装飾やイラストに軽さを添えるとき。
 使い方: 繰り返す場合は移動距離を控えめにし、停止も選べるようにします。
@@ -94,6 +105,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/float.html
 ## Pulse — ゆっくり脈打つ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/pulse.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 大きさを少し増やし、元に戻します。
 用途: 現在位置や、今選べる操作を控えめに示すとき。
 使い方: 色の点滅ではなく、大きさの緩やかな変化で注意を促します。
@@ -102,6 +114,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/pulse.html
 ## Swing — 吊られて揺れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/swing.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 上端を支点に、左右へ揺れて落ち着きます。
 用途: タグや看板など、吊るされた形の演出に。
 使い方: 支点を変えると、同じ回転でも揺れ方が変わります。
@@ -110,6 +123,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/swing.html
 ## Wobble — ぐらぐら揺れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wobble.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 横移動と回転を重ねて、揺れながら中央へ戻ります。
 用途: 遊び心を出したいアイコンやキャラクターに。
 使い方: 揺れが収まる終点を用意すると、次の操作に集中しやすくなります。
@@ -118,6 +132,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wobble.htm
 ## Shake X — 左右に首を振る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shake-x.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 回転せず、短い距離を左右に往復します。
 用途: 入力を見直してほしい場所を示すとき。
 使い方: 動きだけに頼らず、修正内容を文章でも伝えます。
@@ -126,6 +141,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shake-x.ht
 ## Shake Y — 上下に小さく揺れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shake-y.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 回転せず、短い距離を上下に往復します。
 用途: 上下方向の操作を、短い動きで案内するとき。
 使い方: 動きを繰り返し続けず、必要な場面で一度だけ見せます。
@@ -134,6 +150,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shake-y.ht
 ## Rubber band — ゴムのように伸びる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rubber-band.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 横に伸び、縦に縮み、反動をつけて元に戻ります。
 用途: タップへの反応や、遊び心のあるロゴに。
 使い方: 縦横を逆方向へ変形すると、弾力を感じさせられます。
@@ -142,6 +159,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rubber-ban
 ## Jelly — ぷるんと震える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/jelly.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 斜め方向の変形を交互に重ね、ぷるんと元に戻ります。
 用途: 柔らかい素材感や、軽快な操作感を出したいとき。
 使い方: 斜めに傾けるskewを使った表現例です。
@@ -150,6 +168,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/jelly.html
 ## Spin — くるりと一回転
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/spin.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 中心を支点に、一定の速さで一周します。
 用途: 処理中の表示や、回転する仕組みの説明に。
 使い方: 円だけでは回転が見えないため、目印のある形を使います。
@@ -158,6 +177,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/spin.html
 ## Flip X — 縦にひっくり返る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/flip-x.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 横軸を支点に、奥行きをつけて一回転します。
 用途: カードの表裏や、入れ替わりを立体的に見せるとき。
 使い方: この見本は一枚の回転です。実際の表裏には別の面を用意します。
@@ -166,6 +186,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/flip-x.htm
 ## Flip Y — 横にひっくり返る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/flip-y.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 縦軸を支点に、奥行きをつけて一回転します。
 用途: カードやパネルの面を切り替える演出に。
 使い方: 遠近法の距離を短くすると、奥行きの変化が強くなります。
@@ -174,6 +195,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/flip-y.htm
 ## 3D tilt — 立体的に傾く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/tilt-3d.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 縦と横の回転を重ね、面の傾きを変えます。
 用途: 商品カードや、奥行きのある見本に。
 使い方: ポインター位置に連動させる場合は、別途イベント処理が必要です。
@@ -182,6 +204,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/tilt-3d.ht
 ## Orbit — 円を描いて巡る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/orbit.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 向きを保ったまま、中心のまわりを一周します。
 用途: 軌道や周回の関係を説明するとき。
 使い方: 回転・移動・逆回転を重ねると、向きを保って周回できます。
@@ -190,6 +213,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/orbit.html
 ## Figure eight — 8の字をたどる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/figure-eight.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 左右の輪を巡り、8の字の軌跡を描きます。
 用途: 移動経路の違いや、反復する流れを示すとき。
 使い方: この見本は複数の位置を結んで軌道を近似しています。
@@ -198,6 +222,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/figure-eig
 ## Spiral in — 回りながら現れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/spiral-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 小さく回転した形が、拡大しながら正面に収まります。
 用途: ロゴや短い見出しに、はっきりした登場感を添えるとき。
 使い方: 拡大と回転を同じtransform内で組み合わせます。
@@ -206,6 +231,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/spiral-in.
 ## Hinge out — 端からぶら下がり、落ちる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/hinge-out.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 左上を支点に傾き、少し揺れてから下へ落ちます。
 用途: 取り外す、片づけるなどの動作を遊び心とともに示すとき。
 使い方: 重要な情報の退場には、内容を読む時間も確保します。
@@ -214,6 +240,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/hinge-out.
 ## Roll in — 転がって入る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/roll-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 横から転がるように回転し、正しい向きで止まります。
 用途: バッジや丸いアイコンの登場に。
 使い方: 移動と回転の量を調整すると、転がる重さの印象が変わります。
@@ -222,6 +249,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/roll-in.ht
 ## Blur in — ぼやけた輪郭が結ばれる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blur-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 ぼかしを減らしながら、はっきりした形になります。
 用途: 写真や大きな見出しを、静かに印象づけるとき。
 使い方: ぼかしの処理負荷は要素の大きさや端末によって変わります。
@@ -230,6 +258,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blur-in.ht
 ## Blur out — ぼやけながら消える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blur-out.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 輪郭がぼやけ、透明になって消えます。
 用途: 画面切り替えや、補助的な文字の退場に。
 使い方: 背景のぼかしとは異なり、filterは要素そのものに作用します。
@@ -237,7 +266,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blur-out.h
 
 ## Wipe right — 左から幕が開く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wipe-right.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / マスク・出現 / 画面遷移
+実装: HTML / CSS
 左端から右端へ、見える範囲が広がります。
 用途: 画像や見出しを、方向を持たせて紹介するとき。
 使い方: 要素を移動せず、clip-pathで見える範囲だけを変えます。
@@ -245,7 +275,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wipe-right
 
 ## Wipe up — 下から幕が開く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wipe-up.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / マスク・出現 / 画面遷移
+実装: HTML / CSS
 下端から上端へ、見える範囲が広がります。
 用途: 高さのある写真や、積み上がる内容を見せるとき。
 使い方: 同じマスクでも、開く方向で読ませる流れが変わります。
@@ -253,7 +284,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/wipe-up.ht
 
 ## Circle reveal — 円が広がって現れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/circle-reveal.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / マスク・出現
+実装: HTML / CSS
 中央の小さな円から、見える範囲が広がります。
 用途: 写真の注目点から全体を見せるとき。
 使い方: 円の中心を変えると、タップした場所から開くようにも見せられます。
@@ -261,7 +293,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/circle-rev
 
 ## Diamond reveal — ひし形が開く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/diamond-reveal.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / マスク・出現
+実装: HTML / CSS
 中央の一点から、ひし形の窓が大きくなります。
 用途: 幾何学的な画面や、図形を主役にした切り替えに。
 使い方: 多角形同士を変化させるときは、頂点の数と順番をそろえます。
@@ -269,7 +302,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/diamond-re
 
 ## Curtain open — 中央から左右に開く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/curtain-open.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / マスク・出現 / 画面遷移
+実装: HTML / CSS
 中央の細い窓が、左右へ均等に広がります。
 用途: 対称性のある構図や、大切な見出しの登場に。
 使い方: 左右を同じ割合で切り抜くと、中心を動かさずに開けます。
@@ -278,6 +312,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/curtain-op
 ## Diagonal wipe — 斜めに切り開く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/diagonal-wipe.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 斜めの境界線が進み、形全体が現れます。
 用途: 写真の切り替えや、方向感のある登場演出に。
 使い方: この例は同じ数の頂点を持つ多角形の間を補間しています。
@@ -285,7 +320,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/diagonal-w
 
 ## Blob morph — 有機的に形を変える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blob-morph.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / モーフィング・変形
+実装: HTML / CSS
 角の丸みを別々に変え、柔らかな塊の形をつくります。
 用途: イラストの背景や、有機的な装飾に。
 使い方: この見本はSVGのパス変形ではなく、border-radiusによる形の変化です。
@@ -294,6 +330,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blob-morph
 ## Square to circle — 四角が丸になる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/square-to-circle.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 四隅の丸みを増やし、四角から円へ変化します。
 用途: 角丸の仕組みや、形の連続性を説明するとき。
 使い方: 正方形を使うと円になり、長方形ではカプセル状になります。
@@ -302,6 +339,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/square-to-
 ## Color shift — 色が移り変わる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-shift.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 形を保ったまま、背景色が順に移り変わります。
 用途: 状態の変化や、配色のつながりを見せるとき。
 使い方: 状態を伝えるときは、色に加えてラベルや形も使います。
@@ -310,6 +348,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-shif
 ## Glow — やわらかく光る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/glow.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 周囲の光が広がって強まり、ゆっくり元に戻ります。
 用途: 選択中の要素や、発光する質感の表現に。
 使い方: 明滅を速くせず、光の広がりをゆっくり変えます。
@@ -318,6 +357,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/glow.html
 ## Shadow lift — 影とともに浮き上がる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-lift.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 少し持ち上がりながら、下の影が広がります。
 用途: カードに触れたときや、ドラッグ開始の反応に。
 使い方: 移動と影を組み合わせると、持ち上げた状態が伝わります。
@@ -326,6 +366,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-lif
 ## Letter spread — 文字の間がひらく
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/letter-spread.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 文字の形を保ちながら、字間が広がります。
 用途: 短いロゴや、余韻をつけたい見出しに。
 使い方: 長い文章では改行位置が変わるため、短い文字列から試します。
@@ -334,6 +375,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/letter-spr
 ## Tracking in — 文字が寄り集まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/tracking-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 広がった字間を詰めながら、文字がくっきり現れます。
 用途: 短いタイトルや、ブランド名の登場に。
 使い方: 文字ごとに動かす演出とは異なり、文字列全体の字間を変えます。
@@ -342,6 +384,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/tracking-i
 ## Text glow — 文字の縁が光る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/text-glow.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 文字のまわりに色のついた光が広がり、また収まります。
 用途: ネオンのような見出しや、暗い背景のアクセントに。
 使い方: text-shadowは文字の輪郭に沿った影をつくります。
@@ -350,6 +393,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/text-glow.
 ## Skew in — 斜めの勢いで入る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/skew-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 横に傾いた文字が、滑りながらまっすぐに収まります。
 用途: 速度感のある短い見出しや、スポーティーな表現に。
 使い方: 傾きは最後に解消すると、読みやすい状態で止められます。
@@ -358,6 +402,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/skew-in.ht
 ## Typewriter reveal — 文字を段階的に見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/typewriter.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 見える範囲を4段階で広げ、短い文字列を現します。
 用途: 入力しているような雰囲気を、短いテキストに添えるとき。
 使い方: この見本は4段階のマスクです。文字幅が異なる書体では、一文字ずつには一致しません。
@@ -366,6 +411,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/typewriter
 ## Squash & stretch — つぶれて、伸びる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/squash-stretch.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 着地でつぶれ、跳び上がるときに縦へ伸びます。
 用途: キャラクターやボールに、重さと弾力を感じさせたいとき。
 使い方: アニメーションの原則として知られる表現を、拡縮で近似しています。
@@ -374,6 +420,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/squash-str
 ## Grow X — 左端から伸びる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/grow-x.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 左端を支点に、横幅が伸びていきます。
 用途: 進捗バーや、見出しの下線を描くとき。
 使い方: この見本はscaleXを使い、レイアウト上の幅は変更しません。
@@ -382,6 +429,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/grow-x.htm
 ## Elastic in — ばねのように収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/elastic-in.html
 カテゴリー: アニメーション
+実装: HTML / CSS
 大きさが行き過ぎて戻る動きを繰り返し、徐々に落ち着きます。
 用途: 遊び心のある選択反応や、小さな通知の登場に。
 使い方: これはキーフレームによるばね風の近似で、物理シミュレーションではありません。
@@ -390,6 +438,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/elastic-in
 ## HEX color — 16進数のカラーコード
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-hex.html
 カテゴリー: 色・配色
+実装: HTML / CSS
 赤・緑・青の量を、6桁の16進数で指定します。
 用途: 色を正確に共有するとき。
 使い方: #RGBは各桁を重ねた#RRGGBBの省略形です。
@@ -398,6 +447,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-hex.
 ## Alpha transparency — 色の透け具合
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-alpha.html
 カテゴリー: 色・配色
+実装: HTML / CSS
 同じ色でも透明度によって、下の色との重なり方が変わります。
 用途: 重なりや、写真の上に色を重ねる場面。
 使い方: 要素全体を薄くするopacityと、色だけに指定するalphaは作用が異なります。
@@ -406,6 +456,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-alph
 ## HSL color — 色相・彩度・明度
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-hsl.html
 カテゴリー: 色・配色
+実装: HTML / CSS
 色相を回転させ、彩度と明度を分けて指定する色の表し方です。
 用途: 色相をそろえたバリエーションをつくるとき。
 使い方: HSLの明度が同じでも、色相ごとの見た目の明るさはそろいません。
@@ -414,6 +465,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-hsl.
 ## OKLCH lightness — 知覚を考慮した明るさ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-oklch.html
 カテゴリー: 色・配色
+実装: HTML / CSS
 色相と彩度を固定し、OKLCHの明度だけを段階的に変えます。
 用途: 一つの色から濃淡のパレットを組むとき。
 使い方: 指定した色が画面で再現できる範囲を超えることもあります。
@@ -422,6 +474,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-oklc
 ## Color mixing — CSSで色を混ぜる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-mix.html
 カテゴリー: 色・配色
+実装: HTML / CSS
 二つの色を、指定した色空間と比率で混ぜます。
 用途: ブランドカラーから淡い背景色をつくるとき。
 使い方: 混ぜる色空間によって、中間色は変わります。
@@ -430,6 +483,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/color-mix.
 ## Linear gradient — 線形グラデーション
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-linear.html
 カテゴリー: グラデーション
+実装: HTML / CSS
 一直線の方向に沿って色が移り変わります。
 用途: 背景、帯、進行方向を感じさせる面。
 使い方: 角度と色の停止位置を分けて考えると調整しやすくなります。
@@ -438,6 +492,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-l
 ## Radial gradient — 放射状グラデーション
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-radial.html
 カテゴリー: グラデーション
+実装: HTML / CSS
 中心から外側へ色が変わる、円や楕円のグラデーションです。
 用途: 光、柔らかな背景、視線を集めたい面。
 使い方: 中心位置をずらすだけでも、光源のような表現になります。
@@ -446,6 +501,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-r
 ## Conic gradient — 円錐形グラデーション
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-conic.html
 カテゴリー: グラデーション
+実装: HTML / CSS
 中心のまわりを一周する方向で色が移り変わります。
 用途: 色相環、円グラフ風の背景、光沢の表現。
 使い方: 円周の始点と終点を同じ色にすると、継ぎ目が目立ちにくくなります。
@@ -454,6 +510,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-c
 ## Repeating gradient — 繰り返すグラデーション
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-repeat.html
 カテゴリー: グラデーション
+実装: HTML / CSS
 色の並びを反復して、縞やリズムをつくります。
 用途: パターン、区切り、進行中の表示。
 使い方: 色の切り替え位置をそろえると、ぼかしのない縞になります。
@@ -462,6 +519,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-r
 ## Layered gradients — 重ねてつくる色の雲
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-layered.html
 カテゴリー: グラデーション
+実装: HTML / CSS
 複数の放射状グラデーションを重ね、色の塊をつくります。
 用途: メッシュグラデーション風の抽象背景。
 使い方: これは複数のCSS背景による表現で、専用のメッシュ構文ではありません。
@@ -470,6 +528,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gradient-l
 ## Letter spacing — 字間
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-tracking.html
 カテゴリー: タイポグラフィ
+実装: HTML / CSS
 文字どうしの間隔を調整し、密度やリズムを変えます。
 用途: 短い見出し、ラベル、ロゴの検討。
 使い方: 長文では、見た目だけでなく読み進めやすさも確認します。
@@ -478,6 +537,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-track
 ## Line height — 行間
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-leading.html
 カテゴリー: タイポグラフィ
+実装: HTML / CSS
 行の高さを変えると、文章の詰まり具合が変わります。
 用途: 本文の読みやすさを整えるとき。
 使い方: 行間は文字サイズや一行の長さと一緒に調整します。
@@ -486,6 +546,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-leadi
 ## Text outline — 文字の輪郭線
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-outline.html
 カテゴリー: タイポグラフィ
+実装: HTML / CSS
 文字の輪郭を線で描き、内部の塗りを抜きます。
 用途: 大きな見出しや、背景を透かした文字。
 使い方: 細かな文字では輪郭線が読みづらくなるため、大きさも確認します。
@@ -494,6 +555,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-outli
 ## Gradient text — 文字にグラデーション
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-gradient.html
 カテゴリー: タイポグラフィ
+実装: HTML / CSS
 背景のグラデーションを、文字の形で切り抜いて見せます。
 用途: 短いタイトルや、色の変化を楽しむ文字。
 使い方: 背景画像が使えない場合の文字色も用意しておきます。
@@ -502,6 +564,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-gradi
 ## Vertical writing — 縦書き
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-vertical.html
 カテゴリー: タイポグラフィ
+実装: HTML / CSS
 文字の進む方向を縦にし、行を横に並べます。
 用途: 和文のタイトル、詩、編集的な画面。
 使い方: 英数字の向きはtext-orientationで調整できます。
@@ -510,6 +573,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-verti
 ## CSS Grid — 縦横をそろえるグリッド
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-grid.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 行と列を定義し、二方向の整列をつくります。
 用途: カード一覧、誌面のような構成、複雑な整列。
 使い方: 列の比率とgapを先に決めると、構成が整理できます。
@@ -518,6 +582,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-gri
 ## Flexbox — 一方向に並べる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-flex.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 要素を一列に並べ、空き領域を分け合います。
 用途: ナビゲーション、ラベル列、カード内の整列。
 使い方: 折り返した各行の列幅をそろえたい場合はGridも比較します。
@@ -526,6 +591,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-fle
 ## Spanning grid — 大小を組み合わせるグリッド
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-bento.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 一部の要素を複数の行や列にまたがって配置します。
 用途: 情報の大きさに強弱をつけるカード構成。
 使い方: 見た目の配置を変えても、読む順序は自然に保ちます。
@@ -534,6 +600,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-ben
 ## Layered composition — 重ねて組む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-overlap.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 位置をずらした要素を重ね、前後関係をつくります。
 用途: ビジュアルの編集、複数の写真や情報の関係づけ。
 使い方: z-indexは重なりコンテキストの中で働きます。
@@ -542,6 +609,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-ove
 ## Spacing scale — 余白の尺度
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-spacing.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 一定の尺度で余白を決め、まとまりと間隔を整えます。
 用途: 画面全体の間隔をそろえたいとき。
 使い方: 数値を共通化しても、内容の関係に応じて大小を使い分けます。
@@ -550,6 +618,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-spa
 ## Border radius — 角丸
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-radius.html
 カテゴリー: 形・線・輪郭
+実装: HTML / CSS
 四隅の丸みを変えて、輪郭の印象を調整します。
 用途: カード、ボタン、写真の枠。
 使い方: 角丸の比率が大きいと、同じ指定でも要素の縦横比で形が変わります。
@@ -558,6 +627,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-radi
 ## Organic radius — 有機的な輪郭
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-blob.html
 カテゴリー: 形・線・輪郭
+実装: HTML / CSS
 横方向と縦方向の角丸を別々に指定し、不均一な形をつくります。
 用途: 有機的な背景や、親しみのある図形。
 使い方: border-radiusはスラッシュの前後で横と縦の半径を分けられます。
@@ -566,6 +636,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-blob
 ## Polygon clipping — 多角形で切り抜く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-polygon.html
 カテゴリー: 形・線・輪郭
+実装: HTML / CSS
 頂点の座標を指定し、要素を多角形に切り抜きます。
 用途: バッジ、切り欠き、幾何学的な構成。
 使い方: 切り抜きは見た目を変えますが、通常のレイアウト領域はそのままです。
@@ -574,6 +645,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-poly
 ## Border styles — 線の表情
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-border.html
 カテゴリー: 形・線・輪郭
+実装: HTML / CSS
 実線、破線、点線など、輪郭線の種類を変えます。
 用途: 領域の区切り、選択範囲、補助的な枠。
 使い方: 線の種類だけに意味を持たせず、ラベルも組み合わせます。
@@ -582,6 +654,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-bord
 ## Soft shadow — 柔らかな影
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-soft.html
 カテゴリー: 影・光・奥行き
+実装: HTML / CSS
 ぼかした影を下に落とし、面が浮いて見えるようにします。
 用途: カードや、背景から少し離したい要素。
 使い方: 影の距離とぼかしを変えると、浮いている高さの印象が変わります。
@@ -590,6 +663,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-sof
 ## Hard shadow — 輪郭のある影
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-hard.html
 カテゴリー: 影・光・奥行き
+実装: HTML / CSS
 ぼかしをなくし、くっきりした影をずらして置きます。
 用途: ポスター風のカードや、力強いボタン。
 使い方: 影にぼかしを指定しないと、形がはっきり残ります。
@@ -598,6 +672,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-har
 ## Inset shadow — 内側の影
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-inset.html
 カテゴリー: 影・光・奥行き
+実装: HTML / CSS
 要素の内側に影を描き、くぼみのような印象をつくります。
 用途: 押し込まれた状態や、凹みの表現。
 使い方: insetの有無で、影が要素の内側か外側か変わります。
@@ -606,6 +681,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-ins
 ## Outer glow — 外側への発光
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-glow.html
 カテゴリー: 影・光・奥行き
+実装: HTML / CSS
 輪郭のまわりに色付きのぼかしを重ね、光を表現します。
 用途: 暗い背景での強調や、光る輪郭。
 使い方: 発光を強めすぎると輪郭が読みにくくなるので比較します。
@@ -613,7 +689,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shadow-glo
 
 ## Frosted glass — すりガラス
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-glass.html
-カテゴリー: 質感・合成
+カテゴリー: 質感・印刷表現
+実装: HTML / CSS
 半透明の面の背後をぼかし、すりガラスのように見せます。
 用途: 背景を感じさせながら情報を重ねたい場面。
 使い方: filterは要素自身、backdrop-filterは背後に作用します。
@@ -621,7 +698,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-gl
 
 ## Halftone dots — 網点のパターン
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-halftone.html
-カテゴリー: 質感・合成
+カテゴリー: 質感・印刷表現
+実装: HTML / CSS
 小さな点を一定間隔で並べ、印刷の網点を思わせる面をつくります。
 用途: ポスターや、質感を足す背景。
 使い方: この例は均一なドット柄で、写真の階調を網点に変換する処理ではありません。
@@ -629,7 +707,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-ha
 
 ## Multiply blend — 乗算で重ねる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-multiply.html
-カテゴリー: 質感・合成
+カテゴリー: 質感・印刷表現
+実装: HTML / CSS
 前後の色を乗算し、重なる部分を暗く合成します。
 用途: インクの重なりや、色付きのレイヤー。
 使い方: 合成対象を区切りたいときはisolationも確認します。
@@ -637,7 +716,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-mu
 
 ## Checker pattern — 市松模様
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-checker.html
-カテゴリー: 質感・合成
+カテゴリー: 質感・印刷表現
+実装: HTML / CSS
 円錐形グラデーションをタイル状に繰り返し、格子をつくります。
 用途: 透明部分の目印や、幾何学的な背景。
 使い方: 背景の大きさで、模様の細かさを調整します。
@@ -646,6 +726,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-ch
 ## Grayscale filter — 白黒にする
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-grayscale.html
 カテゴリー: 写真・画像表現
+実装: SVG
 画像の彩度を取り除き、グレースケールで表示します。
 用途: 色を抑えた写真や、色の有無を比較するとき。
 使い方: 画像ファイルそのものを書き換えず、表示にフィルターを適用します。
@@ -654,6 +735,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-gray
 ## Hue rotation — 色相を回転する
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-hue.html
 カテゴリー: 写真・画像表現
+実装: SVG
 画像の色に色相回転のフィルターをかけます。
 用途: 素材の色の変化を試すとき。
 使い方: すべての色がHSL上で単純に同じ角度だけ移る処理ではありません。
@@ -661,7 +743,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-hue.
 
 ## Gradient mask — なだらかに隠す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-mask.html
-カテゴリー: 写真・画像表現
+カテゴリー: 写真・画像表現 / マスク・出現
+実装: SVG
 マスクの透明度に応じて、画像の一部を徐々に隠します。
 用途: 写真と背景を柔らかくつなぐ場面。
 使い方: マスクの黒さではなく、通常は透明度が見える範囲を決めます。
@@ -670,6 +753,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-mask
 ## Circular crop — 円形にトリミング
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-crop.html
 カテゴリー: 写真・画像表現
+実装: SVG
 同じ素材を円の領域に切り抜いて見せます。
 用途: アバターや、図版の輪郭をそろえるとき。
 使い方: 重要な被写体が切れないか、中心位置も確認します。
@@ -678,6 +762,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-crop
 ## Stroke linecap — 線の端の形
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-linecap.html
 カテゴリー: SVG・アイコン
+実装: SVG
 線の端を、平ら・丸・四角に描き分けます。
 用途: 線画アイコンの統一感を整えるとき。
 使い方: roundとsquareは、線の座標より外側まで端が伸びます。
@@ -686,6 +771,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-lineca
 ## Stroke dasharray — 線を破線にする
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-dash.html
 カテゴリー: SVG・アイコン
+実装: SVG
 線と空白の長さを指定し、パスを破線で描きます。
 用途: 点線のアイコン、経路、進行の表現。
 使い方: 円でも曲線でも、同じ線の指定が使えます。
@@ -694,6 +780,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-dash.h
 ## Bézier curve — ベジェ曲線
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-bezier.html
 カテゴリー: SVG・アイコン
+実装: SVG
 始点・終点と制御点で、滑らかな曲線を描きます。
 用途: アイコン、経路、図形の輪郭。
 使い方: 制御点は曲線が必ず通る点ではなく、曲がり方を決める点です。
@@ -702,6 +789,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-bezier
 ## Even-odd fill — 重なる内側を抜く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-fill-rule.html
 カテゴリー: SVG・アイコン
+実装: SVG
 輪郭をまたぐ回数の偶奇によって、塗る領域を決めます。
 用途: 穴のある図形や、複数の輪郭からできたアイコン。
 使い方: 同じパスでもfill-ruleによって内側の塗り方が変わります。
@@ -710,6 +798,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-fill-r
 ## Disclosure — 開閉する情報
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-details.html
 カテゴリー: UIパーツ
+実装: HTML / CSS
 見出しを押すと、補足情報を展開します。
 用途: FAQや、必要な人だけが読む解説。
 使い方: detailsとsummaryで、基本の開閉をHTMLだけで実装できます。
@@ -718,6 +807,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-details
 ## Toggle switch — 切り替えスイッチ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-toggle.html
 カテゴリー: UIパーツ
+実装: HTML / CSS
 チェックボックスをスイッチとして見せ、状態を切り替えます。
 用途: 有効・無効を切り替える設定。
 使い方: 見た目を変えても、入力要素とラベルの関係を保ちます。
@@ -726,6 +816,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-toggle.
 ## Range input — 連続値のスライダー
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-range.html
 カテゴリー: UIパーツ
+実装: HTML / CSS
 つまみを動かして、範囲内の値を選びます。
 用途: 音量、強度、大きさなどの連続的な調整。
 使い方: キーボードの矢印キーでも値を変更できます。
@@ -734,6 +825,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-range.h
 ## Segmented selection — 選択肢を並べる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-segmented.html
 カテゴリー: UIパーツ
+実装: HTML / CSS
 排他的な選択肢を、横に並んだボタンのように見せます。
 用途: 表示方法や、少数の条件の切り替え。
 使い方: ラジオボタンのグループ名をそろえると、一つだけ選べます。
@@ -741,7 +833,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-segment
 
 ## Hover elevation — 触れると浮く
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interaction-hover.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応
+実装: HTML / CSS
 ポインターを乗せると、位置と影が変わります。
 用途: 押せるカードやボタンへの補助的な反応。
 使い方: タッチ端末にはホバーがないため、押したときの反応も用意します。
@@ -749,7 +842,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interactio
 
 ## Focus ring — 操作位置を示す輪郭
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interaction-focus.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応
+実装: HTML / CSS
 キーボードで移動すると、現在操作している要素が輪郭でわかります。
 用途: キーボード操作を迷わず行える画面。
 使い方: Tabキーでこのボタンへ移動すると輪郭を確認できます。
@@ -757,7 +851,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interactio
 
 ## Scroll snap — 区切りに吸着するスクロール
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interaction-scroll-snap.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応
+実装: HTML / CSS
 横へスクロールすると、カードの区切りで止まりやすくなります。
 用途: カード一覧や、小さなギャラリー。
 使い方: 操作の対象が伝わるよう、次のカードを少し見せます。
@@ -765,7 +860,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interactio
 
 ## Resizable region — 大きさを変えられる領域
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interaction-resize.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応
+実装: HTML / CSS
 角のつまみをドラッグすると、領域の幅や高さが変わります。
 用途: レイアウトの確認や、入力欄の大きさ調整。
 使い方: リサイズ操作の提供方法はブラウザや端末によって異なります。
@@ -774,6 +870,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/interactio
 ## Bar chart — 棒グラフ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-bars.html
 カテゴリー: データの見せ方
+実装: HTML / CSS
 棒の長さで、項目どうしの量を比べます。
 用途: カテゴリごとの数量を比較するとき。
 使い方: これは説明用の値です。量を比べる棒グラフは、原則としてゼロを基準にします。
@@ -782,6 +879,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-bars.
 ## Donut chart — ドーナツグラフ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-donut.html
 カテゴリー: データの見せ方
+実装: HTML / CSS
 円周を分割し、全体に対する割合を見せます。
 用途: 少数の項目の構成比を伝えたいとき。
 使い方: これは例示データです。割合は数値でも併記します。
@@ -790,6 +888,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-donut
 ## Sparkline — 小さな折れ線グラフ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-sparkline.html
 カテゴリー: データの見せ方
+実装: SVG
 短い折れ線で、値の変化の傾向を示します。
 用途: 表やカード内で、推移を簡潔に添えるとき。
 使い方: 数値の読み取りが重要なら、軸やラベルも用意します。
@@ -798,6 +897,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-spark
 ## Heatmap — 色で量を示す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-heatmap.html
 カテゴリー: データの見せ方
+実装: HTML / CSS
 セルの色の濃淡に、値の大小を対応させます。
 用途: 時刻と曜日など、二つの軸に沿った分布。
 使い方: 色だけに頼らず、値や説明にもアクセスできるようにします。
@@ -806,6 +906,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/data-heatm
 ## CSS perspective — 遠近感をつける
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-perspective.html
 カテゴリー: 3D・立体表現
+実装: HTML / CSS
 奥にある辺が小さく見えるように、要素へ遠近感を与えます。
 用途: 立体的なカードや、奥行きのある構成。
 使い方: perspectiveの距離が短いほど、遠近感が強くなります。
@@ -814,6 +915,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-pers
 ## CSS cube — CSSで組む立方体
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-cube.html
 カテゴリー: 3D・立体表現
+実装: HTML / CSS
 平面の要素を三次元空間に配置し、立方体に見せます。
 用途: 構造や立体感を説明する小さな図形。
 使い方: transform-styleで子要素の三次元配置を保ちます。
@@ -822,6 +924,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-cube
 ## Card flip — 裏返して見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-flip.html
 カテゴリー: 3D・立体表現
+実装: HTML / CSS
 操作に合わせてカードを回転させ、裏面を見せます。
 用途: 表と裏が対応する、少量の補足情報。
 使い方: 裏面はbackface-visibilityで隠し、重なって見えるのを防ぎます。
@@ -830,6 +933,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-flip
 ## Isometric-style layers — 等角投影風の重なり
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-isometric.html
 カテゴリー: 3D・立体表現
+実装: HTML / CSS
 斜め方向から見た面を重ねて、構造を立体的に見せます。
 用途: 階層や、構成要素を説明する図。
 使い方: この例はCSSの回転でつくる等角投影風の表現です。
@@ -838,6 +942,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-isom
 ## Waveform graphic — 波形のグラフィック
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-waveform.html
 カテゴリー: 映像の見せ方
+実装: HTML / CSS
 縦棒の高さを変え、音の波形を思わせる図形をつくります。
 用途: 音声コンテンツの見た目を検討するとき。
 使い方: これは静的な図形です。音声の解析や再生は行いません。
@@ -846,6 +951,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-wave
 ## Aspect ratio — 映像の縦横比
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-aspect.html
 カテゴリー: 映像の見せ方
+実装: HTML / CSS
 幅に対する高さの比率を決め、表示領域の形を保ちます。
 用途: 動画枠、サムネイル、正方形の画像。
 使い方: 実際の動画とは別に、枠の縦横比を指定できます。
@@ -854,6 +960,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-aspe
 ## Caption contrast — 字幕の背景
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-captions.html
 カテゴリー: 映像の見せ方
+実装: SVG
 文字の背後に半透明の面を敷き、映像と字幕を分けます。
 用途: 動画や、写真に重ねる短いテキスト。
 使い方: これは字幕の見た目の例です。動画字幕の実装ではtrack要素などを使います。
@@ -862,6 +969,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-capt
 ## Minimal composition — 要素を絞った構成
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-minimal.html
 カテゴリー: デザイン様式
+実装: HTML / CSS
 文字、線、余白を少数に絞り、関係をはっきりさせます。
 用途: 情報の優先順位を整えた画面の検討。
 使い方: 要素を減らしたあとも、操作や意味の手がかりは残します。
@@ -870,6 +978,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-mini
 ## Typographic grid — 文字とグリッドの構成
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-swiss.html
 カテゴリー: デザイン様式
+実装: HTML / CSS
 強い文字の大小差と整列で、情報に秩序をつくります。
 用途: 文字を主役にしたポスターや編集的な画面。
 使い方: これはタイポグラフィとグリッドを使ったオリジナルの構成例です。
@@ -878,6 +987,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-swis
 ## Bold borders — 太い輪郭と強い配色
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-brutal.html
 カテゴリー: デザイン様式
+実装: HTML / CSS
 太い線、くっきりした影、大きな文字を組み合わせます。
 用途: 勢いのあるカードや、主張の強い告知。
 使い方: 同じ要素の組み合わせでも、余白で読みやすさを整えられます。
@@ -886,6 +996,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-brut
 ## Editorial contrast — 書体にコントラストをつける
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-editorial.html
 カテゴリー: デザイン様式
+実装: HTML / CSS
 明朝系の大きな文字と、小さなラベルを組み合わせます。
 用途: 雑誌のような読み物や、作品紹介。
 使い方: 書体の対比に加えて、大きさや余白の差も効きます。
@@ -894,6 +1005,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-edit
 ## Retro interface — レトロな画面構成
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-retro.html
 カテゴリー: デザイン様式
+実装: HTML / CSS
 等幅文字、平面的なボタン、強い枠線で画面を組みます。
 用途: 昔のコンピューターを連想させる演出。
 使い方: 雰囲気を再現しながら、現在の操作性も確認します。
@@ -902,6 +1014,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/style-retr
 ## Linear — ずっと、同じ速さ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-linear.html
 カテゴリー: イージング
+実装: HTML / CSS
 始めから終わりまで、一定の速さで進みます。
 用途: 進捗表示、回転、一定速度を伝える表現に。
 使い方: 時間が半分なら、移動距離もちょうど半分です。
@@ -910,6 +1023,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-lin
 ## Ease — すっと進み、ゆっくり止まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ease.html
 カテゴリー: イージング
+実装: HTML / CSS
 ゆっくり動き始め、すぐに加速した後、長めに減速します。
 用途: ボタンやカードなど、自然な変化を添えたい場面に。
 使い方: CSS標準のeaseです。ease-in-outよりも前半で速く進みます。
@@ -918,6 +1032,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-eas
 ## Ease in — ゆっくり始め、速く終わる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ease-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 動き始めはゆっくりで、終わりに向かって加速します。
 用途: 画面外へ去る要素など、勢いをつけたい場面に。
 使い方: 最後は減速せず終わります。到着を見せたい場面ではease-outとも比べてください。
@@ -926,6 +1041,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-eas
 ## Ease out — 速く始め、静かに止まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ease-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 動き始めが速く、終わりに向かって減速します。
 用途: メニューや通知など、すぐ反応して定位置に収まる場面に。
 使い方: 操作直後の反応と、到着時の落ち着きを両立しやすい曲線です。
@@ -934,6 +1050,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-eas
 ## Ease in out — ゆっくり、速く、ゆっくり
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ease-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 ゆっくり始まり、中間で速くなり、終わりに再び減速します。
 用途: 状態間の移動や、視線を追わせる連続した変化に。
 使い方: 始点と終点で落ち着く、左右対称の曲線です。
@@ -942,6 +1059,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-eas
 ## Sine in — 穏やかに加速する
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sine-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 加速の変化を穏やかに抑えながら、前へ進みます。
 用途: 控えめな移動や、静かな演出の退場に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -950,6 +1068,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sin
 ## Sine out — 穏やかに減速する
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sine-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 大きく勢いをつけすぎず、滑らかに減速します。
 用途: 小さな移動や、軽い操作への反応に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -958,6 +1077,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sin
 ## Sine in out — 波のように、滑らかに
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sine-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 加速と減速が、波のように穏やかにつながります。
 用途: 浮遊感を出す動きや、繰り返す揺れに。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -966,6 +1086,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-sin
 ## Quad in — 少しずつ、速くなる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quad-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 序盤の進み方を抑え、後半へ向けて穏やかに加速します。
 用途: 控えめな退場や、自然に勢いがつく動きに。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -974,6 +1095,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Quad out — 少しずつ、ゆっくりになる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quad-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 早めに動き始め、終点へ向かって穏やかに減速します。
 用途: リストの移動や、小さな操作への落ち着いた反応に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -982,6 +1104,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Quad in out — ほどよい緩急で進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quad-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 加速と減速を半分ずつ使い、中央を滑らかにつなぎます。
 用途: 控えめな画面遷移や、移動先を追いやすくしたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -990,6 +1113,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Cubic in — じわりと始まり、一気に進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cubic-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 序盤の動きを小さく抑え、後半で強く加速します。
 用途: 引き込まれるような退場や、勢いのある移動に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -998,6 +1122,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cub
 ## Cubic out — すばやく進み、余韻を残す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cubic-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 前半で大きく進み、残りの距離をゆっくり詰めます。
 用途: カードやパネルを、きびきび表示したいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1006,6 +1131,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cub
 ## Cubic in out — 前後をためて、中央で加速
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cubic-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始まりと終わりをゆっくりにし、中央付近で強く動きます。
 用途: 画面の切り替えや、はっきりした移動の表現に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1014,6 +1140,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cub
 ## Quart in — 深くためて、勢いをつける
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quart-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 序盤の進みを小さく抑え、後半で大きく加速します。
 用途: 力をためるような動きや、強い退場の演出に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1022,6 +1149,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Quart out — 素早く移動し、長く減速
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quart-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 初めに大きく距離を進み、終わりをゆっくり仕上げます。
 用途: すぐに操作へ応えつつ、到着を滑らかに見せたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1030,6 +1158,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Quart in out — 静かな両端、速い中央
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quart-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始点と終点の動きを小さくし、中央付近の速度を上げます。
 用途: 大きなパネルや、切り替わりを印象づける移動に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1038,6 +1167,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qua
 ## Quint in — じっくりためて、駆け出す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quint-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 長めに動きをため、終点へ向かって強く加速します。
 用途: 一気に画面外へ出す演出や、ためを強調する動きに。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1046,6 +1176,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qui
 ## Quint out — すぐに届き、そっと収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quint-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 序盤でほとんどの距離を進み、最後に長く減速します。
 用途: 操作への素早い反応と、滑らかな着地を見せたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1054,6 +1185,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qui
 ## Quint in out — 中央で一気に切り替わる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-quint-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始まりと終わりを強く抑え、中央の移動を際立たせます。
 用途: はっきりした切り替えや、緩急を比較する教材に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1062,6 +1194,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-qui
 ## Expo in — 静かな始まりから、急加速
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-expo-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 始めの動きは小さく、後半で急に速度を増します。
 用途: 鋭い退場や、強く引き込まれるような移動に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1070,6 +1203,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-exp
 ## Expo out — 勢いよく進み、細かく近づく
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-expo-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 強い初速から、急速に速度を落として終点へ近づきます。
 用途: 短い操作反応や、鋭い登場演出に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。指定時間の終わりに必ず到着します。
@@ -1078,6 +1212,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-exp
 ## Expo in out — 中央を鋭く、前後を静かに
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-expo-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 前後の動きを抑え、中央付近を鋭く通過します。
 用途: 短い画面遷移や、動きのコントラストをつけたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1086,6 +1221,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-exp
 ## Circ in — 円弧のように加速する
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-circ-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 序盤は穏やかに、終点付近では強く加速します。
 用途: 動きの後半に勢いを集めたい、短い退場に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。移動経路が円になるわけではありません。
@@ -1094,6 +1230,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cir
 ## Circ out — 勢いをすぐ抑えて収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-circ-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 速い出だしから速度を落とし、最後は静かに収まります。
 用途: すばやく出したい小さなパネルや、選択への反応に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。円弧を描く軌道ではなく、時間に対する進み方です。
@@ -1102,6 +1239,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cir
 ## Circ in out — 中央に勢いが集まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-circ-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 両端は穏やかにし、中央で動きを大きく変えます。
 用途: 変化の中心を際立たせたい、往復や切り替えの演出に。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
@@ -1110,6 +1248,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-cir
 ## Back in — 少し引いてから進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-back-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 一度進行方向と逆へ引き、そこから前へ進みます。
 用途: 力をためてから動く、予備動作をつくりたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。値が0を下回るため、始点側にも余白を確保します。
@@ -1118,6 +1257,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bac
 ## Back out — 少し行き過ぎ、戻って止まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-back-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 終点を少し超え、戻ることで弾力を感じさせます。
 用途: 小さな通知や、選択された要素を軽快に示すとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。値が一時的に1を超えるため、終点側に余白を確保します。
@@ -1126,6 +1266,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bac
 ## Back in out — 引いて、行き過ぎて、収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-back-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始めに逆方向へ引き、終わりには終点を超えて戻ります。
 用途: 予備動作と反動の両方で、弾力を伝えたいとき。
 使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。進み具合が0未満・1超になるので、両側に余白を確保します。
@@ -1134,6 +1275,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bac
 ## Bounce in — 小さな跳ねから、駆け出す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bounce-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 始点付近で小さく跳ね、跳ね幅を広げてから終点へ進みます。
 用途: 小さな跳ね返りを、動き始めの予備動作に使うとき。
 使い方: Bounce outを反転した曲線を、CSS linear()で近似しています。物理計算ではありません。
@@ -1142,6 +1284,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bou
 ## Bounce out — 着地して、跳ね返る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bounce-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 終点に届いた後、小さな跳ね返りを繰り返して収まります。
 用途: ボールやキャラクターなど、着地を感じさせたいとき。
 使い方: Bounce系の曲線を細かく採った点で近似し、CSS linear()で結んでいます。物理計算ではありません。
@@ -1150,6 +1293,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bou
 ## Bounce in out — 跳ねて出発、跳ねて着地
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bounce-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始点付近の小さな跳ねから出発し、終点付近でも跳ね返ります。
 用途: 始まりと終わりの両方に、跳ねる感触をつけたいとき。
 使い方: Bounce inとBounce outを半分ずつつないだ曲線を、CSS linear()で近似しています。
@@ -1158,6 +1302,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-bou
 ## Elastic in — 揺れをためて、飛び出す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-elastic-in.html
 カテゴリー: イージング
+実装: HTML / CSS
 始点の前後で揺れを大きくし、最後に終点へ飛び出します。
 用途: 引き絞るような動きや、柔らかい物体の出発に。
 使い方: Elastic outを反転した曲線を、CSS linear()で近似しています。逆方向への移動に備えて余白を確保します。
@@ -1166,6 +1311,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ela
 ## Elastic out — ばねのように、揺れて収まる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-elastic-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 終点の前後を行き来しながら、揺れ幅を小さくして止まります。
 用途: 柔らかい質感や、遊び心のある操作反応に。
 使い方: Elastic系の曲線をCSS linear()の折れ線で近似しています。ばねの物理シミュレーションではありません。
@@ -1174,6 +1320,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ela
 ## Elastic in out — 前後で弾み、中央を抜ける
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-elastic-in-out.html
 カテゴリー: イージング
+実装: HTML / CSS
 始点側で揺れをため、中央を通り、終点側で揺れを収めます。
 用途: 伸び縮みする素材や、ばねらしい動きを強調するとき。
 使い方: Elastic系の数式を細かい折れ線で近似しています。動きの両側に余白を確保してください。
@@ -1182,6 +1329,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ela
 ## Steps — 4段階で、かくっと進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-steps-4.html
 カテゴリー: イージング
+実装: HTML / CSS
 滑らかに移動せず、時間を4つに区切って段階的に進みます。
 用途: コマ送り、スプライト、段階のある変化を見せるとき。
 使い方: jump-endは各区間の終わりで進みます。開始直後は動かず、最後の瞬間に終点へ到着します。
@@ -1190,6 +1338,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/easing-ste
 ## Click — 小さなクリック
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-click.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 高いノイズを短く切り、軽く硬いクリックをつくります。
 用途: ボタンを押した瞬間の、ごく短い反応。
 使い方: 連打される操作では、音の重なりや頻度も確認します。
@@ -1198,6 +1347,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-clic
 ## Pop — はじけるポップ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-pop.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 高い音から低い音へ素早く落とし、丸くはじける感触をつくります。
 用途: 小さな要素の登場や、軽快な操作。
 使い方: 音程の落ちる速さで、弾力の印象が変わります。
@@ -1206,6 +1356,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-pop.
 ## Soft tap — 柔らかなタップ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-tap.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 低めの音に短いノイズを重ね、柔らかく触れる音にします。
 用途: 控えめな選択や、落ち着いた画面の反応。
 使い方: 小型スピーカーでは低い音の聞こえ方が変わります。
@@ -1214,6 +1365,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-tap.
 ## Ascending notification — 上がる通知音
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-notify-up.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 二つの音を低い順に鳴らし、上向きの変化を感じさせます。
 用途: 新しい情報の到着を軽く知らせる場面。
 使い方: 通知の意味は、音だけでなく文字や表示でも伝えます。
@@ -1222,6 +1374,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-noti
 ## Descending notification — 下がる通知音
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-notify-down.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 二つの音を高い順に鳴らし、落ち着くような変化をつくります。
 用途: 画面を閉じる操作や、区切りの演出。
 使い方: 音の印象は、実際の画面と一緒に確認します。
@@ -1230,6 +1383,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-noti
 ## Success phrase — 完了を知らせるフレーズ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-success.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 四つの音を順に上げ、短い達成のフレーズにします。
 用途: 送信完了や、ひと区切りついたとき。
 使い方: 毎回鳴らす必要があるかも含め、使用場面を選びます。
@@ -1238,6 +1392,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-succ
 ## Low double tone — 低い二音のサイン
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-error.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 三角波の二つの音を下げ、ほかの通知と違う音色にします。
 用途: 入力内容の確認など、操作の見直しを促す場面。
 使い方: エラーの理由と直し方は、見える場所にも示します。
@@ -1246,6 +1401,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-erro
 ## Double reminder — 二回のリマインド
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-warning.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 間を空けて同じ音を二回鳴らし、気づきのきっかけをつくります。
 用途: 短い確認や、見落としを減らしたい場面。
 使い方: このサンプルは一度だけ再生し、自動で繰り返しません。
@@ -1254,6 +1410,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-warn
 ## Switch snap — スイッチの切り替え
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-switch.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 質感の違う二つの短いノイズで、機械的な切り替えを表します。
 用途: 設定を切り替えたことへの補助的な反応。
 使い方: 現在の状態はラベルや形でもわかるようにします。
@@ -1262,6 +1419,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-swit
 ## Soft bell — 柔らかなベル
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-bell.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 複数の高さの音を重ね、余韻のあるベルを合成します。
 用途: ゆっくり気づいてほしい通知や、静かな区切り。
 使い方: 高音の成分と減衰の長さで、金属らしさが変わります。
@@ -1270,6 +1428,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-bell
 ## Three-note chime — 三音のチャイム
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-chime.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 三つの音を重ねるように鳴らし、余韻をつなぎます。
 用途: 開始や完了を少し丁寧に知らせる場面。
 使い方: 長めの音は操作の邪魔にならない場面に絞ります。
@@ -1278,6 +1437,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-chim
 ## Shimmer — きらめく粒
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-shimmer.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 高い音を小刻みに重ね、光の粒のような響きをつくります。
 用途: 特別な達成や、装飾的な演出。
 使い方: 短い高音を重ねるため、小さい音量で印象を確かめます。
@@ -1286,6 +1446,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-shim
 ## Pitch sweep — 音程のスイープ
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-sweep.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 ひとつの音の高さを連続的に上げます。
 用途: 上昇や、次の段階への移動を表す演出。
 使い方: 音程が飛び飛びに変わるフレーズとの違いを聴き比べられます。
@@ -1294,6 +1455,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-swee
 ## Filtered whoosh — 風のような通過音
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-whoosh.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 ノイズの通る周波数を変え、風が抜けるような音をつくります。
 用途: 大きめの移動や、画面転換の演出。
 使い方: 風の録音ではなく、フィルターをかけたノイズの合成です。
@@ -1302,6 +1464,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-whoo
 ## Even pulse — 等間隔のパルス
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-pulse.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 短い音を等間隔に三回鳴らし、一定のリズムをつくります。
 用途: リズムや間隔を感じさせたい短い演出。
 使い方: 継続的なループではなく、三回で止まるサンプルです。
@@ -1310,6 +1473,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-puls
 ## Double beat — 二連の鼓動
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-heartbeat.html
 カテゴリー: 音・サウンド
+実装: Web Audio
 低い二連の音を二組鳴らし、鼓動を思わせるリズムをつくります。
 用途: 身体的なリズムや、静かな緊張感の演出。
 使い方: 心音の録音や測定結果ではなく、合成した表現です。
@@ -1317,7 +1481,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-hear
 
 ## Scroll scrub — スクロール量に連動
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-scroll-scrub.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / スクロール・視差
+実装: HTML / CSS
 スクロールした量に合わせて、位置と進捗が前後に変わります。
 用途: 読む進度や、移動と連動した表現。
 使い方: 枠の中だけをスクロールしてください。scrollイベントによる実装例です。
@@ -1325,7 +1490,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-scroll
 
 ## Scroll reveal once — 見えたら一度だけ再生
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-scroll-reveal.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / スクロール・視差 / マスク・出現
+実装: HTML / CSS
 枠の中に入った要素が、一度だけ浮かび上がります。
 用途: 読み進める順序に沿った、要素の登場。
 使い方: 連動型とは違い、表示位置をきっかけに時間ベースのアニメーションが始まります。
@@ -1333,7 +1499,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-scroll
 
 ## Staggered entrance — 時間差で登場
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-stagger.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / 時間・リズム / タイポグラフィ
+実装: HTML / CSS
 同じ動きを少しずつ遅らせ、順番に要素を登場させます。
 用途: 項目のまとまりや、読む順序を感じさせたい場面。
 使い方: 遅延は要素ごとに100msずつ増やしています。
@@ -1342,6 +1509,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-stagge
 ## SVG line drawing — 線を描いて見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-stroke-draw.html
 カテゴリー: SVG・アイコン
+実装: SVG
 破線の開始位置を動かし、一本の線が描かれるように見せます。
 用途: ロゴの輪郭、経路、手描きのような演出。
 使い方: パスの長さを測って破線長に使うため、図形を変えても合わせられます。
@@ -1349,7 +1517,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-stroke
 
 ## Pointer spotlight — 指先を追うスポットライト
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-pointer-spotlight.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応 / ジェスチャー・追従 / マスク・出現
+実装: HTML / CSS
 ポインターやタップ位置に合わせて、光の中心が移動します。
 用途: 領域の中を探索するような表現。
 使い方: タップでも位置を変えられます。フォーカス後の矢印キーにも対応します。
@@ -1357,7 +1526,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-pointe
 
 ## Spring return — 離すとばねで戻る
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-spring-drag.html
-カテゴリー: 操作・反応
+カテゴリー: UIの反応 / 物理・慣性 / ジェスチャー・追従
+実装: HTML / CSS
 つまみを離すと、振動しながら元の位置へ戻ります。
 用途: ドラッグ操作に弾力を加える表現。
 使い方: ばねの力と減衰を数値で計算しています。矢印キーでも試せます。
@@ -1365,7 +1535,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-spring
 
 ## FLIP layout transition — 配置換えをなめらかに
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-flip-layout.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / 画面遷移 / レイアウト・余白
+実装: HTML / CSS
 並べ替え前後の座標を測り、その差を打ち消してから動かします。
 用途: カードの並べ替えや、レイアウト変更。
 使い方: FLIPはFirst・Last・Invert・Playの略です。この例は位置の変化を扱います。
@@ -1374,6 +1545,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-flip-l
 ## Eased motion path — 曲線に沿って加減速
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-eased-path.html
 カテゴリー: アニメーション
+実装: SVG
 曲線上の位置を求め、加速と減速を加えて移動させます。
 用途: 軌道や経路をたどる演出。
 使い方: この例はSVGのパスから座標を取り出しています。CSSのoffset-pathでも経路を指定できます。
@@ -1382,6 +1554,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/adv-eased-
 ## Layered parallax — 層ごとに速さを変える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-layered-parallax.html
 カテゴリー: スクロール・視差
+実装: SVG
 背景・中景・前景を異なる速さで動かし、奥行きを感じさせます。
 用途: 風景や、複数の層を持つキービジュアル。
 使い方: 前にある層を大きく動かすと、遠近感をつくりやすくなります。動きを抑える設定では層を固定します。
@@ -1390,6 +1563,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-lay
 ## Depth parallax — 奥行き方向へ進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-depth-parallax.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 遠近法を使い、スクロールに応じて面が手前へ近づきます。
 用途: 奥へ入る、手前へ抜ける感覚の演出。
 使い方: translateZとperspectiveによるCSSの立体表現です。大きな拡大は控えめに調整します。
@@ -1398,6 +1572,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-dep
 ## Counter-moving columns — 反対向きに流す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-counter-parallax.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 並んだ二つの列を反対方向へ動かし、ずれを楽しみます。
 用途: 作品の一覧や、編集的なタイポグラフィ。
 使い方: 文章を読む領域より、短い言葉や図版の演出に向きます。
@@ -1406,6 +1581,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-cou
 ## Pinned storytelling — 留まる画面で話を進める
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-pinned-story.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 見本をその場に留め、スクロールに沿って説明を切り替えます。
 用途: 工程や、順序のある説明を見せる場面。
 使い方: position: stickyで見本を留め、章の切り替えをJavaScriptで行っています。
@@ -1414,6 +1590,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-pin
 ## Vertical-to-horizontal scroll — 縦の操作で横へ進む
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-horizontal-track.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 見本の中を縦にスクロールすると、横並びの面が移動します。
 用途: 短いギャラリーや、横方向につながる物語。
 使い方: 縦スクロールを取り上げず、独立した見本の中だけで連動させています。
@@ -1422,6 +1599,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-hor
 ## Scroll zoom-out — 引いて全体を見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-zoom-out.html
 カテゴリー: スクロール・視差
+実装: SVG
 近づいた画面から徐々に引き、全体像を見せます。
 用途: 写真や図版の一部から、全体へ視線を導く場面。
 使い方: 素材はオリジナルのSVGです。動きを抑える設定では全体像を固定表示します。
@@ -1430,6 +1608,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-zoo
 ## Circular scroll reveal — 円を広げて見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-circle-reveal.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 円形の切り抜きを広げて、隠れていた面を見せます。
 用途: テーマの切り替えや、印象的な登場。
 使い方: clip-pathの円の半径をスクロール量へ対応させています。
@@ -1438,6 +1617,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-cir
 ## Scroll text fill — 文字に色を満たす
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-text-fill.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 薄い文字の上を、濃い色が左から右へ満たしていきます。
 用途: 短いメッセージの読み進みを感じさせる演出。
 使い方: background-clip: textと背景の大きさを組み合わせています。
@@ -1445,7 +1625,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-tex
 
 ## Scene crossfade — 景色を重ねて切り替える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-scene-crossfade.html
-カテゴリー: スクロール・視差
+カテゴリー: スクロール・視差 / 画面遷移
+実装: HTML / CSS
 二つの背景を重ね、透明度を変えて次の景色へ移ります。
 用途: 時間や気分の移り変わりを見せる場面。
 使い方: 途中では二つの面が同時に見えます。動きを抑えると中間地点で切り替わります。
@@ -1454,6 +1635,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-sce
 ## Reading progress ring — 読む進みを円で示す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-reading-ring.html
 カテゴリー: スクロール・視差
+実装: SVG
 見本の文章を読み進めると、円形の進捗が満たされます。
 用途: 読み物や、複数段階の説明の進み具合。
 使い方: 進捗は見本内のスクロール量です。実際に読んだ割合を測っているわけではありません。
@@ -1462,6 +1644,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-rea
 ## Scroll-snap storytelling — 一場面ずつ切り替える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-snap-story.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 スクロールの止まりどころをそろえ、各場面を見やすくします。
 用途: 短いストーリーや、少数のスライド。
 使い方: ブラウザ標準のscroll-snapを使います。下のスライダーからも場面を選べます。
@@ -1470,6 +1653,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-sna
 ## Scroll-aware header — 上へ戻すと現れるヘッダー
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-direction-header.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 下へ読むと隠れ、上へ戻ると現れるヘッダーです。
 用途: 読む領域を広く保ちながら、移動手段を残したい場面。
 使い方: 位置ではなく、直前からのスクロール方向を見ています。見本の中で試せます。
@@ -1478,6 +1662,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-dir
 ## Stacked sticky cards — カードが積み重なる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-stacked-cards.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 後から来るカードが前のカードの上へ重なり、層をつくります。
 用途: 工程や、章ごとにまとまった情報。
 使い方: カードごとにstickyの止まる位置を少しずつずらしています。
@@ -1486,6 +1671,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-sta
 ## Scroll-spread typography — 文字を左右へほどく
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-split-typography.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 文字を一つずつ分け、中心から左右へ広げます。
 用途: 短い見出しや、印象を変えるタイポグラフィ。
 使い方: 読みやすさが必要な文章とは分けて使います。見本は一つの単語を分割しています。
@@ -1494,6 +1680,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-spl
 ## Viewport progress — 見える位置に連動する
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-view-progress.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 要素が枠へ入り、中央を通り、出ていく位置に応じて変化します。
 用途: 要素ごとに、画面内での登場と退出を制御したい場面。
 使い方: 要素と見本枠の座標から進み具合を計算しています。スクロール全体の進捗とは別です。
@@ -1502,6 +1689,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-vie
 ## Scroll-velocity skew — 速さで傾く文字
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-velocity-skew.html
 カテゴリー: スクロール・視差
+実装: HTML / CSS
 スクロールの速さと向きに応じて文字が傾き、止めると元へ戻ります。
 用途: 動きの勢いを感じさせる短い装飾。
 使い方: 位置ではなく移動量と経過時間を使います。ゆっくり・速く、両方試してみてください。
@@ -1510,6 +1698,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/scroll-vel
 ## CSS motion path — 道筋に沿って動かす
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/motion-css-path.html
 カテゴリー: アニメーション
+実装: SVG
 移動する道筋と、その上の進行位置を分けて指定します。曲がる方向に要素の向きも追従できます。
 用途: 案内図、軌跡、ローディングなど、直線だけでは伝わらない動き。
 使い方: 進行位置のスライダーを往復させてください。offset-pathで道筋、offset-distanceで位置を指定しています。
@@ -1517,7 +1706,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/motion-css
 
 ## Displacement filter — ノイズで輪郭をゆがめる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-displacement.html
-カテゴリー: SVG・アイコン
+カテゴリー: SVG・アイコン / シェーダー・映像変形 / 質感・印刷表現
+実装: SVG
 ノイズの濃淡を位置のずれに変換して、文字や図形に波打つような輪郭をつくります。
 用途: 水面や熱、揺らぐ素材を感じさせるビジュアル。
 使い方: ゆがみを0にすると元の文字に戻ります。feTurbulenceのノイズをfeDisplacementMapに渡します。強すぎる変形は読みにくさにつながります。
@@ -1525,7 +1715,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/svg-displa
 
 ## Text on a path — 曲線に文字を沿わせる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-text-path.html
-カテゴリー: タイポグラフィ
+カテゴリー: タイポグラフィ / SVG・アイコン
+実装: SVG
 文字の並ぶ基準線を曲線にして、文字組みをひとつの形として見せます。
 用途: 円形の見出し、ラベル、タイポグラフィのアクセント。
 使い方: 開始位置を変えると、曲線の同じ場所を文字がたどります。文字は画像にせず、SVGのtextPathとして残しています。
@@ -1533,7 +1724,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-text-
 
 ## Masked line reveal — 行の内側から文字が現れる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-line-reveal.html
-カテゴリー: タイポグラフィ
+カテゴリー: タイポグラフィ / マスク・出現 / 時間・リズム
+実装: HTML / CSS
 行ごとに表示範囲を区切り、その外から文字を動かすことで、文字がせり上がって見えます。
 用途: 見出しの登場、章の切り替え、短いメッセージ。
 使い方: 表示を切り替え、上端・下端で文字が切れるところを観察してください。overflowで隠し、transformと時間差で動かします。
@@ -1542,6 +1734,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-line-
 ## Skeleton loading — 内容が入る前の形を見せる
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-skeleton.html
 カテゴリー: UIパーツ
+実装: HTML / CSS
 読み込み中に、画像や文章が入る場所の輪郭を見せます。光が通り過ぎるシマーを加えると、待機状態がわかります。
 用途: 実際にデータ取得が必要なカードや一覧。
 使い方: 切り替えはデモ用です。実装では取得状態と結びつけ、永遠に読み込み中にしないこと。動きを減らす環境では光を動かしません。
@@ -1550,6 +1743,7 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/ui-skeleto
 ## Container queries — 部品の幅に合わせて組み替える
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-container-query.html
 カテゴリー: レイアウト・余白
+実装: HTML / CSS
 画面全体ではなく、部品を包む領域の幅を基準にレイアウトを切り替えます。
 用途: サイドバーにも本文にも配置するカード、再利用するUI部品。
 使い方: 幅を変え、160pxを境に縦並びと横並びが変わるところを見てください。未対応ブラウザでは基本の縦並びで表示します。
@@ -1557,7 +1751,8 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-con
 
 ## Mask composition — マスクを引き算して輪郭を残す
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-composite-mask.html
-カテゴリー: 形・線・輪郭
+カテゴリー: 形・線・輪郭 / マスク・出現 / 合成・ブレンド
+実装: HTML / CSS
 二つのマスクの重なる部分を除き、内側が透けた輪郭をつくります。背景に画像があっても中を塗りつぶす必要がありません。
 用途: グラデーションの枠、透明なフレーム、複雑な切り抜き。
 使い方: マスクの厚みを変えてみてください。mask-composite: excludeでマスクを組み合わせます。
@@ -1565,8 +1760,684 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shape-comp
 
 ## Seamless marquee — 切れ目なく流れる繰り返し
 URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/motion-seamless-loop.html
-カテゴリー: アニメーション
+カテゴリー: アニメーション / 時間・リズム / タイポグラフィ
+実装: HTML / CSS
 同じ長さの内容を二組並べ、一組ぶんだけ動かして繰り返すと、継ぎ目を感じない流れになります。
 用途: 短いキーワードの帯、装飾的なタイポグラフィ。重要な文章の読む手段にはしないこと。
 使い方: 動きを止めるボタンを用意します。二組の幅と余白が揃わないと継ぎ目で跳ねます。複製した文字は読み上げ対象から外します。
 公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state
+
+## Spring dynamics — 重さを感じるばね
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-spring.html
+カテゴリー: 物理・慣性 / UIの反応
+実装: Canvas 2D
+位置と速度から、ばねの力と抵抗を毎フレーム計算します。上の小さな点は決めた曲線で動くイージングです。
+用途: ドラッグ後の復帰、追従するUI。
+使い方: 抵抗を小さくして離すと、何度も行き過ぎます。上の等しい時間で終わる動きと比較してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Gravity & restitution — 重力と跳ね返り
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-gravity.html
+カテゴリー: 物理・慣性
+実装: Canvas 2D
+加速度で落下させ、床に触れた瞬間に速度を反転・減衰させます。
+用途: 落ちる物体、ボールの運動。
+使い方: 球を持ち上げて離す。跳ね返り0と0.9の違いを見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Damped pendulum — 振り子の減衰
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-pendulum.html
+カテゴリー: 物理・慣性
+実装: Canvas 2D
+重力の接線方向の成分と角速度から、振り子の往復を計算します。
+用途: 揺れる吊り札や、振動の理解。
+使い方: 球を横に動かして離す。抵抗を0にすると揺れが続きます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Inertial throw — 投げて、滑って、止まる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/physics-inertia.html
+カテゴリー: 物理・慣性 / ジェスチャー・追従 / UIの反応
+実装: Canvas 2D
+操作中の移動から速度を受け取り、離した後は摩擦で速度を減らします。
+用途: ドラッグ操作の手応え、物体の投擲。
+使い方: 速くなぞって離す。摩擦を増やすと移動距離が短くなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Stagger interval — 時間差が順序をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-stagger.html
+カテゴリー: 時間・リズム / アニメーション
+実装: Canvas 2D
+同じ動きを少しずつ遅らせると、ひとまとまりの流れが生まれます。
+用途: 一覧、見出し、段階的な登場。
+使い方: 時間差を0にしてから広げてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Traveling wave — 波が順番に伝わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-wave.html
+カテゴリー: 時間・リズム / アニメーション
+実装: Canvas 2D
+隣り合う要素の位相をずらし、波が横へ移動するように見せます。
+用途: ローディング、音の気配、流れ。
+使い方: 高さを0から増やし、波の輪郭を見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Alternating rhythm — 交互の動きで拍を刻む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-alternate.html
+カテゴリー: 時間・リズム
+実装: Canvas 2D
+隣同士を半周期ずらすと、交互に動く拍が生まれます。
+用途: リズムを持つ装飾、待機表示。
+使い方: 速さを変えて、落ち着きと忙しさの境目を探してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Anticipation & follow-through — 動き出す前に、少しためる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/rhythm-anticipation.html
+カテゴリー: 時間・リズム / アニメーション
+実装: Canvas 2D
+跳ぶ前に沈み、跳んだ後に休む。動作の前後を含めてひとつの動きにします。
+用途: キャラクター、ボタン、視線誘導。
+使い方: 準備・跳躍・休止の三つの時間を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Particle network — 距離でつながる星座
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/particles-constellation.html
+カテゴリー: 粒子・群れ / 生成・アルゴリズム
+実装: Canvas 2D
+近い点同士だけを線で結び、点の移動でつながりが変わる模様をつくります。
+用途: 静かな背景、ネットワークの比喩。
+使い方: 接続距離を変え、点が線の集まりに変わる境目を見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Confetti emitter — 小さな紙片が舞う
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/particles-confetti.html
+カテゴリー: 粒子・群れ / 物理・慣性
+実装: Canvas 2D
+放出位置、初速、重力、回転をそれぞれの紙片に与えます。
+用途: 達成を祝う短い演出。
+使い方: 放出位置をタップで変えてください。色を使わなくても祝祭感が生まれます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Attraction field — 指先へ集まる粒子
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/particles-attraction.html
+カテゴリー: 粒子・群れ / 物理・慣性 / ジェスチャー・追従
+実装: Canvas 2D
+目標点への力と抵抗で、それぞれの粒子が追いかけます。
+用途: 指先に反応する背景、集合の演出。
+使い方: 引力を強くすると、目標を通り過ぎる動きも変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Phyllotaxis arrangement — 黄金角で点を並べる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/particles-phyllotaxis.html
+カテゴリー: 粒子・群れ / 生成・アルゴリズム
+実装: Canvas 2D
+点ごとに約137.5度ずつ回し、中心からの距離を平方根で増やします。
+用途: 花のような模様、規則的な散布。
+使い方: 間隔と数を変え、渦が浮かぶところを探してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Flow field — 数式で向きを配る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-flow.html
+カテゴリー: 生成・アルゴリズム
+実装: Canvas 2D
+座標を三角関数に渡し、各場所の向きが連続して変わる場をつくります。
+用途: 流れるような模様や、粒子の進路。
+使い方: 模様の大きさを変え、局所と全体のつながりを見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Recursive tree — 同じ規則で枝を増やす
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-fractal.html
+カテゴリー: 生成・アルゴリズム
+実装: Canvas 2D
+枝分かれの規則を、小さくしながら繰り返します。
+用途: 樹木の模様、再帰の理解。
+使い方: 枝の角度と深さを変えて、同じ規則の広がりを見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Voronoi regions — いちばん近い点で区切る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-voronoi.html
+カテゴリー: 生成・アルゴリズム
+実装: Canvas 2D
+各位置を最も近い点の領域に分けます。見本は5px単位の近似描画です。
+用途: 細胞状の模様、領域の分割。
+使い方: 点の数と配置を変え、境界の位置を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Elementary cellular automaton — 三つの隣から、次を決める
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/generative-automaton.html
+カテゴリー: 生成・アルゴリズム
+実装: Canvas 2D
+左右と自分の状態から、次の行を決める一次元セル・オートマトンです。
+用途: 規則から生まれる模様の探究。
+使い方: ルール30、90、110を比較してください。ランダムに見える模様にも規則があります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations
+
+## Crossfade transition — 場面の重なりをつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/transition-crossfade.html
+カテゴリー: 画面遷移 / アニメーション
+実装: HTML / CSS
+二つの場面の透明度を逆向きに変え、重なる時間をつくります。
+用途: 一覧から詳細への移動、章や場面の切り替え。
+使い方: 時間を長くし、二つの文字が同時に見える瞬間を観察する。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Shared element transition — 同じカードが次の画面へ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/transition-shared.html
+カテゴリー: 画面遷移 / アニメーション
+実装: HTML / CSS
+切り替え前後の位置と大きさを測り、同じ要素を連続して移動させます。
+用途: 一覧から詳細への移動、章や場面の切り替え。
+使い方: 小さなカードが詳細に広がるとき、視線がどこへ移るかを見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Directional wipe — 方向を持って場面を渡す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/transition-wipe.html
+カテゴリー: 画面遷移 / アニメーション / マスク・出現
+実装: HTML / CSS
+新しい場面の表示範囲を、左から右へ広げます。
+用途: 一覧から詳細への移動、章や場面の切り替え。
+使い方: 切り替えの向きが、進む方向の手がかりになるか観察する。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Page fold — 面をめくって切り替える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/transition-fold.html
+カテゴリー: 画面遷移 / アニメーション
+実装: HTML / CSS
+一枚の面を左端を軸に回転させ、奥にある面を見せます。
+用途: 一覧から詳細への移動、章や場面の切り替え。
+使い方: 時間を長くして、遠近法と回転軸を見比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## Circle to star — 円から星へ、連続して変わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/morph-star.html
+カテゴリー: モーフィング・変形 / 形・線・輪郭
+実装: Canvas 2D
+同じ角度の点どうしを対応させ、半径を補間します。
+用途: ロゴやアイコン、形状の切り替え。
+使い方: スライダーをゆっくり往復し、途中の形を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Organic contour — 有機的な輪郭をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/morph-blob.html
+カテゴリー: モーフィング・変形 / 形・線・輪郭
+実装: Canvas 2D
+円の半径へ波を加え、丸い輪郭を連続して変えます。
+用途: ロゴやアイコン、形状の切り替え。
+使い方: スライダーをゆっくり往復し、途中の形を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Superellipse — 角丸の先にある形
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/morph-superellipse.html
+カテゴリー: モーフィング・変形 / 形・線・輪郭
+実装: Canvas 2D
+指数を変える一つの式から、菱形、楕円、角丸四角形を描き分けます。
+用途: ロゴやアイコン、形状の切り替え。
+使い方: スライダーをゆっくり往復し、途中の形を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Bézier deformation — 一本の曲線を曲げる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/morph-curve.html
+カテゴリー: モーフィング・変形 / 形・線・輪郭 / SVG・アイコン
+実装: Canvas 2D
+三次ベジェ曲線の制御点を動かし、一本の線を変形させます。
+用途: ロゴやアイコン、形状の切り替え。
+使い方: スライダーをゆっくり往復し、途中の形を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Feathered mask — 境界をぼかして見せる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/mask-feather.html
+カテゴリー: マスク・出現 / 写真・画像表現
+実装: HTML / CSS
+白黒の濃淡を透明度として使い、見える範囲の端を柔らかくします。
+用途: 画像や見出しの出現、見せる範囲の設計。
+使い方: 表示範囲を変え、隠れている部分を想像する感覚を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image
+
+## Venetian mask — 細い窓から全体を見せる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/mask-blinds.html
+カテゴリー: マスク・出現 / 写真・画像表現
+実装: HTML / CSS
+繰り返すマスクで、短冊のように見える領域をつくります。
+用途: 画像や見出しの出現、見せる範囲の設計。
+使い方: 表示範囲を変え、隠れている部分を想像する感覚を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image
+
+## Text knockout — 文字を窓にする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/mask-type.html
+カテゴリー: マスク・出現 / タイポグラフィ
+実装: HTML / CSS
+背景を文字の形だけに表示し、文字の内側をひとつの景色にします。
+用途: 画像や見出しの出現、見せる範囲の設計。
+使い方: 表示範囲を変え、隠れている部分を想像する感覚を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image
+
+## Scratch reveal — 削って、下の絵に出会う
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/mask-scratch.html
+カテゴリー: マスク・出現 / ジェスチャー・追従
+実装: Canvas 2D
+上の層から円形の領域を消し、下にある文字を見せます。
+用途: 探索する演出や、部分から全体を知る体験。
+使い方: ブラシの大きさを変えて削ってください。最初からで覆いを戻せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation
+
+## Screen blend — 光を重ねるスクリーン
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blend-screen.html
+カテゴリー: 合成・ブレンド / 質感・印刷表現 / 写真・画像表現
+実装: HTML / CSS
+明るい部分が残るように合成します。黒は相手を変えず、白は白になります。
+用途: 画像の重なり、光、質感の合成。
+使い方: 合成を外した状態と比較し、重なっている場所の色を見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+
+## Overlay blend — 明暗で合成を切り替える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blend-overlay.html
+カテゴリー: 合成・ブレンド / 質感・印刷表現 / 写真・画像表現
+実装: HTML / CSS
+下の色の明暗に応じて乗算とスクリーンを使い分け、コントラストをつくります。
+用途: 画像の重なり、光、質感の合成。
+使い方: 合成を外した状態と比較し、重なっている場所の色を見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+
+## Difference blend — 色の差を見せる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blend-difference.html
+カテゴリー: 合成・ブレンド / 質感・印刷表現 / 写真・画像表現
+実装: HTML / CSS
+二つの色の差を表示します。同じ色を重ねると黒くなります。
+用途: 画像の重なり、光、質感の合成。
+使い方: 合成を外した状態と比較し、重なっている場所の色を見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+
+## Luminosity blend — 明るさだけを重ねる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/blend-luminosity.html
+カテゴリー: 合成・ブレンド / 質感・印刷表現 / 写真・画像表現
+実装: HTML / CSS
+下の色相と彩度を残し、上の層の明るさを反映します。
+用途: 画像の重なり、光、質感の合成。
+使い方: 合成を外した状態と比較し、重なっている場所の色を見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+
+## Magnetic attraction — 近づくと吸いつく
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gesture-magnetic.html
+カテゴリー: ジェスチャー・追従 / UIの反応
+実装: Canvas 2D
+中心からの距離に応じて、要素を指先へ少し引き寄せます。
+用途: 小さな操作対象への誘導。
+使い方: 範囲と引力を変え、反応が強すぎないところを探してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Pointer trail — 軌跡が少しだけ残る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gesture-trail.html
+カテゴリー: ジェスチャー・追従 / 粒子・群れ
+実装: Canvas 2D
+通過した位置へ寿命のある点を置き、時間とともに小さくします。
+用途: 手の動きを見せる描画、探索。
+使い方: 素早く動かした時と、ゆっくり動かした時の密度を比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Drag & snap — 離すと、位置がそろう
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gesture-snap.html
+カテゴリー: ジェスチャー・追従 / UIの反応 / レイアウト・余白
+実装: Canvas 2D
+操作中は自由に動き、離した時だけ最寄りの格子へ位置をそろえます。
+用途: 配置編集、整列するドラッグ操作。
+使い方: 格子の間隔を変え、自由さと整いやすさを比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Pinch & rotate — 二本の指で拡大・回転
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/gesture-pinch.html
+カテゴリー: ジェスチャー・追従 / UIの反応
+実装: HTML / CSS
+二つの接点の距離と角度を、拡大率と回転角へ変換します。
+用途: 写真、地図、制作ツールの操作。
+使い方: 二本指、または二つのスライダーで同じ変化を試せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Moiré interference — 細い線から、大きな縞が生まれる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/illusion-moire.html
+カテゴリー: 錯視・知覚 / 生成・アルゴリズム
+実装: Canvas 2D
+似た間隔の線を少し回して重ねると、干渉する大きな模様が見えます。
+用途: 視覚の観察、コントラストや輪郭の理解。
+使い方: 見え方は人によって異なります。数値や補助線と、感じる見え方を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Simultaneous contrast — 同じ灰色が違って見える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/illusion-contrast.html
+カテゴリー: 錯視・知覚
+実装: Canvas 2D
+周囲の明るさによって、同じ色の見え方が変わる現象を比べます。
+用途: 視覚の観察、コントラストや輪郭の理解。
+使い方: 見え方は人によって異なります。数値や補助線と、感じる見え方を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Figure & ground — 器と横顔を行き来する
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/illusion-figure.html
+カテゴリー: 錯視・知覚
+実装: Canvas 2D
+どこを図として見るかで、同じ輪郭が別の対象として見えてきます。
+用途: 視覚の観察、コントラストや輪郭の理解。
+使い方: 見え方は人によって異なります。数値や補助線と、感じる見え方を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Müller-Lyer illusion — 同じ長さを見比べる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/illusion-length.html
+カテゴリー: 錯視・知覚
+実装: Canvas 2D
+線の端に付く向きの違いが、長さの見え方へ影響する錯視です。
+用途: 視覚の観察、コントラストや輪郭の理解。
+使い方: 見え方は人によって異なります。数値や補助線と、感じる見え方を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
+
+## Ripple refraction — 波紋で景色をゆがめる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-ripple.html
+カテゴリー: シェーダー・映像変形 / 写真・画像表現
+実装: WebGL
+中心からの距離に応じた波で、模様を参照する座標をずらします。水の物理計算ではなく、屈折に似た視覚効果です。
+用途: 背景や画像の質感、映像の変形。
+使い方: ゆがみを0にして、元の模様と比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Heat haze — 陽炎のように揺らぐ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-heat.html
+カテゴリー: シェーダー・映像変形 / 写真・画像表現 / 質感・印刷表現
+実装: WebGL
+高さと時間から横方向のずれを計算して、熱による揺らぎに似た見え方をつくります。
+用途: 背景や画像の質感、映像の変形。
+使い方: ゆがみの強さを抑えると、輪郭の変化だけが残ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Chromatic aberration — 色の輪郭がずれる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-chromatic.html
+カテゴリー: シェーダー・映像変形 / 写真・画像表現 / 色・配色
+実装: WebGL
+赤・緑・青を少し異なる座標で参照し、色収差のような縁をつくります。
+用途: 背景や画像の質感、映像の変形。
+使い方: 中心から離れた場所の色の縁を観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Ordered dithering — 少ない階調で濃淡を描く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/shader-dither.html
+カテゴリー: シェーダー・映像変形 / 質感・印刷表現 / 写真・画像表現
+実装: WebGL
+規則的なしきい値で明るさを振り分け、少ない階調を細かな模様で補います。
+用途: 背景や画像の質感、映像の変形。
+使い方: 階調2と8で比較し、遠くから見た濃淡も比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Moving light — 光源で立体を読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-light.html
+カテゴリー: 3D・立体表現
+実装: WebGL
+球の表面の法線と光の向きから、明るさを計算します。モデル形状は同じままです。
+用途: 立体の光、材質、反射の設計。
+使い方: 光を動かし、輪郭と陰影のどちらが立体を伝えるか見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Specular roughness — つやの広がりを変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-material.html
+カテゴリー: 3D・立体表現 / 質感・印刷表現
+実装: WebGL
+反射の集中度を変え、表面が滑らかにも粗くも見える状態を比較します。簡略化した反射モデルです。
+用途: 立体の光、材質、反射の設計。
+使い方: 反射の鋭さを上げ下げし、光の点の大きさを見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Environment reflection — 周囲の景色を映す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-reflect.html
+カテゴリー: 3D・立体表現 / 写真・画像表現
+実装: WebGL
+反射方向から手続き的な環境色を参照し、球へ映り込む模様を描きます。写真の環境マップは使っていません。
+用途: 立体の光、材質、反射の設計。
+使い方: 反射の割合を変え、陰影と映り込みを見比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL
+
+## Orbit camera — 立体の周りを回る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/three-orbit.html
+カテゴリー: 3D・立体表現
+実装: Canvas 2D
+頂点を二軸で回転させ、奥行きに応じて投影する大きさを変えます。
+用途: 立体物の見せ方、カメラの理解。
+使い方: 左右と上下の角度を変え、面が見えなくなるところを観察する。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API
+
+## Attack & release — 音の立ち上がりと余韻
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-envelope.html
+カテゴリー: 音・サウンド
+実装: Web Audio
+ゲインの時間変化で、鋭い音にも、ゆっくり消える音にもできます。
+用途: 効果音の設計、音色と空間の比較。
+使い方: 値を変えて再生。音程が同じでも素材感が変わるか聴いてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Oscillator timbre — 波形で音色を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-timbre.html
+カテゴリー: 音・サウンド
+実装: Web Audio
+正弦波・三角波・矩形波・鋸歯状波を、同じ音程で聴き比べます。
+用途: 効果音の設計、音色と空間の比較。
+使い方: 0=正弦波、1=三角波、2=矩形波、3=鋸歯状波。倍音の違いを聴く。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Low-pass filter — 高い成分を削る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-filter.html
+カテゴリー: 音・サウンド
+実装: Web Audio
+低い周波数を通すフィルターで、同じ音の明るさを変えます。
+用途: 効果音の設計、音色と空間の比較。
+使い方: カットオフを下げると、角のある音が丸くなるか聴く。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Feedback delay — 遅れて返る音
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-delay.html
+カテゴリー: 音・サウンド
+実装: Web Audio
+遅延した音の一部を戻し、繰り返し弱くなる反響をつくります。
+用途: 効果音の設計、音色と空間の比較。
+使い方: 間隔を変え、反響がリズムに変わるところを聴く。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Convolution reverb — 音に空間を与える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-reverb.html
+カテゴリー: 音・サウンド
+実装: Web Audio
+減衰するノイズから作ったインパルス応答を畳み込み、残響を加えます。実際の部屋の録音ではありません。
+用途: 効果音の設計、音色と空間の比較。
+使い方: 長さを変えて再生し、同じ音が別の場所に聞こえるか比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Spatial audio — 音の場所と距離を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/sound-spatial.html
+カテゴリー: 音・サウンド / 音と映像の連動 / 3D・立体表現
+実装: Web Audio
+HRTFによる定位と距離減衰を使い、合成音の位置を変えます。
+用途: 効果音の設計、音色と空間の比較。
+使い方: ヘッドホンで左右と距離を変えてみてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Amplitude reactive shape — 音の大きさを形にする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-amplitude.html
+カテゴリー: 音と映像の連動 / 音・サウンド / 形・線・輪郭
+実装: Web Audio
+実際の音声波形から実効値を計算し、円の大きさへ変換します。
+用途: 音楽に反応するビジュアルや、音の状態を伝える表示。
+使い方: 音が鳴るタイミングと円が広がるタイミングを見比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Frequency spectrum — 音の中の成分を見る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-spectrum.html
+カテゴリー: 音と映像の連動 / 音・サウンド / データの見せ方
+実装: Web Audio
+FFTで周波数成分を調べ、低い成分から順に棒として表示します。
+用途: 音楽に反応するビジュアルや、音の状態を伝える表示。
+使い方: 音程とフィルターを変え、棒の位置と高さを比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Live waveform — 鳴っている音を線で見る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-waveform.html
+カテゴリー: 音と映像の連動 / 音・サウンド / データの見せ方
+実装: Web Audio
+音声の時間領域データを取り出し、振幅を連続した線へ変換します。
+用途: 音楽に反応するビジュアルや、音の状態を伝える表示。
+使い方: 音程を上げると、同じ幅に入る波の数はどう変わる？
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Sound reactive particles — 音で粒子が呼吸する
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/av-particles.html
+カテゴリー: 音と映像の連動 / 粒子・群れ / 音・サウンド
+実装: Web Audio
+音声波形から求めた大きさを、粒子の集まりの半径と粒の大きさに結びつけます。
+用途: 音楽に反応するビジュアルや、音の状態を伝える表示。
+使い方: 拍の速さを変え、集合と拡散のリズムを感じる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API
+
+## Variable font weight — 文字の太さを連続して変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-variable.html
+カテゴリー: タイポグラフィ
+実装: HTML / CSS
+一つのフォント内の可変軸を使い、文字の太さを400から900まで連続して変えます。
+用途: 見出し、タイポグラフィ、文字の表情。
+使い方: 太さをゆっくり動かし、線の太さと文字の幅がどう変わるか見てください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts
+
+## Kinetic typography — 文字ごとに波を渡す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-kinetic.html
+カテゴリー: タイポグラフィ / 時間・リズム / アニメーション
+実装: HTML / CSS
+各文字の位相をずらし、文字列全体に波のような動きをつくります。
+用途: 見出し、タイポグラフィ、文字の表情。
+使い方: 振幅0と大きな振幅を比較し、読める範囲を探してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts
+
+## Type disassembly — 文字を分解して組み直す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-disassemble.html
+カテゴリー: タイポグラフィ / モーフィング・変形
+実装: HTML / CSS
+文字ごとの移動量と回転量を変え、散った文字を一行へ戻します。
+用途: 見出し、タイポグラフィ、文字の表情。
+使い方: 進行0と100の途中に、読める形が残るか探してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts
+
+## Typographic image — 文字の密度で絵をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-picture.html
+カテゴリー: タイポグラフィ / 写真・画像表現 / マスク・出現
+実装: HTML / CSS
+同じ文字を敷き詰め、文字の内側へ明暗の模様を映します。
+用途: 見出し、タイポグラフィ、文字の表情。
+使い方: 文字の大きさを変え、近くでは文字、遠くでは絵になる境目を探す。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts
+
+## Print grain — 粒状感を重ねる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-grain.html
+カテゴリー: 質感・印刷表現 / 写真・画像表現 / 生成・アルゴリズム
+実装: SVG
+SVGのノイズを低い不透明度で重ね、均一な面へ細かなばらつきを加えます。
+用途: 印刷物のような質感、画像や背景の表現。
+使い方: 不透明度を0にして、ノイズがある時とない時を比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Paper folds — 折り目から紙を感じる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-paper.html
+カテゴリー: 質感・印刷表現 / 影・光・奥行き
+実装: HTML / CSS
+細い陰影と色の差を重ね、平面へ折り目のような手がかりを与えます。
+用途: 印刷物のような質感、画像や背景の表現。
+使い方: 折り目の位置と濃さを変え、素材に見える強さを探す。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Print misregistration — 版のずれを見せる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-registration.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ / 合成・ブレンド
+実装: HTML / CSS
+同じ文字を異なる位置へ重ね、印刷の版ずれに似た縁をつくります。
+用途: 印刷物のような質感、画像や背景の表現。
+使い方: ずれを0へ戻してから広げ、輪郭の変化を比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Cut-paper collage — 切った形を重ねる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/image-collage.html
+カテゴリー: 写真・画像表現 / 質感・印刷表現 / レイアウト・余白
+実装: HTML / CSS
+切り抜き、傾き、重なり、影を組み合わせて、紙片を並べたように構成します。
+用途: 印刷物のような質感、画像や背景の表現。
+使い方: 傾きと重なりを変え、同じ素材で構図をつくる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Intrinsic grid — 入るだけの列をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-intrinsic.html
+カテゴリー: レイアウト・余白
+実装: HTML / CSS
+最小幅を決め、領域に収まる列数をCSS Gridに選ばせます。
+用途: カードや読み物の構成、情報の見せ方。
+使い方: 幅を変え、特定の端末名によらず列数が変わる様子を見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Layout density — 余白で情報の密度を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-density.html
+カテゴリー: レイアウト・余白
+実装: HTML / CSS
+同じ六つの項目を、間隔だけ変えて並べます。
+用途: カードや読み物の構成、情報の見せ方。
+使い方: 余白を増やした時、まとまりと読みやすさはどう変わる？
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Alignment rhythm — 整列を少し崩す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-alignment.html
+カテゴリー: レイアウト・余白
+実装: HTML / CSS
+共通の基準線から要素をずらし、揃う部分と崩れる部分を比較します。
+用途: カードや読み物の構成、情報の見せ方。
+使い方: ずれを0へ戻し、どこに秩序を感じるか比べる。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Visual hierarchy — 大きさで読む順序をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/layout-hierarchy.html
+カテゴリー: レイアウト・余白
+実装: HTML / CSS
+一つの要素だけを大きくし、同じ内容の中へ視覚的な優先順位をつくります。
+用途: カードや読み物の構成、情報の見せ方。
+使い方: 主役の大きさを変え、最初に見てしまう場所を観察する。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS
+
+## Looping video — 映像を継ぎ目なく繰り返す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-loop.html
+カテゴリー: 映像の見せ方 / 時間・リズム
+実装: HTML Video
+円運動の始点と終点をそろえた、3秒のオリジナル映像を繰り返します。
+用途: 短い映像の編集、再生方法、静と動の組み合わせ。
+使い方: 回転が一周する瞬間に、継ぎ目を感じるか観察してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Ping-pong playback — 行って、戻る映像
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-pingpong.html
+カテゴリー: 映像の見せ方 / 時間・リズム
+実装: HTML Video
+順再生の後、再生位置を少しずつ戻して逆向きに再生します。逆再生側はシークによる近似です。
+用途: 短い映像の編集、再生方法、静と動の組み合わせ。
+使い方: 折り返しの瞬間に、速度の向きがどう変わるかを見る。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Playback speed — 速度が映像の印象を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-speed.html
+カテゴリー: 映像の見せ方 / 時間・リズム
+実装: HTML Video
+同じ動画の再生速度だけを変えて、時間の感じ方を比較します。
+用途: 短い映像の編集、再生方法、静と動の組み合わせ。
+使い方: 0.25倍、1倍、2倍を続けて比較してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Frame scrubbing — 映像を一コマずつ読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-scrub.html
+カテゴリー: 映像の見せ方 / 時間・リズム
+実装: HTML Video
+動画の再生位置を指定して、動きの途中を止めて観察します。
+用途: 短い映像の編集、再生方法、静と動の組み合わせ。
+使い方: スライダーで場所を選び、1コマずつ進めてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Cinemagraph window — 一部分だけが動く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-cinemagraph.html
+カテゴリー: 映像の見せ方 / マスク・出現 / 写真・画像表現
+実装: HTML Video
+静止画と動画を重ね、動画の表示領域を切り抜いて一部だけ動かします。
+用途: 短い映像の編集、再生方法、静と動の組み合わせ。
+使い方: 動く領域を狭め、静止した部分との関係を観察する。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement

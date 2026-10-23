@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import {all,byId} from '../dist/catalog.js';
+import {all,byId,belongsTo} from '../dist/catalog.js';
 import {trails,normalize,filterEntries,connections} from '../dist/discovery.js';
 
 assert.equal(normalize('ＰＡＲＡＬＬＡＸ'),'parallax');
@@ -14,8 +14,8 @@ for(const t of trails){
  assert.equal(new Set(t.ids).size,t.ids.length);
  for(const id of t.ids)assert.ok(byId.has(id));
 }
-assert.equal(filterEntries({category:'sound'}).length,all.filter(e=>e.category==='sound').length);
+assert.equal(filterEntries({category:'sound'}).length,all.filter(e=>belongsTo(e,'sound')).length);
 assert.deepEqual(filterEntries({category:'saved',favorites:new Set(['fade-in'])}).map(e=>e.id),['fade-in']);
 for(const e of all){const c=connections(e.id);assert.equal(new Set(c.map(r=>r.entry.id)).size,c.length);assert.ok(c.every(r=>r.entry.id!==e.id));}
 assert.equal(connections('scroll-layered-parallax')[0].reason,'遠近感をつくる角度を見る');
-console.log('Passed: normalized and multi-word search, intent aliases, filters, six trails, and related expressions.');
+console.log('Passed: normalized and multi-word search, intent aliases, filters, exploration trails, and related expressions.');

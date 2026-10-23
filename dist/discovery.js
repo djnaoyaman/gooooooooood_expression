@@ -1,4 +1,4 @@
-import {all, categories, byId} from './catalog.js';
+import {all, categories, byId, categoryGroups, belongsTo, inputOptions, engineOptions} from './catalog.js';
 
 export const trails = [
  {id:'depth',name:'平面に、奥行きが生まれる。',question:'動く速さが違うだけで、なぜ遠くに見える？',label:'奥行きを探る',ids:['scroll-layered-parallax','three-perspective','shadow-lift','texture-glass','svg-displacement'],prompts:['手前と奥の速さを見比べる','遠近感をつくる角度を見る','影だけで浮いて見えるか試す','重なりと透け方を観察する','輪郭をゆがめて素材感を変える']},
@@ -6,11 +6,29 @@ export const trails = [
  {id:'letters',name:'文字は、どこまで表現できる？',question:'読めることと、見たくなることの間へ。',label:'文字の可能性',ids:['type-outline','letter-spread','type-text-path','scroll-text-fill','type-line-reveal'],prompts:['中を抜いた文字の存在感を見る','文字間を動かして空気を変える','文字を曲線に沿わせる','読む進度と文字の変化を重ねる','一行ずつ現れるリズムを試す']},
  {id:'reveal',name:'隠すことから、見せ方を考える。',question:'最初から全部見えないと、何が気になる？',label:'登場と切り替え',ids:['circle-reveal','image-mask','scroll-pinned-story','scroll-scene-crossfade','ui-skeleton'],prompts:['視線が円の中心へ集まるか見る','境界をぼかして隠す','画面を留めたまま物語を進める','二つの場面が重なる瞬間を見る','待ち時間の見せ方を切り替える']},
  {id:'response',name:'触れた手応えを、デザインする。',question:'動きと音で、操作はどこまで伝わる？',label:'操作の手応え',ids:['interaction-hover','adv-spring-drag','adv-pointer-spotlight','ui-toggle','sound-click'],prompts:['触れたときの距離感を見る','引っ張って、離してみる','光を指先で動かす','状態の違いを目で確かめる','短い音が伝える合図を聴く']},
- {id:'composition',name:'並べ方ひとつで、世界が変わる。',question:'同じ内容を、違う余白で組んだら？',label:'構成と余白',ids:['layout-spacing','layout-grid','layout-bento','layout-container-query','style-editorial'],prompts:['余白がつくるまとまりを見る','縦横の基準線を探す','大きさの違いで視線を誘導する','部品の幅を変えて変化を見る','文字の強弱で読む順番をつくる']}
+ {id:'composition',name:'並べ方ひとつで、世界が変わる。',question:'同じ内容を、違う余白で組んだら？',label:'構成と余白',ids:['layout-spacing','layout-grid','layout-bento','layout-container-query','style-editorial'],prompts:['余白がつくるまとまりを見る','縦横の基準線を探す','大きさの違いで視線を誘導する','部品の幅を変えて変化を見る','文字の強弱で読む順番をつくる']},
+ {id:'forces',name:'動きに、重さを感じる。',question:'速さの曲線と、力の計算は何が違う？',label:'力と時間',ids:['easing-back-out','physics-spring','physics-gravity','physics-inertia','rhythm-anticipation'],prompts:['決まった曲線を観察する','ばねの強さと減衰を変える','反発を小さくして落とす','投げた後の減速を比べる','動き出す前の予備動作を見る']},
+ {id:'rules',name:'小さなルールから、世界が生まれる。',question:'数式を少し変えると、どんな模様になる？',label:'生成のルール',ids:['particles-phyllotaxis','generative-fractal','generative-voronoi','generative-automaton','shader-ripple'],prompts:['点の数と間隔を変える','枝の数と深さを変える','点の数を増やす','ルール番号を変える','ゆがみの強さを変える']},
+ {id:'perception',name:'見えているものを、疑ってみる。',question:'同じ色、同じ長さなのに違って見える？',label:'見え方の不思議',ids:['illusion-contrast','illusion-length','illusion-figure','illusion-moire','blend-difference'],prompts:['背景を揃えて確かめる','補助線で長さを確かめる','図と地を入れ替える','角度を少し変える','重なる部分の明暗を見る']},
+ {id:'listening',name:'音が、形になる。',question:'波の違いは、耳と目でどう伝わる？',label:'音と映像',ids:['sound-envelope','sound-timbre','av-waveform','av-spectrum','av-amplitude'],prompts:['音の立ち上がりを変える','波形ごとの音色を聴く','音の振動を見る','周波数の分布を見る','音量が形になる様子を見る']}
+
 ];
 
 // Intent vocabulary connects everyday language with technical names.
 const concepts = [
+ {terms:['粒子','粒','群れ','particle'],categories:['particles']},
+ {terms:['重力','ばね','慣性','物理','physics'],categories:['physics']},
+ {terms:['リズム','時間差','順番'],categories:['rhythm']},
+ {terms:['変形','モーフ','morph'],categories:['morph']},
+ {terms:['隠す','出現','切り抜き','mask'],categories:['mask']},
+ {terms:['切り替え','遷移','transition'],categories:['transition']},
+ {terms:['合成','重ねる','blend'],categories:['blend']},
+ {terms:['追従','ドラッグ','タッチ','gesture'],categories:['gesture']},
+ {terms:['錯視','知覚','illusion'],categories:['illusion']},
+ {terms:['生成','アルゴリズム','フラクタル'],categories:['generative']},
+ {terms:['シェーダー','gpu','shader'],categories:['shader']},
+ {terms:['音楽','音に反応','ビジュアライザー'],categories:['audiovisual']},
+ {terms:['動画','ビデオ','video'],categories:['media']},
  {terms:['ふわっと','ふわふわ','やわらかい','柔らかい','ソフト'],ids:['fade-in','float','shadow-soft','easing-sine-in-out','sound-tap','blur-in']},
  {terms:['ぷるぷる','ぷるん','弾む','はずむ','バネ','ばね','バウンス'],ids:['jelly','rubber-band','bounce','squash-stretch','elastic-in','adv-spring-drag','easing-back-out','easing-elastic-out','easing-bounce-out']},
  {terms:['パララックス','parallax','視差'],ids:['scroll-layered-parallax','scroll-depth-parallax','scroll-counter-parallax']},
@@ -26,15 +44,15 @@ const concepts = [
 ];
 export const suggestions=['ふわっと','弾む','奥行き','文字','反応'];
 export function normalize(value){return String(value??'').normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60)).replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim()}
-const fields=new Map(all.map(e=>[e.id,{name:normalize(e.name+' '+e.ja),body:normalize([e.description,e.use,e.tip,...e.tags,...(categories.find(c=>c[0]===e.category)||[])].join(' '))}]));
-const aliases=new Map(all.map(e=>[e.id,concepts.filter(c=>c.ids?.includes(e.id)||c.categories?.includes(e.category)).flatMap(c=>c.terms).map(normalize)]));
+const fields=new Map(all.map(e=>[e.id,{name:normalize(e.name+' '+e.ja),body:normalize([e.description,e.use,e.tip,...e.tags,...categories.filter(c=>belongsTo(e,c[0])).flat(),...inputOptions.filter(x=>e.inputs.includes(x[0])).flat(),...engineOptions.find(x=>x[0]===e.engine)].join(' '))}]));
+const aliases=new Map(all.map(e=>[e.id,concepts.filter(c=>c.ids?.includes(e.id)||c.categories?.some(id=>belongsTo(e,id))).flatMap(c=>c.terms).map(normalize)]));
 export function searchScore(e,query){
  const terms=normalize(query).split(' ').filter(Boolean);if(!terms.length)return 1;
  const f=fields.get(e.id);if(!f)return 0;
  let total=0;for(const term of terms){const score=f.name===term?100:f.name.includes(term)?30:aliases.get(e.id).some(a=>a===term)?24:f.body.includes(term)?8:0;if(!score)return 0;total+=score}return total;
 }
-export function filterEntries({query='',category='all',trail='',favorites=new Set(),sort='curated',entries=all}={}){
- const path=trails.find(t=>t.id===trail);let rows=entries.map((e,i)=>({e,i,score:searchScore(e,query)})).filter(({e,score})=>score&&(category==='all'||category==='saved'&&favorites.has(e.id)||category===e.category)&&(!path||path.ids.includes(e.id)));
+export function filterEntries({query='',category='all',area='all',input='all',engine='all',trail='',favorites=new Set(),sort='curated',entries=all}={}){
+ const path=trails.find(t=>t.id===trail);let rows=entries.map((e,i)=>({e,i,score:searchScore(e,query)})).filter(({e,score})=>score&&(category==='all'||category==='saved'&&favorites.has(e.id)||belongsTo(e,category))&&(area==='all'||categoryGroups.find(g=>g.id===area)?.categories.some(id=>belongsTo(e,id)))&&(input==='all'||e.inputs.includes(input))&&(engine==='all'||e.engine===engine)&&(!path||path.ids.includes(e.id)));
  rows.sort((a,b)=>sort==='name'?a.e.name.localeCompare(b.e.name):query?b.score-a.score||a.i-b.i:path?path.ids.indexOf(a.e.id)-path.ids.indexOf(b.e.id):a.i-b.i);
  return rows.map(r=>r.e);
 }
@@ -47,4 +65,4 @@ export function connections(id){
  const neighbor=all.find(x=>x.category===e.category&&x.id!==id);if(neighbor)related.push({entry:neighbor,reason:'同じ分野の表現と見比べる'});
  return related.filter((r,i)=>related.findIndex(x=>x.entry.id===r.entry.id)===i).slice(0,3);
 }
-export function promptFor(id){for(const t of trails){const i=t.ids.indexOf(id);if(i>=0)return t.prompts[i]}return 'どこが変わるかを観察して、似た表現と見比べてみよう。'}
+export function promptFor(id){if(byId.get(id)?.prompt)return byId.get(id).prompt;for(const t of trails){const i=t.ids.indexOf(id);if(i>=0)return t.prompts[i]}return 'どこが変わるかを観察して、似た表現と見比べてみよう。'}

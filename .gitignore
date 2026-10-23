@@ -4,3 +4,5 @@ node_modules/
 .env.*
 *.log
 dist/qa-*.html
+
+dist/_qa.html

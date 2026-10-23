@@ -1,0 +1,4451 @@
+{
+  "specimens": 271,
+  "categories": 31,
+  "areas": 6,
+  "trails": 10,
+  "note": "Specimen totals are unique. Category totals include cross-references.",
+  "groups": [
+    {
+      "id": "movement",
+      "name": "動きと時間",
+      "categories": [
+        "motion",
+        "easing",
+        "physics",
+        "rhythm",
+        "transition",
+        "morph",
+        "scroll"
+      ],
+      "count": 133
+    },
+    {
+      "id": "surface",
+      "name": "形・色・質感",
+      "categories": [
+        "shape",
+        "color",
+        "gradient",
+        "shadow",
+        "texture",
+        "image",
+        "mask",
+        "blend"
+      ],
+      "count": 62
+    },
+    {
+      "id": "composition",
+      "name": "文字と構成",
+      "categories": [
+        "type",
+        "layout",
+        "style"
+      ],
+      "count": 33
+    },
+    {
+      "id": "response",
+      "name": "操作と反応",
+      "categories": [
+        "ui",
+        "interaction",
+        "gesture"
+      ],
+      "count": 19
+    },
+    {
+      "id": "systems",
+      "name": "生成と空間",
+      "categories": [
+        "particles",
+        "generative",
+        "shader",
+        "illusion",
+        "svg",
+        "three",
+        "data"
+      ],
+      "count": 42
+    },
+    {
+      "id": "listening",
+      "name": "音と映像",
+      "categories": [
+        "sound",
+        "audiovisual",
+        "media"
+      ],
+      "count": 34
+    }
+  ],
+  "categoryCounts": [
+    {
+      "id": "motion",
+      "name": "アニメーション",
+      "primary": 55,
+      "indexed": 63
+    },
+    {
+      "id": "easing",
+      "name": "イージング",
+      "primary": 36,
+      "indexed": 36
+    },
+    {
+      "id": "physics",
+      "name": "物理・慣性",
+      "primary": 4,
+      "indexed": 7
+    },
+    {
+      "id": "rhythm",
+      "name": "時間・リズム",
+      "primary": 4,
+      "indexed": 12
+    },
+    {
+      "id": "transition",
+      "name": "画面遷移",
+      "primary": 4,
+      "indexed": 9
+    },
+    {
+      "id": "morph",
+      "name": "モーフィング・変形",
+      "primary": 4,
+      "indexed": 6
+    },
+    {
+      "id": "scroll",
+      "name": "スクロール・視差",
+      "primary": 16,
+      "indexed": 18
+    },
+    {
+      "id": "shape",
+      "name": "形・線・輪郭",
+      "primary": 5,
+      "indexed": 10
+    },
+    {
+      "id": "color",
+      "name": "色・配色",
+      "primary": 5,
+      "indexed": 6
+    },
+    {
+      "id": "gradient",
+      "name": "グラデーション",
+      "primary": 5,
+      "indexed": 5
+    },
+    {
+      "id": "shadow",
+      "name": "影・光・奥行き",
+      "primary": 4,
+      "indexed": 5
+    },
+    {
+      "id": "texture",
+      "name": "質感・印刷表現",
+      "primary": 7,
+      "indexed": 16
+    },
+    {
+      "id": "image",
+      "name": "写真・画像表現",
+      "primary": 5,
+      "indexed": 19
+    },
+    {
+      "id": "mask",
+      "name": "マスク・出現",
+      "primary": 4,
+      "indexed": 17
+    },
+    {
+      "id": "blend",
+      "name": "合成・ブレンド",
+      "primary": 4,
+      "indexed": 6
+    },
+    {
+      "id": "type",
+      "name": "タイポグラフィ",
+      "primary": 11,
+      "indexed": 15
+    },
+    {
+      "id": "layout",
+      "name": "レイアウト・余白",
+      "primary": 10,
+      "indexed": 13
+    },
+    {
+      "id": "style",
+      "name": "デザイン様式",
+      "primary": 5,
+      "indexed": 5
+    },
+    {
+      "id": "ui",
+      "name": "UIパーツ",
+      "primary": 5,
+      "indexed": 5
+    },
+    {
+      "id": "interaction",
+      "name": "UIの反応",
+      "primary": 6,
+      "indexed": 11
+    },
+    {
+      "id": "gesture",
+      "name": "ジェスチャー・追従",
+      "primary": 4,
+      "indexed": 9
+    },
+    {
+      "id": "particles",
+      "name": "粒子・群れ",
+      "primary": 4,
+      "indexed": 6
+    },
+    {
+      "id": "generative",
+      "name": "生成・アルゴリズム",
+      "primary": 4,
+      "indexed": 8
+    },
+    {
+      "id": "shader",
+      "name": "シェーダー・映像変形",
+      "primary": 4,
+      "indexed": 5
+    },
+    {
+      "id": "illusion",
+      "name": "錯視・知覚",
+      "primary": 4,
+      "indexed": 4
+    },
+    {
+      "id": "svg",
+      "name": "SVG・アイコン",
+      "primary": 6,
+      "indexed": 8
+    },
+    {
+      "id": "three",
+      "name": "3D・立体表現",
+      "primary": 8,
+      "indexed": 9
+    },
+    {
+      "id": "data",
+      "name": "データの見せ方",
+      "primary": 4,
+      "indexed": 6
+    },
+    {
+      "id": "sound",
+      "name": "音・サウンド",
+      "primary": 22,
+      "indexed": 26
+    },
+    {
+      "id": "audiovisual",
+      "name": "音と映像の連動",
+      "primary": 4,
+      "indexed": 5
+    },
+    {
+      "id": "media",
+      "name": "映像の見せ方",
+      "primary": 8,
+      "indexed": 8
+    }
+  ],
+  "engines": [
+    {
+      "id": "css",
+      "name": "HTML / CSS",
+      "count": 185
+    },
+    {
+      "id": "svg",
+      "name": "SVG",
+      "count": 19
+    },
+    {
+      "id": "canvas",
+      "name": "Canvas 2D",
+      "count": 29
+    },
+    {
+      "id": "webgl",
+      "name": "WebGL",
+      "count": 7
+    },
+    {
+      "id": "audio",
+      "name": "Web Audio",
+      "count": 26
+    },
+    {
+      "id": "video",
+      "name": "HTML Video",
+      "count": 5
+    }
+  ],
+  "inputs": [
+    {
+      "id": "watch",
+      "name": "動きを見る",
+      "count": 248
+    },
+    {
+      "id": "adjust",
+      "name": "数値を変える",
+      "count": 182
+    },
+    {
+      "id": "pointer",
+      "name": "触って動かす",
+      "count": 16
+    },
+    {
+      "id": "scroll",
+      "name": "スクロールする",
+      "count": 18
+    },
+    {
+      "id": "listen",
+      "name": "音を聴く",
+      "count": 26
+    }
+  ],
+  "entries": [
+    {
+      "id": "fade-in",
+      "name": "Fade in",
+      "ja": "ふわっと現れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+    },
+    {
+      "id": "fade-out",
+      "name": "Fade out",
+      "ja": "静かに消える",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+    },
+    {
+      "id": "slide-up",
+      "name": "Slide up",
+      "ja": "下からせり上がる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "slide-down",
+      "name": "Slide down",
+      "ja": "上から降りてくる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "slide-left",
+      "name": "Slide left",
+      "ja": "右から入る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "slide-right",
+      "name": "Slide right",
+      "ja": "左から入る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "zoom-in",
+      "name": "Zoom in",
+      "ja": "小さく始まり、大きく",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "zoom-out",
+      "name": "Zoom out",
+      "ja": "大きく始まり、収まる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "pop-in",
+      "name": "Pop in",
+      "ja": "ぽん、と現れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "bounce",
+      "name": "Bounce",
+      "ja": "ぽんぽん跳ねる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "float",
+      "name": "Float",
+      "ja": "ふわふわ浮く",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "pulse",
+      "name": "Pulse",
+      "ja": "ゆっくり脈打つ",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "swing",
+      "name": "Swing",
+      "ja": "吊られて揺れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "wobble",
+      "name": "Wobble",
+      "ja": "ぐらぐら揺れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "shake-x",
+      "name": "Shake X",
+      "ja": "左右に首を振る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "shake-y",
+      "name": "Shake Y",
+      "ja": "上下に小さく揺れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "rubber-band",
+      "name": "Rubber band",
+      "ja": "ゴムのように伸びる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "jelly",
+      "name": "Jelly",
+      "ja": "ぷるんと震える",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "spin",
+      "name": "Spin",
+      "ja": "くるりと一回転",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "flip-x",
+      "name": "Flip X",
+      "ja": "縦にひっくり返る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "flip-y",
+      "name": "Flip Y",
+      "ja": "横にひっくり返る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "tilt-3d",
+      "name": "3D tilt",
+      "ja": "立体的に傾く",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "ja": "円を描いて巡る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "figure-eight",
+      "name": "Figure eight",
+      "ja": "8の字をたどる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "spiral-in",
+      "name": "Spiral in",
+      "ja": "回りながら現れる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "hinge-out",
+      "name": "Hinge out",
+      "ja": "端からぶら下がり、落ちる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "roll-in",
+      "name": "Roll in",
+      "ja": "転がって入る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "blur-in",
+      "name": "Blur in",
+      "ja": "ぼやけた輪郭が結ばれる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter"
+    },
+    {
+      "id": "blur-out",
+      "name": "Blur out",
+      "ja": "ぼやけながら消える",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter"
+    },
+    {
+      "id": "wipe-right",
+      "name": "Wipe right",
+      "ja": "左から幕が開く",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "mask",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "wipe-up",
+      "name": "Wipe up",
+      "ja": "下から幕が開く",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "mask",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "circle-reveal",
+      "name": "Circle reveal",
+      "ja": "円が広がって現れる",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "diamond-reveal",
+      "name": "Diamond reveal",
+      "ja": "ひし形が開く",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "curtain-open",
+      "name": "Curtain open",
+      "ja": "中央から左右に開く",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "mask",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "diagonal-wipe",
+      "name": "Diagonal wipe",
+      "ja": "斜めに切り開く",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "blob-morph",
+      "name": "Blob morph",
+      "ja": "有機的に形を変える",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "morph"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius"
+    },
+    {
+      "id": "square-to-circle",
+      "name": "Square to circle",
+      "ja": "四角が丸になる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius"
+    },
+    {
+      "id": "color-shift",
+      "name": "Color shift",
+      "ja": "色が移り変わる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+    },
+    {
+      "id": "glow",
+      "name": "Glow",
+      "ja": "やわらかく光る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
+    },
+    {
+      "id": "shadow-lift",
+      "name": "Shadow lift",
+      "ja": "影とともに浮き上がる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow"
+    },
+    {
+      "id": "letter-spread",
+      "name": "Letter spread",
+      "ja": "文字の間がひらく",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+    },
+    {
+      "id": "tracking-in",
+      "name": "Tracking in",
+      "ja": "文字が寄り集まる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+    },
+    {
+      "id": "text-glow",
+      "name": "Text glow",
+      "ja": "文字の縁が光る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats"
+    },
+    {
+      "id": "skew-in",
+      "name": "Skew in",
+      "ja": "斜めの勢いで入る",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "typewriter",
+      "name": "Typewriter reveal",
+      "ja": "文字を段階的に見せる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+    },
+    {
+      "id": "squash-stretch",
+      "name": "Squash & stretch",
+      "ja": "つぶれて、伸びる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "grow-x",
+      "name": "Grow X",
+      "ja": "左端から伸びる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "elastic-in",
+      "name": "Elastic in",
+      "ja": "ばねのように収まる",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform"
+    },
+    {
+      "id": "color-hex",
+      "name": "HEX color",
+      "ja": "16進数のカラーコード",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/hex-color"
+    },
+    {
+      "id": "color-alpha",
+      "name": "Alpha transparency",
+      "ja": "色の透け具合",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/rgb"
+    },
+    {
+      "id": "color-hsl",
+      "name": "HSL color",
+      "ja": "色相・彩度・明度",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/hsl"
+    },
+    {
+      "id": "color-oklch",
+      "name": "OKLCH lightness",
+      "ja": "知覚を考慮した明るさ",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch"
+    },
+    {
+      "id": "color-mix",
+      "name": "Color mixing",
+      "ja": "CSSで色を混ぜる",
+      "category": "color",
+      "categories": [
+        "color"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix"
+    },
+    {
+      "id": "gradient-linear",
+      "name": "Linear gradient",
+      "ja": "線形グラデーション",
+      "category": "gradient",
+      "categories": [
+        "gradient"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient"
+    },
+    {
+      "id": "gradient-radial",
+      "name": "Radial gradient",
+      "ja": "放射状グラデーション",
+      "category": "gradient",
+      "categories": [
+        "gradient"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient"
+    },
+    {
+      "id": "gradient-conic",
+      "name": "Conic gradient",
+      "ja": "円錐形グラデーション",
+      "category": "gradient",
+      "categories": [
+        "gradient"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
+    },
+    {
+      "id": "gradient-repeat",
+      "name": "Repeating gradient",
+      "ja": "繰り返すグラデーション",
+      "category": "gradient",
+      "categories": [
+        "gradient"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient"
+    },
+    {
+      "id": "gradient-layered",
+      "name": "Layered gradients",
+      "ja": "重ねてつくる色の雲",
+      "category": "gradient",
+      "categories": [
+        "gradient"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-image"
+    },
+    {
+      "id": "type-tracking",
+      "name": "Letter spacing",
+      "ja": "字間",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing"
+    },
+    {
+      "id": "type-leading",
+      "name": "Line height",
+      "ja": "行間",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-height"
+    },
+    {
+      "id": "type-outline",
+      "name": "Text outline",
+      "ja": "文字の輪郭線",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke"
+    },
+    {
+      "id": "type-gradient",
+      "name": "Gradient text",
+      "ja": "文字にグラデーション",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip"
+    },
+    {
+      "id": "type-vertical",
+      "name": "Vertical writing",
+      "ja": "縦書き",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/writing-mode"
+    },
+    {
+      "id": "layout-grid",
+      "name": "CSS Grid",
+      "ja": "縦横をそろえるグリッド",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns"
+    },
+    {
+      "id": "layout-flex",
+      "name": "Flexbox",
+      "ja": "一方向に並べる",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex"
+    },
+    {
+      "id": "layout-bento",
+      "name": "Spanning grid",
+      "ja": "大小を組み合わせるグリッド",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column"
+    },
+    {
+      "id": "layout-overlap",
+      "name": "Layered composition",
+      "ja": "重ねて組む",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index"
+    },
+    {
+      "id": "layout-spacing",
+      "name": "Spacing scale",
+      "ja": "余白の尺度",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/gap"
+    },
+    {
+      "id": "shape-radius",
+      "name": "Border radius",
+      "ja": "角丸",
+      "category": "shape",
+      "categories": [
+        "shape"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius"
+    },
+    {
+      "id": "shape-blob",
+      "name": "Organic radius",
+      "ja": "有機的な輪郭",
+      "category": "shape",
+      "categories": [
+        "shape"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius"
+    },
+    {
+      "id": "shape-polygon",
+      "name": "Polygon clipping",
+      "ja": "多角形で切り抜く",
+      "category": "shape",
+      "categories": [
+        "shape"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+    },
+    {
+      "id": "shape-border",
+      "name": "Border styles",
+      "ja": "線の表情",
+      "category": "shape",
+      "categories": [
+        "shape"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style"
+    },
+    {
+      "id": "shadow-soft",
+      "name": "Soft shadow",
+      "ja": "柔らかな影",
+      "category": "shadow",
+      "categories": [
+        "shadow"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+    },
+    {
+      "id": "shadow-hard",
+      "name": "Hard shadow",
+      "ja": "輪郭のある影",
+      "category": "shadow",
+      "categories": [
+        "shadow"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+    },
+    {
+      "id": "shadow-inset",
+      "name": "Inset shadow",
+      "ja": "内側の影",
+      "category": "shadow",
+      "categories": [
+        "shadow"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+    },
+    {
+      "id": "shadow-glow",
+      "name": "Outer glow",
+      "ja": "外側への発光",
+      "category": "shadow",
+      "categories": [
+        "shadow"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+    },
+    {
+      "id": "texture-glass",
+      "name": "Frosted glass",
+      "ja": "すりガラス",
+      "category": "texture",
+      "categories": [
+        "texture"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter"
+    },
+    {
+      "id": "texture-halftone",
+      "name": "Halftone dots",
+      "ja": "網点のパターン",
+      "category": "texture",
+      "categories": [
+        "texture"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient"
+    },
+    {
+      "id": "texture-multiply",
+      "name": "Multiply blend",
+      "ja": "乗算で重ねる",
+      "category": "texture",
+      "categories": [
+        "texture"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+    },
+    {
+      "id": "texture-checker",
+      "name": "Checker pattern",
+      "ja": "市松模様",
+      "category": "texture",
+      "categories": [
+        "texture"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient"
+    },
+    {
+      "id": "image-grayscale",
+      "name": "Grayscale filter",
+      "ja": "白黒にする",
+      "category": "image",
+      "categories": [
+        "image"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/grayscale"
+    },
+    {
+      "id": "image-hue",
+      "name": "Hue rotation",
+      "ja": "色相を回転する",
+      "category": "image",
+      "categories": [
+        "image"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate"
+    },
+    {
+      "id": "image-mask",
+      "name": "Gradient mask",
+      "ja": "なだらかに隠す",
+      "category": "image",
+      "categories": [
+        "image",
+        "mask"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+    },
+    {
+      "id": "image-crop",
+      "name": "Circular crop",
+      "ja": "円形にトリミング",
+      "category": "image",
+      "categories": [
+        "image"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+    },
+    {
+      "id": "svg-linecap",
+      "name": "Stroke linecap",
+      "ja": "線の端の形",
+      "category": "svg",
+      "categories": [
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-linecap"
+    },
+    {
+      "id": "svg-dash",
+      "name": "Stroke dasharray",
+      "ja": "線を破線にする",
+      "category": "svg",
+      "categories": [
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray"
+    },
+    {
+      "id": "svg-bezier",
+      "name": "Bézier curve",
+      "ja": "ベジェ曲線",
+      "category": "svg",
+      "categories": [
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths"
+    },
+    {
+      "id": "svg-fill-rule",
+      "name": "Even-odd fill",
+      "ja": "重なる内側を抜く",
+      "category": "svg",
+      "categories": [
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/fill-rule"
+    },
+    {
+      "id": "ui-details",
+      "name": "Disclosure",
+      "ja": "開閉する情報",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details"
+    },
+    {
+      "id": "ui-toggle",
+      "name": "Toggle switch",
+      "ja": "切り替えスイッチ",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox"
+    },
+    {
+      "id": "ui-range",
+      "name": "Range input",
+      "ja": "連続値のスライダー",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/range"
+    },
+    {
+      "id": "ui-segmented",
+      "name": "Segmented selection",
+      "ja": "選択肢を並べる",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio"
+    },
+    {
+      "id": "interaction-hover",
+      "name": "Hover elevation",
+      "ja": "触れると浮く",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition"
+    },
+    {
+      "id": "interaction-focus",
+      "name": "Focus ring",
+      "ja": "操作位置を示す輪郭",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible"
+    },
+    {
+      "id": "interaction-scroll-snap",
+      "name": "Scroll snap",
+      "ja": "区切りに吸着するスクロール",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type"
+    },
+    {
+      "id": "interaction-resize",
+      "name": "Resizable region",
+      "ja": "大きさを変えられる領域",
+      "category": "interaction",
+      "categories": [
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/resize"
+    },
+    {
+      "id": "data-bars",
+      "name": "Bar chart",
+      "ja": "棒グラフ",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role"
+    },
+    {
+      "id": "data-donut",
+      "name": "Donut chart",
+      "ja": "ドーナツグラフ",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient"
+    },
+    {
+      "id": "data-sparkline",
+      "name": "Sparkline",
+      "ja": "小さな折れ線グラフ",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/polyline"
+    },
+    {
+      "id": "data-heatmap",
+      "name": "Heatmap",
+      "ja": "色で量を示す",
+      "category": "data",
+      "categories": [
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity"
+    },
+    {
+      "id": "three-perspective",
+      "name": "CSS perspective",
+      "ja": "遠近感をつける",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective"
+    },
+    {
+      "id": "three-cube",
+      "name": "CSS cube",
+      "ja": "CSSで組む立方体",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-style"
+    },
+    {
+      "id": "three-flip",
+      "name": "Card flip",
+      "ja": "裏返して見せる",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "css",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backface-visibility"
+    },
+    {
+      "id": "three-isometric",
+      "name": "Isometric-style layers",
+      "ja": "等角投影風の重なり",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+    },
+    {
+      "id": "media-waveform",
+      "name": "Waveform graphic",
+      "ja": "波形のグラフィック",
+      "category": "media",
+      "categories": [
+        "media"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items"
+    },
+    {
+      "id": "media-aspect",
+      "name": "Aspect ratio",
+      "ja": "映像の縦横比",
+      "category": "media",
+      "categories": [
+        "media"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio"
+    },
+    {
+      "id": "media-captions",
+      "name": "Caption contrast",
+      "ja": "字幕の背景",
+      "category": "media",
+      "categories": [
+        "media"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track"
+    },
+    {
+      "id": "style-minimal",
+      "name": "Minimal composition",
+      "ja": "要素を絞った構成",
+      "category": "style",
+      "categories": [
+        "style"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing"
+    },
+    {
+      "id": "style-swiss",
+      "name": "Typographic grid",
+      "ja": "文字とグリッドの構成",
+      "category": "style",
+      "categories": [
+        "style"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid"
+    },
+    {
+      "id": "style-brutal",
+      "name": "Bold borders",
+      "ja": "太い輪郭と強い配色",
+      "category": "style",
+      "categories": [
+        "style"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow"
+    },
+    {
+      "id": "style-editorial",
+      "name": "Editorial contrast",
+      "ja": "書体にコントラストをつける",
+      "category": "style",
+      "categories": [
+        "style"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family"
+    },
+    {
+      "id": "style-retro",
+      "name": "Retro interface",
+      "ja": "レトロな画面構成",
+      "category": "style",
+      "categories": [
+        "style"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family"
+    },
+    {
+      "id": "easing-linear",
+      "name": "Linear",
+      "ja": "ずっと、同じ速さ",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function"
+    },
+    {
+      "id": "easing-ease",
+      "name": "Ease",
+      "ja": "すっと進み、ゆっくり止まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-ease-in",
+      "name": "Ease in",
+      "ja": "ゆっくり始め、速く終わる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-ease-out",
+      "name": "Ease out",
+      "ja": "速く始め、静かに止まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-ease-in-out",
+      "name": "Ease in out",
+      "ja": "ゆっくり、速く、ゆっくり",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-sine-in",
+      "name": "Sine in",
+      "ja": "穏やかに加速する",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-sine-out",
+      "name": "Sine out",
+      "ja": "穏やかに減速する",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-sine-in-out",
+      "name": "Sine in out",
+      "ja": "波のように、滑らかに",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quad-in",
+      "name": "Quad in",
+      "ja": "少しずつ、速くなる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quad-out",
+      "name": "Quad out",
+      "ja": "少しずつ、ゆっくりになる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quad-in-out",
+      "name": "Quad in out",
+      "ja": "ほどよい緩急で進む",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-cubic-in",
+      "name": "Cubic in",
+      "ja": "じわりと始まり、一気に進む",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-cubic-out",
+      "name": "Cubic out",
+      "ja": "すばやく進み、余韻を残す",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-cubic-in-out",
+      "name": "Cubic in out",
+      "ja": "前後をためて、中央で加速",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quart-in",
+      "name": "Quart in",
+      "ja": "深くためて、勢いをつける",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quart-out",
+      "name": "Quart out",
+      "ja": "素早く移動し、長く減速",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quart-in-out",
+      "name": "Quart in out",
+      "ja": "静かな両端、速い中央",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quint-in",
+      "name": "Quint in",
+      "ja": "じっくりためて、駆け出す",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quint-out",
+      "name": "Quint out",
+      "ja": "すぐに届き、そっと収まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-quint-in-out",
+      "name": "Quint in out",
+      "ja": "中央で一気に切り替わる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-expo-in",
+      "name": "Expo in",
+      "ja": "静かな始まりから、急加速",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-expo-out",
+      "name": "Expo out",
+      "ja": "勢いよく進み、細かく近づく",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-expo-in-out",
+      "name": "Expo in out",
+      "ja": "中央を鋭く、前後を静かに",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-circ-in",
+      "name": "Circ in",
+      "ja": "円弧のように加速する",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-circ-out",
+      "name": "Circ out",
+      "ja": "勢いをすぐ抑えて収まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-circ-in-out",
+      "name": "Circ in out",
+      "ja": "中央に勢いが集まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-back-in",
+      "name": "Back in",
+      "ja": "少し引いてから進む",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-back-out",
+      "name": "Back out",
+      "ja": "少し行き過ぎ、戻って止まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-back-in-out",
+      "name": "Back in out",
+      "ja": "引いて、行き過ぎて、収まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier"
+    },
+    {
+      "id": "easing-bounce-in",
+      "name": "Bounce in",
+      "ja": "小さな跳ねから、駆け出す",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-bounce-out",
+      "name": "Bounce out",
+      "ja": "着地して、跳ね返る",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-bounce-in-out",
+      "name": "Bounce in out",
+      "ja": "跳ねて出発、跳ねて着地",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-elastic-in",
+      "name": "Elastic in",
+      "ja": "揺れをためて、飛び出す",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-elastic-out",
+      "name": "Elastic out",
+      "ja": "ばねのように、揺れて収まる",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-elastic-in-out",
+      "name": "Elastic in out",
+      "ja": "前後で弾み、中央を抜ける",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear"
+    },
+    {
+      "id": "easing-steps-4",
+      "name": "Steps",
+      "ja": "4段階で、かくっと進む",
+      "category": "easing",
+      "categories": [
+        "easing"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps"
+    },
+    {
+      "id": "sound-click",
+      "name": "Click",
+      "ja": "小さなクリック",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-pop",
+      "name": "Pop",
+      "ja": "はじけるポップ",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-tap",
+      "name": "Soft tap",
+      "ja": "柔らかなタップ",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-notify-up",
+      "name": "Ascending notification",
+      "ja": "上がる通知音",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-notify-down",
+      "name": "Descending notification",
+      "ja": "下がる通知音",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-success",
+      "name": "Success phrase",
+      "ja": "完了を知らせるフレーズ",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-error",
+      "name": "Low double tone",
+      "ja": "低い二音のサイン",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-warning",
+      "name": "Double reminder",
+      "ja": "二回のリマインド",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-switch",
+      "name": "Switch snap",
+      "ja": "スイッチの切り替え",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-bell",
+      "name": "Soft bell",
+      "ja": "柔らかなベル",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-chime",
+      "name": "Three-note chime",
+      "ja": "三音のチャイム",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-shimmer",
+      "name": "Shimmer",
+      "ja": "きらめく粒",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-sweep",
+      "name": "Pitch sweep",
+      "ja": "音程のスイープ",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-whoosh",
+      "name": "Filtered whoosh",
+      "ja": "風のような通過音",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-pulse",
+      "name": "Even pulse",
+      "ja": "等間隔のパルス",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "sound-heartbeat",
+      "name": "Double beat",
+      "ja": "二連の鼓動",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques"
+    },
+    {
+      "id": "adv-scroll-scrub",
+      "name": "Scroll scrub",
+      "ja": "スクロール量に連動",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+    },
+    {
+      "id": "adv-scroll-reveal",
+      "name": "Scroll reveal once",
+      "ja": "見えたら一度だけ再生",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "scroll",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver"
+    },
+    {
+      "id": "adv-stagger",
+      "name": "Staggered entrance",
+      "ja": "時間差で登場",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "rhythm",
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+    },
+    {
+      "id": "adv-stroke-draw",
+      "name": "SVG line drawing",
+      "ja": "線を描いて見せる",
+      "category": "svg",
+      "categories": [
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset"
+    },
+    {
+      "id": "adv-pointer-spotlight",
+      "name": "Pointer spotlight",
+      "ja": "指先を追うスポットライト",
+      "category": "interaction",
+      "categories": [
+        "interaction",
+        "gesture",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+    },
+    {
+      "id": "adv-spring-drag",
+      "name": "Spring return",
+      "ja": "離すとばねで戻る",
+      "category": "interaction",
+      "categories": [
+        "interaction",
+        "physics",
+        "gesture"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame"
+    },
+    {
+      "id": "adv-flip-layout",
+      "name": "FLIP layout transition",
+      "ja": "配置換えをなめらかに",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "transition",
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+    },
+    {
+      "id": "adv-eased-path",
+      "name": "Eased motion path",
+      "ja": "曲線に沿って加減速",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getPointAtLength"
+    },
+    {
+      "id": "scroll-layered-parallax",
+      "name": "Layered parallax",
+      "ja": "層ごとに速さを変える",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+    },
+    {
+      "id": "scroll-depth-parallax",
+      "name": "Depth parallax",
+      "ja": "奥行き方向へ進む",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective"
+    },
+    {
+      "id": "scroll-counter-parallax",
+      "name": "Counter-moving columns",
+      "ja": "反対向きに流す",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+    },
+    {
+      "id": "scroll-pinned-story",
+      "name": "Pinned storytelling",
+      "ja": "留まる画面で話を進める",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+    },
+    {
+      "id": "scroll-horizontal-track",
+      "name": "Vertical-to-horizontal scroll",
+      "ja": "縦の操作で横へ進む",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+    },
+    {
+      "id": "scroll-zoom-out",
+      "name": "Scroll zoom-out",
+      "ja": "引いて全体を見せる",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+    },
+    {
+      "id": "scroll-circle-reveal",
+      "name": "Circular scroll reveal",
+      "ja": "円を広げて見せる",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path"
+    },
+    {
+      "id": "scroll-text-fill",
+      "name": "Scroll text fill",
+      "ja": "文字に色を満たす",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip"
+    },
+    {
+      "id": "scroll-scene-crossfade",
+      "name": "Scene crossfade",
+      "ja": "景色を重ねて切り替える",
+      "category": "scroll",
+      "categories": [
+        "scroll",
+        "transition"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity"
+    },
+    {
+      "id": "scroll-reading-ring",
+      "name": "Reading progress ring",
+      "ja": "読む進みを円で示す",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset"
+    },
+    {
+      "id": "scroll-snap-story",
+      "name": "Scroll-snap storytelling",
+      "ja": "一場面ずつ切り替える",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type"
+    },
+    {
+      "id": "scroll-direction-header",
+      "name": "Scroll-aware header",
+      "ja": "上へ戻すと現れるヘッダー",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+    },
+    {
+      "id": "scroll-stacked-cards",
+      "name": "Stacked sticky cards",
+      "ja": "カードが積み重なる",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+    },
+    {
+      "id": "scroll-split-typography",
+      "name": "Scroll-spread typography",
+      "ja": "文字を左右へほどく",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform"
+    },
+    {
+      "id": "scroll-view-progress",
+      "name": "Viewport progress",
+      "ja": "見える位置に連動する",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect"
+    },
+    {
+      "id": "scroll-velocity-skew",
+      "name": "Scroll-velocity skew",
+      "ja": "速さで傾く文字",
+      "category": "scroll",
+      "categories": [
+        "scroll"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "scroll"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event"
+    },
+    {
+      "id": "motion-css-path",
+      "name": "CSS motion path",
+      "ja": "道筋に沿って動かす",
+      "category": "motion",
+      "categories": [
+        "motion"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/offset-path"
+    },
+    {
+      "id": "svg-displacement",
+      "name": "Displacement filter",
+      "ja": "ノイズで輪郭をゆがめる",
+      "category": "svg",
+      "categories": [
+        "svg",
+        "shader",
+        "texture"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/feDisplacementMap"
+    },
+    {
+      "id": "type-text-path",
+      "name": "Text on a path",
+      "ja": "曲線に文字を沿わせる",
+      "category": "type",
+      "categories": [
+        "type",
+        "svg"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/textPath"
+    },
+    {
+      "id": "type-line-reveal",
+      "name": "Masked line reveal",
+      "ja": "行の内側から文字が現れる",
+      "category": "type",
+      "categories": [
+        "type",
+        "mask",
+        "rhythm"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overflow"
+    },
+    {
+      "id": "ui-skeleton",
+      "name": "Skeleton loading",
+      "ja": "内容が入る前の形を見せる",
+      "category": "ui",
+      "categories": [
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Animations/Using"
+    },
+    {
+      "id": "layout-container-query",
+      "name": "Container queries",
+      "ja": "部品の幅に合わせて組み替える",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+    },
+    {
+      "id": "shape-composite-mask",
+      "name": "Mask composition",
+      "ja": "マスクを引き算して輪郭を残す",
+      "category": "shape",
+      "categories": [
+        "shape",
+        "mask",
+        "blend"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-composite"
+    },
+    {
+      "id": "motion-seamless-loop",
+      "name": "Seamless marquee",
+      "ja": "切れ目なく流れる繰り返し",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "rhythm",
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/animation-play-state"
+    },
+    {
+      "id": "physics-spring",
+      "name": "Spring dynamics",
+      "ja": "重さを感じるばね",
+      "category": "physics",
+      "categories": [
+        "physics",
+        "interaction"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "physics-gravity",
+      "name": "Gravity & restitution",
+      "ja": "重力と跳ね返り",
+      "category": "physics",
+      "categories": [
+        "physics"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "physics-pendulum",
+      "name": "Damped pendulum",
+      "ja": "振り子の減衰",
+      "category": "physics",
+      "categories": [
+        "physics"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "physics-inertia",
+      "name": "Inertial throw",
+      "ja": "投げて、滑って、止まる",
+      "category": "physics",
+      "categories": [
+        "physics",
+        "gesture",
+        "interaction"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "rhythm-stagger",
+      "name": "Stagger interval",
+      "ja": "時間差が順序をつくる",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "motion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "rhythm-wave",
+      "name": "Traveling wave",
+      "ja": "波が順番に伝わる",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "motion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "rhythm-alternate",
+      "name": "Alternating rhythm",
+      "ja": "交互の動きで拍を刻む",
+      "category": "rhythm",
+      "categories": [
+        "rhythm"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "rhythm-anticipation",
+      "name": "Anticipation & follow-through",
+      "ja": "動き出す前に、少しためる",
+      "category": "rhythm",
+      "categories": [
+        "rhythm",
+        "motion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "particles-constellation",
+      "name": "Particle network",
+      "ja": "距離でつながる星座",
+      "category": "particles",
+      "categories": [
+        "particles",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "particles-confetti",
+      "name": "Confetti emitter",
+      "ja": "小さな紙片が舞う",
+      "category": "particles",
+      "categories": [
+        "particles",
+        "physics"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "particles-attraction",
+      "name": "Attraction field",
+      "ja": "指先へ集まる粒子",
+      "category": "particles",
+      "categories": [
+        "particles",
+        "physics",
+        "gesture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "particles-phyllotaxis",
+      "name": "Phyllotaxis arrangement",
+      "ja": "黄金角で点を並べる",
+      "category": "particles",
+      "categories": [
+        "particles",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "generative-flow",
+      "name": "Flow field",
+      "ja": "数式で向きを配る",
+      "category": "generative",
+      "categories": [
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "generative-fractal",
+      "name": "Recursive tree",
+      "ja": "同じ規則で枝を増やす",
+      "category": "generative",
+      "categories": [
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "generative-voronoi",
+      "name": "Voronoi regions",
+      "ja": "いちばん近い点で区切る",
+      "category": "generative",
+      "categories": [
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "generative-automaton",
+      "name": "Elementary cellular automaton",
+      "ja": "三つの隣から、次を決める",
+      "category": "generative",
+      "categories": [
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Advanced_animations"
+    },
+    {
+      "id": "transition-crossfade",
+      "name": "Crossfade transition",
+      "ja": "場面の重なりをつくる",
+      "category": "transition",
+      "categories": [
+        "transition",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+    },
+    {
+      "id": "transition-shared",
+      "name": "Shared element transition",
+      "ja": "同じカードが次の画面へ",
+      "category": "transition",
+      "categories": [
+        "transition",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+    },
+    {
+      "id": "transition-wipe",
+      "name": "Directional wipe",
+      "ja": "方向を持って場面を渡す",
+      "category": "transition",
+      "categories": [
+        "transition",
+        "motion",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+    },
+    {
+      "id": "transition-fold",
+      "name": "Page fold",
+      "ja": "面をめくって切り替える",
+      "category": "transition",
+      "categories": [
+        "transition",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate"
+    },
+    {
+      "id": "morph-star",
+      "name": "Circle to star",
+      "ja": "円から星へ、連続して変わる",
+      "category": "morph",
+      "categories": [
+        "morph",
+        "shape"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "morph-blob",
+      "name": "Organic contour",
+      "ja": "有機的な輪郭をつくる",
+      "category": "morph",
+      "categories": [
+        "morph",
+        "shape"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "morph-superellipse",
+      "name": "Superellipse",
+      "ja": "角丸の先にある形",
+      "category": "morph",
+      "categories": [
+        "morph",
+        "shape"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "morph-curve",
+      "name": "Bézier deformation",
+      "ja": "一本の曲線を曲げる",
+      "category": "morph",
+      "categories": [
+        "morph",
+        "shape",
+        "svg"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "mask-feather",
+      "name": "Feathered mask",
+      "ja": "境界をぼかして見せる",
+      "category": "mask",
+      "categories": [
+        "mask",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+    },
+    {
+      "id": "mask-blinds",
+      "name": "Venetian mask",
+      "ja": "細い窓から全体を見せる",
+      "category": "mask",
+      "categories": [
+        "mask",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+    },
+    {
+      "id": "mask-type",
+      "name": "Text knockout",
+      "ja": "文字を窓にする",
+      "category": "mask",
+      "categories": [
+        "mask",
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image"
+    },
+    {
+      "id": "mask-scratch",
+      "name": "Scratch reveal",
+      "ja": "削って、下の絵に出会う",
+      "category": "mask",
+      "categories": [
+        "mask",
+        "gesture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation"
+    },
+    {
+      "id": "blend-screen",
+      "name": "Screen blend",
+      "ja": "光を重ねるスクリーン",
+      "category": "blend",
+      "categories": [
+        "blend",
+        "texture",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+    },
+    {
+      "id": "blend-overlay",
+      "name": "Overlay blend",
+      "ja": "明暗で合成を切り替える",
+      "category": "blend",
+      "categories": [
+        "blend",
+        "texture",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+    },
+    {
+      "id": "blend-difference",
+      "name": "Difference blend",
+      "ja": "色の差を見せる",
+      "category": "blend",
+      "categories": [
+        "blend",
+        "texture",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+    },
+    {
+      "id": "blend-luminosity",
+      "name": "Luminosity blend",
+      "ja": "明るさだけを重ねる",
+      "category": "blend",
+      "categories": [
+        "blend",
+        "texture",
+        "image"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode"
+    },
+    {
+      "id": "gesture-magnetic",
+      "name": "Magnetic attraction",
+      "ja": "近づくと吸いつく",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "interaction"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+    },
+    {
+      "id": "gesture-trail",
+      "name": "Pointer trail",
+      "ja": "軌跡が少しだけ残る",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "particles"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+    },
+    {
+      "id": "gesture-snap",
+      "name": "Drag & snap",
+      "ja": "離すと、位置がそろう",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "interaction",
+        "layout"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+    },
+    {
+      "id": "gesture-pinch",
+      "name": "Pinch & rotate",
+      "ja": "二本の指で拡大・回転",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events"
+    },
+    {
+      "id": "illusion-moire",
+      "name": "Moiré interference",
+      "ja": "細い線から、大きな縞が生まれる",
+      "category": "illusion",
+      "categories": [
+        "illusion",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "illusion-contrast",
+      "name": "Simultaneous contrast",
+      "ja": "同じ灰色が違って見える",
+      "category": "illusion",
+      "categories": [
+        "illusion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "illusion-figure",
+      "name": "Figure & ground",
+      "ja": "器と横顔を行き来する",
+      "category": "illusion",
+      "categories": [
+        "illusion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "illusion-length",
+      "name": "Müller-Lyer illusion",
+      "ja": "同じ長さを見比べる",
+      "category": "illusion",
+      "categories": [
+        "illusion"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes"
+    },
+    {
+      "id": "shader-ripple",
+      "name": "Ripple refraction",
+      "ja": "波紋で景色をゆがめる",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "image"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "shader-heat",
+      "name": "Heat haze",
+      "ja": "陽炎のように揺らぐ",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "image",
+        "texture"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "shader-chromatic",
+      "name": "Chromatic aberration",
+      "ja": "色の輪郭がずれる",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "image",
+        "color"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "shader-dither",
+      "name": "Ordered dithering",
+      "ja": "少ない階調で濃淡を描く",
+      "category": "shader",
+      "categories": [
+        "shader",
+        "texture",
+        "image"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "three-light",
+      "name": "Moving light",
+      "ja": "光源で立体を読む",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "three-material",
+      "name": "Specular roughness",
+      "ja": "つやの広がりを変える",
+      "category": "three",
+      "categories": [
+        "three",
+        "texture"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "three-reflect",
+      "name": "Environment reflection",
+      "ja": "周囲の景色を映す",
+      "category": "three",
+      "categories": [
+        "three",
+        "image"
+      ],
+      "engine": "webgl",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Tutorial/Lighting_in_WebGL"
+    },
+    {
+      "id": "three-orbit",
+      "name": "Orbit camera",
+      "ja": "立体の周りを回る",
+      "category": "three",
+      "categories": [
+        "three"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"
+    },
+    {
+      "id": "sound-envelope",
+      "name": "Attack & release",
+      "ja": "音の立ち上がりと余韻",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "sound-timbre",
+      "name": "Oscillator timbre",
+      "ja": "波形で音色を変える",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "sound-filter",
+      "name": "Low-pass filter",
+      "ja": "高い成分を削る",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "sound-delay",
+      "name": "Feedback delay",
+      "ja": "遅れて返る音",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "sound-reverb",
+      "name": "Convolution reverb",
+      "ja": "音に空間を与える",
+      "category": "sound",
+      "categories": [
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "sound-spatial",
+      "name": "Spatial audio",
+      "ja": "音の場所と距離を変える",
+      "category": "sound",
+      "categories": [
+        "sound",
+        "audiovisual",
+        "three"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "av-amplitude",
+      "name": "Amplitude reactive shape",
+      "ja": "音の大きさを形にする",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "sound",
+        "shape"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "av-spectrum",
+      "name": "Frequency spectrum",
+      "ja": "音の中の成分を見る",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "sound",
+        "data"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "av-waveform",
+      "name": "Live waveform",
+      "ja": "鳴っている音を線で見る",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "sound",
+        "data"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "av-particles",
+      "name": "Sound reactive particles",
+      "ja": "音で粒子が呼吸する",
+      "category": "audiovisual",
+      "categories": [
+        "audiovisual",
+        "particles",
+        "sound"
+      ],
+      "engine": "audio",
+      "inputs": [
+        "watch",
+        "adjust",
+        "listen"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"
+    },
+    {
+      "id": "type-variable",
+      "name": "Variable font weight",
+      "ja": "文字の太さを連続して変える",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+    },
+    {
+      "id": "type-kinetic",
+      "name": "Kinetic typography",
+      "ja": "文字ごとに波を渡す",
+      "category": "type",
+      "categories": [
+        "type",
+        "rhythm",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+    },
+    {
+      "id": "type-disassemble",
+      "name": "Type disassembly",
+      "ja": "文字を分解して組み直す",
+      "category": "type",
+      "categories": [
+        "type",
+        "morph"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+    },
+    {
+      "id": "type-picture",
+      "name": "Typographic image",
+      "ja": "文字の密度で絵をつくる",
+      "category": "type",
+      "categories": [
+        "type",
+        "image",
+        "mask"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Fonts/Variable_fonts"
+    },
+    {
+      "id": "texture-grain",
+      "name": "Print grain",
+      "ja": "粒状感を重ねる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "image",
+        "generative"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "texture-paper",
+      "name": "Paper folds",
+      "ja": "折り目から紙を感じる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "shadow"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "texture-registration",
+      "name": "Print misregistration",
+      "ja": "版のずれを見せる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type",
+        "blend"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "image-collage",
+      "name": "Cut-paper collage",
+      "ja": "切った形を重ねる",
+      "category": "image",
+      "categories": [
+        "image",
+        "texture",
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "layout-intrinsic",
+      "name": "Intrinsic grid",
+      "ja": "入るだけの列をつくる",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "layout-density",
+      "name": "Layout density",
+      "ja": "余白で情報の密度を変える",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "layout-alignment",
+      "name": "Alignment rhythm",
+      "ja": "整列を少し崩す",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "layout-hierarchy",
+      "name": "Visual hierarchy",
+      "ja": "大きさで読む順序をつくる",
+      "category": "layout",
+      "categories": [
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "id": "media-loop",
+      "name": "Looping video",
+      "ja": "映像を継ぎ目なく繰り返す",
+      "category": "media",
+      "categories": [
+        "media",
+        "rhythm"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+    },
+    {
+      "id": "media-pingpong",
+      "name": "Ping-pong playback",
+      "ja": "行って、戻る映像",
+      "category": "media",
+      "categories": [
+        "media",
+        "rhythm"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+    },
+    {
+      "id": "media-speed",
+      "name": "Playback speed",
+      "ja": "速度が映像の印象を変える",
+      "category": "media",
+      "categories": [
+        "media",
+        "rhythm"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+    },
+    {
+      "id": "media-scrub",
+      "name": "Frame scrubbing",
+      "ja": "映像を一コマずつ読む",
+      "category": "media",
+      "categories": [
+        "media",
+        "rhythm"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+    },
+    {
+      "id": "media-cinemagraph",
+      "name": "Cinemagraph window",
+      "ja": "一部分だけが動く",
+      "category": "media",
+      "categories": [
+        "media",
+        "mask",
+        "image"
+      ],
+      "engine": "video",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement"
+    }
+  ]
+}
