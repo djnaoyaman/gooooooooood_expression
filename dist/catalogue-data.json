@@ -1,8 +1,8 @@
 {
-  "specimens": 331,
+  "specimens": 344,
   "categories": 31,
   "areas": 6,
-  "trails": 13,
+  "trails": 15,
   "note": "Specimen totals are unique. Category totals include cross-references.",
   "groups": [
     {
@@ -17,7 +17,7 @@
         "morph",
         "scroll"
       ],
-      "count": 148
+      "count": 149
     },
     {
       "id": "surface",
@@ -32,7 +32,7 @@
         "mask",
         "blend"
       ],
-      "count": 75
+      "count": 79
     },
     {
       "id": "composition",
@@ -42,7 +42,7 @@
         "layout",
         "style"
       ],
-      "count": 45
+      "count": 48
     },
     {
       "id": "response",
@@ -52,7 +52,7 @@
         "interaction",
         "gesture"
       ],
-      "count": 36
+      "count": 48
     },
     {
       "id": "systems",
@@ -66,7 +66,7 @@
         "three",
         "data"
       ],
-      "count": 59
+      "count": 60
     },
     {
       "id": "listening",
@@ -84,7 +84,7 @@
       "id": "motion",
       "name": "アニメーション",
       "primary": 55,
-      "indexed": 64
+      "indexed": 65
     },
     {
       "id": "easing",
@@ -132,7 +132,7 @@
       "id": "color",
       "name": "色・配色",
       "primary": 8,
-      "indexed": 10
+      "indexed": 11
     },
     {
       "id": "gradient",
@@ -155,14 +155,14 @@
     {
       "id": "image",
       "name": "写真・画像表現",
-      "primary": 8,
-      "indexed": 25
+      "primary": 12,
+      "indexed": 29
     },
     {
       "id": "mask",
       "name": "マスク・出現",
       "primary": 4,
-      "indexed": 17
+      "indexed": 18
     },
     {
       "id": "blend",
@@ -173,14 +173,14 @@
     {
       "id": "type",
       "name": "タイポグラフィ",
-      "primary": 15,
-      "indexed": 21
+      "primary": 16,
+      "indexed": 22
     },
     {
       "id": "layout",
       "name": "レイアウト・余白",
       "primary": 13,
-      "indexed": 18
+      "indexed": 20
     },
     {
       "id": "style",
@@ -191,20 +191,20 @@
     {
       "id": "ui",
       "name": "UIパーツ",
-      "primary": 13,
-      "indexed": 15
+      "primary": 16,
+      "indexed": 23
     },
     {
       "id": "interaction",
       "name": "UIの反応",
       "primary": 9,
-      "indexed": 17
+      "indexed": 21
     },
     {
       "id": "gesture",
       "name": "ジェスチャー・追従",
-      "primary": 5,
-      "indexed": 11
+      "primary": 9,
+      "indexed": 17
     },
     {
       "id": "particles",
@@ -239,8 +239,8 @@
     {
       "id": "three",
       "name": "3D・立体表現",
-      "primary": 12,
-      "indexed": 15
+      "primary": 13,
+      "indexed": 16
     },
     {
       "id": "data",
@@ -271,12 +271,12 @@
     {
       "id": "css",
       "name": "HTML / CSS",
-      "count": 216
+      "count": 226
     },
     {
       "id": "svg",
       "name": "SVG",
-      "count": 20
+      "count": 23
     },
     {
       "id": "canvas",
@@ -303,17 +303,17 @@
     {
       "id": "watch",
       "name": "動きを見る",
-      "count": 256
+      "count": 269
     },
     {
       "id": "adjust",
       "name": "数値を変える",
-      "count": 223
+      "count": 230
     },
     {
       "id": "pointer",
       "name": "触って動かす",
-      "count": 54
+      "count": 60
     },
     {
       "id": "scroll",
@@ -8005,6 +8005,323 @@
         "editorial"
       ],
       "support": "WebMとMP4の二形式。シークの滑らかさは端末と動画形式によります。"
+    },
+    {
+      "id": "compare-wipe",
+      "name": "Image comparison wipe",
+      "ja": "境界を動かして、二枚を比べる",
+      "category": "image",
+      "categories": [
+        "image",
+        "mask",
+        "gesture"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "commerce",
+        "editorial"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "compare-loupe",
+      "name": "Inspection loupe",
+      "ja": "ルーペで、細部を確かめる",
+      "category": "image",
+      "categories": [
+        "image",
+        "gesture"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "compare-sync",
+      "name": "Synchronized image zoom",
+      "ja": "二枚の拡大位置を揃える",
+      "category": "image",
+      "categories": [
+        "image",
+        "interaction"
+      ],
+      "engine": "svg",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "product-config",
+      "name": "Material configurator",
+      "ja": "色と素材を、選んで比べる",
+      "category": "image",
+      "categories": [
+        "image",
+        "color",
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "product-explode",
+      "name": "Exploded layers",
+      "ja": "部品を離して、構造を見せる",
+      "category": "three",
+      "categories": [
+        "three",
+        "layout",
+        "motion"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "shape"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "product-hotspots",
+      "name": "Product annotations",
+      "ja": "気になる部分から、説明を読む",
+      "category": "ui",
+      "categories": [
+        "ui",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "edit-sort",
+      "name": "Sortable sequence",
+      "ja": "つかんで、順序を変える",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "pointer"
+      ],
+      "source": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "edit-transfer",
+      "name": "Transfer between lists",
+      "ja": "二つのリストを行き来する",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "edit-lasso",
+      "name": "Marquee selection",
+      "ja": "範囲を囲って、まとめて選ぶ",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "edit-guides",
+      "name": "Alignment guides",
+      "ja": "配置の基準線に、吸い付く",
+      "category": "gesture",
+      "categories": [
+        "gesture",
+        "layout"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "layout"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "search-suggest",
+      "name": "Autocomplete suggestions",
+      "ja": "入力の途中で、候補に出会う",
+      "category": "ui",
+      "categories": [
+        "ui",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "forms",
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "search-highlight",
+      "name": "Search term highlighting",
+      "ja": "見つかった言葉を、浮かび上がらせる",
+      "category": "type",
+      "categories": [
+        "type",
+        "ui"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/mark",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "search-chips",
+      "name": "Filter chips",
+      "ja": "選んだ条件を、小さな札にする",
+      "category": "ui",
+      "categories": [
+        "ui",
+        "interaction"
+      ],
+      "engine": "css",
+      "inputs": [
+        "watch"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "ui"
+      ],
+      "contexts": [
+        "navigation"
+      ],
+      "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
     }
   ]
 }

@@ -1,3 +1,4 @@
+import {experienceLabs} from './experience-labs.js';
 import {practiceLabs} from './practice-labs.js';
 import {visualStudies} from './visual-studies.js';
 import {systemStudies} from './system-studies.js';
@@ -19,5 +20,5 @@ import {videoLabs} from './video-labs.js';
 import {categoryDefinitions,enrichEntry} from './taxonomy.js';
 export {categoryGroups,belongsTo,inputOptions,engineOptions} from './taxonomy.js';
 export const categories=categoryDefinitions;
-export const all=[...motions,...expressions,...easings,...sounds,...advanced,...scrollExpressions,...explorations,...worlds,...surfaces,...perception,...gpuLabs,...audioLabs,...editorialLabs,...videoLabs,...practiceLabs,...visualStudies,...systemStudies,...mediaStudies].map(enrichEntry);
+export const all=[...motions,...expressions,...easings,...sounds,...advanced,...scrollExpressions,...explorations,...worlds,...surfaces,...perception,...gpuLabs,...audioLabs,...editorialLabs,...videoLabs,...practiceLabs,...visualStudies,...systemStudies,...mediaStudies,...experienceLabs].map(enrichEntry);
 export const byId=new Map(all.map(e=>[e.id,e]));

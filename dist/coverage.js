@@ -1,5 +1,9 @@
 // An explicit, versioned checklist for the 2026-10 coverage expansion. Not a claim to cover every possible expression.
 export const coverageAreas=[
+ ['comparison','比較と観察',['compare-wipe','compare-loupe','compare-sync']],
+ ['product-details','商品を理解する',['product-config','product-explode','product-hotspots']],
+ ['editing','並べ替えと編集',['edit-sort','edit-transfer','edit-lasso','edit-guides']],
+ ['finding','探す過程',['search-suggest','search-highlight','search-chips']],
  ['ui-states','UIの状態変化',['ui-dialog','ui-popover','ui-tooltip','ui-menu','ui-validation','ui-submit','ui-empty','ui-undo']],
  ['adaptive','レスポンシブ表現',['layout-fluid','layout-art-direction','layout-subgrid','layout-input']],
  ['choreography','モーション設計',['rhythm-timeline','rhythm-interrupt','rhythm-enter-exit']],

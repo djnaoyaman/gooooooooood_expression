@@ -2981,3 +2981,120 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/media-comp
 用途: 映像を操作やページの構成に結びつけるとき。
 使い方: オリジナルの3秒映像を、通常・スクリーン・乗算・差分で比べてください。
 公式資料: https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement
+
+## Image comparison wipe — 境界を動かして、二枚を比べる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/compare-wipe.html
+カテゴリー: 写真・画像表現 / マスク・出現 / ジェスチャー・追従
+実装: SVG
+同じ図柄のカラーとモノクロを重ね、境界をドラッグして比較します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Inspection loupe — ルーペで、細部を確かめる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/compare-loupe.html
+カテゴリー: 写真・画像表現 / ジェスチャー・追従
+実装: SVG
+同じ画像の一部分を拡大し、指先や矢印キーで観察する場所を変えます。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Synchronized image zoom — 二枚の拡大位置を揃える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/compare-sync.html
+カテゴリー: 写真・画像表現 / UIの反応
+実装: SVG
+倍率と注目位置を同期させ、色の違う二枚の同じ場所を観察します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Material configurator — 色と素材を、選んで比べる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/product-config.html
+カテゴリー: 写真・画像表現 / 色・配色 / UIパーツ
+実装: HTML / CSS
+色の選択とマット・光沢の切り替えで、同じ形の印象を比較します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Exploded layers — 部品を離して、構造を見せる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/product-explode.html
+カテゴリー: 3D・立体表現 / レイアウト・余白 / アニメーション
+実装: HTML / CSS
+三つの模式的な部品を離し、重なって見えなかった構造を説明します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Product annotations — 気になる部分から、説明を読む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/product-hotspots.html
+カテゴリー: UIパーツ / UIの反応
+実装: HTML / CSS
+図の上に注釈ボタンを置き、選んだ部分の説明を表示します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Sortable sequence — つかんで、順序を変える
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/edit-sort.html
+カテゴリー: ジェスチャー・追従 / UIパーツ
+実装: HTML / CSS
+項目をドラッグして並べ替えます。選択後の移動ボタン、Alt＋左右キーでも同じ順序変更ができます。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 項目を選んで移動するか、移動先へドラッグしてください。
+公式資料: https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/
+
+## Transfer between lists — 二つのリストを行き来する
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/edit-transfer.html
+カテゴリー: ジェスチャー・追従 / UIパーツ
+実装: HTML / CSS
+選んだ項目を別のリストへ移します。ドラッグとボタンで同じ結果になります。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Marquee selection — 範囲を囲って、まとめて選ぶ
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/edit-lasso.html
+カテゴリー: ジェスチャー・追従 / UIパーツ
+実装: HTML / CSS
+背景から矩形をドラッグし、その範囲に触れた項目を選択します。各ボタンを押しても選択できます。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Alignment guides — 配置の基準線に、吸い付く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/edit-guides.html
+カテゴリー: ジェスチャー・追従 / レイアウト・余白
+実装: HTML / CSS
+中央に近づくとガイドが現れ、位置が中央へ吸着します。座標スライダーでも動かせます。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Autocomplete suggestions — 入力の途中で、候補に出会う
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/search-suggest.html
+カテゴリー: UIパーツ / UIの反応
+実装: HTML / CSS
+入力した文字を含む候補を表示し、上下キーとEnter、またはクリックで選択します。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: MI と入力し、下矢印で選んでEnter。Escapeで候補を閉じられます。
+公式資料: https://www.w3.org/WAI/ARIA/apg/patterns/combobox/
+
+## Search term highlighting — 見つかった言葉を、浮かび上がらせる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/search-highlight.html
+カテゴリー: タイポグラフィ / UIパーツ
+実装: HTML / CSS
+検索語に一致する部分を強調し、どこが見つかったかを伝えます。入力文字列をHTMLとして解釈しません。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/mark
+
+## Filter chips — 選んだ条件を、小さな札にする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/search-chips.html
+カテゴリー: UIパーツ / UIの反応
+実装: HTML / CSS
+絞り込み条件をチップで表示し、一つずつ解除できます。この例は選択条件のいずれかに一致する方式です。
+用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
+使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
