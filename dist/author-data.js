@@ -13,5 +13,6 @@ export const works = [
   ['suburbia-classica', 'SUBURBIA CLASSICA', 'クラシックの名曲を、制作背景や構成、録音エピソードとともに聴く選曲サイト。', 'CLASSICAL / SELECTION', 'SUBURBIA<br>CLASSICA', ''],
   ['chems', 'my Chems', 'The Chemical Brothersの作品を、出典つきの記録と私見でたどる日英の非公式アーカイブ。', 'MUSIC / FAN ARCHIVE', 'my<br>Chems', ''],
   ['ppp', '掌蹠膿疱症.com', '掌蹠膿疱症について、個人の記録と公開資料をもとに治療の選択肢を整理するサイト。', 'HEALTH / PERSONAL RECORD', '掌蹠<br>膿疱症.com', 'index.html'],
-  ['yoshida-farmer', 'Roots & Hoofs 吉田ファーム', '岩手県紫波町の吉田ファームと、牛と米をつなぐ循環型農業を紹介するサイト。', 'FARM / BRAND SITE', 'Roots<br>& Hoofs', '']
+  ['bookkeeping', 'Book Keeping', '日商簿記・全経簿記・USCPAの仕訳と計算を反復演習し、復習につなげる学習サイト。', 'ACCOUNTING / LEARNING', 'Book<br>Keeping', '']
 ].map(([id,name,description,category,lettering,path])=>({id,name,description,category,lettering,url:`https://djnaoyaman.github.io/${id}/${path}`,repository:`https://github.com/djnaoyaman/${id}`}));
+
