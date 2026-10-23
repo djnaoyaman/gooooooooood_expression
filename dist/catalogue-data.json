@@ -1,8 +1,8 @@
 {
-  "specimens": 344,
+  "specimens": 369,
   "categories": 31,
   "areas": 6,
-  "trails": 15,
+  "trails": 17,
   "note": "Specimen totals are unique. Category totals include cross-references.",
   "groups": [
     {
@@ -17,7 +17,7 @@
         "morph",
         "scroll"
       ],
-      "count": 149
+      "count": 153
     },
     {
       "id": "surface",
@@ -32,7 +32,7 @@
         "mask",
         "blend"
       ],
-      "count": 79
+      "count": 95
     },
     {
       "id": "composition",
@@ -42,7 +42,7 @@
         "layout",
         "style"
       ],
-      "count": 48
+      "count": 61
     },
     {
       "id": "response",
@@ -52,7 +52,7 @@
         "interaction",
         "gesture"
       ],
-      "count": 48
+      "count": 52
     },
     {
       "id": "systems",
@@ -66,7 +66,7 @@
         "three",
         "data"
       ],
-      "count": 60
+      "count": 68
     },
     {
       "id": "listening",
@@ -76,15 +76,15 @@
         "audiovisual",
         "media"
       ],
-      "count": 39
+      "count": 44
     }
   ],
   "categoryCounts": [
     {
       "id": "motion",
       "name": "アニメーション",
-      "primary": 55,
-      "indexed": 65
+      "primary": 58,
+      "indexed": 68
     },
     {
       "id": "easing",
@@ -102,13 +102,13 @@
       "id": "rhythm",
       "name": "時間・リズム",
       "primary": 7,
-      "indexed": 15
+      "indexed": 16
     },
     {
       "id": "transition",
       "name": "画面遷移",
       "primary": 5,
-      "indexed": 12
+      "indexed": 13
     },
     {
       "id": "morph",
@@ -126,43 +126,43 @@
       "id": "shape",
       "name": "形・線・輪郭",
       "primary": 5,
-      "indexed": 11
+      "indexed": 13
     },
     {
       "id": "color",
       "name": "色・配色",
       "primary": 8,
-      "indexed": 11
+      "indexed": 13
     },
     {
       "id": "gradient",
       "name": "グラデーション",
       "primary": 6,
-      "indexed": 6
+      "indexed": 7
     },
     {
       "id": "shadow",
       "name": "影・光・奥行き",
       "primary": 4,
-      "indexed": 6
+      "indexed": 11
     },
     {
       "id": "texture",
       "name": "質感・印刷表現",
-      "primary": 7,
-      "indexed": 19
+      "primary": 15,
+      "indexed": 31
     },
     {
       "id": "image",
       "name": "写真・画像表現",
-      "primary": 12,
-      "indexed": 29
+      "primary": 18,
+      "indexed": 35
     },
     {
       "id": "mask",
       "name": "マスク・出現",
       "primary": 4,
-      "indexed": 18
+      "indexed": 19
     },
     {
       "id": "blend",
@@ -173,14 +173,14 @@
     {
       "id": "type",
       "name": "タイポグラフィ",
-      "primary": 16,
-      "indexed": 22
+      "primary": 20,
+      "indexed": 31
     },
     {
       "id": "layout",
       "name": "レイアウト・余白",
-      "primary": 13,
-      "indexed": 20
+      "primary": 17,
+      "indexed": 24
     },
     {
       "id": "style",
@@ -204,7 +204,7 @@
       "id": "gesture",
       "name": "ジェスチャー・追従",
       "primary": 9,
-      "indexed": 17
+      "indexed": 21
     },
     {
       "id": "particles",
@@ -216,7 +216,7 @@
       "id": "generative",
       "name": "生成・アルゴリズム",
       "primary": 6,
-      "indexed": 11
+      "indexed": 13
     },
     {
       "id": "shader",
@@ -240,13 +240,13 @@
       "id": "three",
       "name": "3D・立体表現",
       "primary": 13,
-      "indexed": 16
+      "indexed": 17
     },
     {
       "id": "data",
       "name": "データの見せ方",
       "primary": 10,
-      "indexed": 12
+      "indexed": 17
     },
     {
       "id": "sound",
@@ -264,14 +264,14 @@
       "id": "media",
       "name": "映像の見せ方",
       "primary": 10,
-      "indexed": 10
+      "indexed": 15
     }
   ],
   "engines": [
     {
       "id": "css",
       "name": "HTML / CSS",
-      "count": 226
+      "count": 230
     },
     {
       "id": "svg",
@@ -281,7 +281,7 @@
     {
       "id": "canvas",
       "name": "Canvas 2D",
-      "count": 52
+      "count": 73
     },
     {
       "id": "webgl",
@@ -308,12 +308,12 @@
     {
       "id": "adjust",
       "name": "数値を変える",
-      "count": 230
+      "count": 253
     },
     {
       "id": "pointer",
       "name": "触って動かす",
-      "count": 60
+      "count": 74
     },
     {
       "id": "scroll",
@@ -8018,9 +8018,8 @@
       ],
       "engine": "svg",
       "inputs": [
-        "watch",
-        "adjust",
-        "pointer"
+        "pointer",
+        "adjust"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8044,9 +8043,8 @@
       ],
       "engine": "svg",
       "inputs": [
-        "watch",
-        "adjust",
-        "pointer"
+        "pointer",
+        "adjust"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8069,7 +8067,7 @@
       ],
       "engine": "svg",
       "inputs": [
-        "watch",
+        "pointer",
         "adjust"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
@@ -8094,7 +8092,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch"
+        "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8118,7 +8116,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
+        "pointer",
         "adjust"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
@@ -8142,7 +8140,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch"
+        "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8165,7 +8163,6 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
         "pointer"
       ],
       "source": "https://www.w3.org/WAI/ARIA/apg/patterns/listbox/examples/listbox-rearrangeable/",
@@ -8189,7 +8186,6 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
         "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
@@ -8213,7 +8209,6 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
         "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
@@ -8237,9 +8232,8 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
-        "adjust",
-        "pointer"
+        "pointer",
+        "adjust"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8262,8 +8256,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
-        "adjust"
+        "pointer"
       ],
       "source": "https://www.w3.org/WAI/ARIA/apg/patterns/combobox/",
       "level": "applied",
@@ -8287,8 +8280,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch",
-        "adjust"
+        "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/mark",
       "level": "applied",
@@ -8311,7 +8303,7 @@
       ],
       "engine": "css",
       "inputs": [
-        "watch"
+        "pointer"
       ],
       "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
       "level": "applied",
@@ -8322,6 +8314,643 @@
         "navigation"
       ],
       "support": "Pointer Events / HTML / CSS。操作は見本の中で完結します。"
+    },
+    {
+      "id": "type-scramble",
+      "name": "Text scramble resolve",
+      "ja": "文字の混沌から、言葉が現れる",
+      "category": "type",
+      "categories": [
+        "type"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "type-odometer",
+      "name": "Rolling digit counter",
+      "ja": "数字が回転して、値に届く",
+      "category": "type",
+      "categories": [
+        "type",
+        "data"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "text",
+        "data"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "type-splitflap",
+      "name": "Split-flap display",
+      "ja": "文字盤が、一枚ずつめくれる",
+      "category": "type",
+      "categories": [
+        "type",
+        "transition"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "type-handwriting",
+      "name": "Handwriting stroke sequence",
+      "ja": "書く順序に沿って、文字を描く",
+      "category": "type",
+      "categories": [
+        "type",
+        "shape"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "text"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "texture-foil",
+      "name": "Foil stamping study",
+      "ja": "箔の輝きが、文字を走る",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type",
+        "shadow"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "texture-emboss",
+      "name": "Embossed lettering",
+      "ja": "紙から、文字が浮き上がる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type",
+        "shadow"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "texture-letterpress",
+      "name": "Letterpress impression",
+      "ja": "紙に、文字が沈み込む",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type",
+        "shadow"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "texture-ink",
+      "name": "Ink bleed",
+      "ja": "インクが、輪郭の外へ広がる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "texture-distress",
+      "name": "Distressed ink",
+      "ja": "かすれから、印刷の手触りをつくる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "type",
+        "mask"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "optical-hologram",
+      "name": "Holographic foil",
+      "ja": "角度で、虹色が入れ替わる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "gradient",
+        "color"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "optical-pearl",
+      "name": "Pearlescent surface",
+      "ja": "真珠のように、色をひそませる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "color",
+        "shadow"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "optical-refraction",
+      "name": "Glass lens refraction",
+      "ja": "透明な面が、背景を曲げる",
+      "category": "image",
+      "categories": [
+        "image",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust",
+        "pointer"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "optical-caustics",
+      "name": "Caustic light pattern",
+      "ja": "水底に、光の網が揺れる",
+      "category": "texture",
+      "categories": [
+        "texture",
+        "shadow",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "film-glitch",
+      "name": "Slice glitch",
+      "ja": "映像の一部が、ずれて戻る",
+      "category": "image",
+      "categories": [
+        "image",
+        "media"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "film-crt",
+      "name": "CRT scanlines",
+      "ja": "走査線を重ねて、画面の記憶をつくる",
+      "category": "image",
+      "categories": [
+        "image",
+        "media",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "film-vhs",
+      "name": "VHS tracking drift",
+      "ja": "水平の揺れで、テープの表情をつくる",
+      "category": "image",
+      "categories": [
+        "image",
+        "media",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "film-pixelsort",
+      "name": "Pixel sorting",
+      "ja": "画素を並べ替えて、色を流す",
+      "category": "image",
+      "categories": [
+        "image",
+        "generative"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "frame-sprite",
+      "name": "Sprite sheet animation",
+      "ja": "一枚の画像から、動きを切り出す",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "media"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "frame-stopmotion",
+      "name": "Stop-motion timing",
+      "ja": "コマを間引いて、手作りのリズムに",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "rhythm",
+        "media"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "frame-turntable",
+      "name": "Frame sequence turntable",
+      "ja": "連番画像で、商品を回して見る",
+      "category": "image",
+      "categories": [
+        "image",
+        "three"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "commerce"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "frame-lineboil",
+      "name": "Hand-drawn line boil",
+      "ja": "手描きの線が、小さく息をする",
+      "category": "motion",
+      "categories": [
+        "motion",
+        "shape",
+        "texture"
+      ],
+      "engine": "canvas",
+      "inputs": [
+        "watch",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial",
+      "level": "applied",
+      "targets": [
+        "image"
+      ],
+      "contexts": [
+        "art",
+        "editorial"
+      ],
+      "support": "Canvas 2D。オリジナルの図形で仕組みを示す見本。動きを減らす設定では静止します。"
+    },
+    {
+      "id": "space-infinite",
+      "name": "Infinite canvas",
+      "ja": "画面の外へ、どこまでも進む",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "gesture",
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "layout",
+        "ui"
+      ],
+      "contexts": [
+        "portfolio",
+        "navigation"
+      ],
+      "support": "HTML / CSS / Pointer Events。無限キャンバス以外は25枚の範囲を探索します。"
+    },
+    {
+      "id": "space-focus",
+      "name": "Overview to detail",
+      "ja": "全体から、気になる場所へ近づく",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "gesture",
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "layout",
+        "ui"
+      ],
+      "contexts": [
+        "portfolio",
+        "navigation"
+      ],
+      "support": "HTML / CSS / Pointer Events。無限キャンバス以外は25枚の範囲を探索します。"
+    },
+    {
+      "id": "space-minimap",
+      "name": "Navigable minimap",
+      "ja": "小さな地図で、現在地を知る",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "gesture",
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "layout",
+        "ui"
+      ],
+      "contexts": [
+        "portfolio",
+        "navigation"
+      ],
+      "support": "HTML / CSS / Pointer Events。無限キャンバス以外は25枚の範囲を探索します。"
+    },
+    {
+      "id": "space-semantic",
+      "name": "Semantic zoom",
+      "ja": "近づくほど、説明が詳しくなる",
+      "category": "layout",
+      "categories": [
+        "layout",
+        "gesture",
+        "data"
+      ],
+      "engine": "css",
+      "inputs": [
+        "pointer",
+        "adjust"
+      ],
+      "source": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+      "level": "applied",
+      "targets": [
+        "layout",
+        "ui"
+      ],
+      "contexts": [
+        "portfolio",
+        "navigation"
+      ],
+      "support": "HTML / CSS / Pointer Events。無限キャンバス以外は25枚の範囲を探索します。"
     }
   ]
 }

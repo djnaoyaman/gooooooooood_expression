@@ -1,5 +1,11 @@
 // An explicit, versioned checklist for the 2026-10 coverage expansion. Not a claim to cover every possible expression.
 export const coverageAreas=[
+ ['type-transform','文字の変身',['type-scramble','type-odometer','type-splitflap','type-handwriting']],
+ ['print-finish','印刷と加工',['texture-foil','texture-emboss','texture-letterpress','texture-ink','texture-distress']],
+ ['optical-finish','光学的な素材感',['optical-hologram','optical-pearl','optical-refraction','optical-caustics']],
+ ['signal','映像の乱れ',['film-glitch','film-crt','film-vhs','film-pixelsort']],
+ ['frames','コマを使った動き',['frame-sprite','frame-stopmotion','frame-turntable','frame-lineboil']],
+ ['exploration','広い空間を探索する',['space-infinite','space-focus','space-minimap','space-semantic']],
  ['comparison','比較と観察',['compare-wipe','compare-loupe','compare-sync']],
  ['product-details','商品を理解する',['product-config','product-explode','product-hotspots']],
  ['editing','並べ替えと編集',['edit-sort','edit-transfer','edit-lasso','edit-guides']],

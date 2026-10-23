@@ -2,6 +2,8 @@ import {learningOptions,targetOptions,contextOptions} from './coverage.js';
 import {all, categories, byId, categoryGroups, belongsTo, inputOptions, engineOptions} from './catalog.js';
 
 export const trails = [
+ {id:'material-expression',name:'画面に、手触りをつくる。',question:'同じ文字が、紙にも金属にも見える。',label:'印刷と光学',ids:['texture-foil','texture-emboss','texture-letterpress','texture-ink','optical-hologram'],prompts:['光の角度を変える','盛り上がりを比べる','陰影を反転する','輪郭をにじませる','観察角で色を動かす']},
+ {id:'frames-space',name:'時間を刻み、空間をひらく。',question:'一枚ずつの絵から、広がる体験へ。',label:'コマと探索',ids:['frame-sprite','frame-stopmotion','frame-turntable','space-focus','space-semantic'],prompts:['シートから一コマを切り出す','一秒のコマ数を変える','角度に合う画像を選ぶ','全体と詳細を行き来する','近づくほど説明を増やす']},
  {id:'compare-choose',name:'比べると、違いが見えてくる。',question:'同じ場所を、同じ条件で観察したら？',label:'比較から選択へ',ids:['compare-wipe','compare-loupe','compare-sync','product-config','product-hotspots'],prompts:['境界を動かして違いを見る','小さな違いを拡大する','同じ倍率と位置で比べる','色と素材を選ぶ','注目した場所から説明を読む']},
  {id:'find-edit',name:'見つけて、選んで、並べ替える。',question:'自分の操作で、情報が整っていく。',label:'探す・編集する',ids:['search-suggest','search-highlight','search-chips','edit-sort','edit-transfer'],prompts:['候補から言葉を選ぶ','一致した場所を確かめる','条件を外して戻る','順序を組み替える','別の場所へ移す']},
  {id:'practical',name:'ひとつの操作を、最後まで。',question:'迷わず触れて、安心して終えるには？',label:'UIから完成例へ',ids:['ui-dialog','ui-validation','ui-submit','access-feedback','case-form'],prompts:['操作する場所を絞る','直す場所を案内する','待ち時間と結果を伝える','色以外でも意味を伝える','一つの流れとして使う']},
@@ -22,6 +24,11 @@ export const trails = [
 
 // Intent vocabulary connects everyday language with technical names.
 const concepts = [
+ {terms:['質感を出したい','素材感','加工','印刷'],ids:['texture-foil','texture-emboss','texture-letterpress','texture-ink','texture-distress','optical-hologram','optical-pearl','optical-refraction','optical-caustics']},
+ {terms:['文字を変えたい','文字の変身','文字演出'],ids:['type-scramble','type-odometer','type-splitflap','type-handwriting']},
+ {terms:['映像の乱れ','グリッチ','レトロ映像'],ids:['film-glitch','film-crt','film-vhs','film-pixelsort']},
+ {terms:['コマ','連番','フレーム'],ids:['frame-sprite','frame-stopmotion','frame-turntable','frame-lineboil']},
+ {terms:['探索させたい','空間探索','探索'],ids:['space-infinite','space-focus','space-minimap','space-semantic']},
  {terms:['比較したい','比較','見比べる'],ids:['compare-wipe','compare-loupe','compare-sync','product-config']},
  {terms:['選びたい','選ぶ','商品紹介'],ids:['product-config','product-explode','product-hotspots']},
  {terms:['編集したい','編集','並べ替え'],ids:['edit-sort','edit-transfer','edit-lasso','edit-guides']},
@@ -55,7 +62,7 @@ const concepts = [
  {terms:['音','サウンド','効果音','se'],categories:['sound']},
  {terms:['紙','印刷','レトロ'],ids:['texture-halftone','style-retro','style-editorial','shadow-hard']}
 ];
-export const suggestions=['ふわっと','比較したい','編集したい','文字','反応'];
+export const suggestions=['比較したい','質感を出したい','探索させたい','文字','ふわっと'];
 export function normalize(value){return String(value??'').normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g,c=>String.fromCharCode(c.charCodeAt(0)-0x60)).replace(/[‐‑–—_-]/g,' ').replace(/\s+/g,' ').trim()}
 const fields=new Map(all.map(e=>[e.id,{name:normalize(e.name+' '+e.ja),body:normalize([e.description,e.use,e.tip,...e.tags,...e.targets,...e.contexts,...learningOptions.filter(x=>x[0]===e.level).flat(),...targetOptions.filter(x=>e.targets.includes(x[0])).flat(),...contextOptions.filter(x=>e.contexts.includes(x[0])).flat(),...categories.filter(c=>belongsTo(e,c[0])).flat(),...inputOptions.filter(x=>e.inputs.includes(x[0])).flat(),...engineOptions.find(x=>x[0]===e.engine)].join(' '))}]));
 const aliases=new Map(all.map(e=>[e.id,concepts.filter(c=>c.ids?.includes(e.id)||c.categories?.some(id=>belongsTo(e,id))).flatMap(c=>c.terms).map(normalize)]));

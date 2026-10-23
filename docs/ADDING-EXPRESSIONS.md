@@ -22,6 +22,8 @@ mainへのpushでGitHub Pagesがビルド・検査・公開します。検査失
 
 ## 応用例・完成例の追加
 
-`level` は `basic` / `applied` / `advanced` / `composition`。`targets` と `contexts` は `dist/coverage.js` の語彙に従います。`support` に機能検出・代替描画・必要な許可を記述し、`related` に構成要素のIDを付けて完成例と技法を相互リンクします。今回の追加対象は同ファイルの13領域で管理し、欠けたIDは `check-coverage.mjs` で検出します。
+`level` は `basic` / `applied` / `advanced` / `composition`。`targets` と `contexts` は `dist/coverage.js` の語彙に従います。`support` に機能検出・代替描画・必要な許可を記述し、`related` に構成要素のIDを付けて完成例と技法を相互リンクします。追加対象は同ファイルの収録領域で管理し、欠けたIDは `check-coverage.mjs` で検出します。
 
 Expression Axis Studyは図鑑オリジナルの幾何学書体です。`python scripts/build-axis-font.py` で再生成します（fontToolsが必要）。通常ビルドでは生成済みデータを使うためPython依存はありません。
+
+比較・編集・検索は `experience-labs.js`、文字・印刷・光学・映像・コマは `craft-labs.js`、空間探索は `space-labs.js`。`npm run qa:prepare` 後、`/_qa.html?subset=extensions` で追加38件の埋め込み操作、`/qa-extensions.html` で単独HTML・320px幅・動きを減らす設定を検証できます。検証用ページは `npm run qa:clean` で両方削除します。

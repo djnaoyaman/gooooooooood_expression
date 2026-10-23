@@ -3098,3 +3098,228 @@ URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/search-chi
 用途: 違いを確かめたり、選択・編集の手応えを設計するとき。
 使い方: 操作前後を見比べてください。ボタンやスライダーでも操作できます。
 公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Text scramble resolve — 文字の混沌から、言葉が現れる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-scramble.html
+カテゴリー: タイポグラフィ
+実装: Canvas 2D
+ランダムな字形を順番に確定させ、NAOYAMANへ変化させます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Rolling digit counter — 数字が回転して、値に届く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-odometer.html
+カテゴリー: タイポグラフィ / データの見せ方
+実装: Canvas 2D
+各桁を縦に回転させ、目標の値へ変化させます。数値の変化を読むための表現です。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Split-flap display — 文字盤が、一枚ずつめくれる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-splitflap.html
+カテゴリー: タイポグラフィ / 画面遷移
+実装: Canvas 2D
+上下に分かれた文字盤をめくり、MIXWELLからNAOYAMANへ切り替えます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Handwriting stroke sequence — 書く順序に沿って、文字を描く
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/type-handwriting.html
+カテゴリー: タイポグラフィ / 形・線・輪郭
+実装: Canvas 2D
+オリジナルの線で組んだNAOYAMANを、線の長さに沿って一筆ずつ描きます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Foil stamping study — 箔の輝きが、文字を走る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-foil.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ / 影・光・奥行き
+実装: Canvas 2D
+文字の内側に金属的な明暗の帯をつくり、照明方向による変化を模します。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Embossed lettering — 紙から、文字が浮き上がる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-emboss.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ / 影・光・奥行き
+実装: Canvas 2D
+同じ字形の明暗を逆方向へずらし、紙と一体になった盛り上がりを表します。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Letterpress impression — 紙に、文字が沈み込む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-letterpress.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ / 影・光・奥行き
+実装: Canvas 2D
+明るい縁と暗い内側を組み合わせ、活版印刷の押し跡を模します。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Ink bleed — インクが、輪郭の外へ広がる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-ink.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ
+実装: Canvas 2D
+文字の周囲へぼかした色を重ね、紙にインクがにじむ印象をつくります。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Distressed ink — かすれから、印刷の手触りをつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/texture-distress.html
+カテゴリー: 質感・印刷表現 / タイポグラフィ / マスク・出現
+実装: Canvas 2D
+描いた文字のインクを小さく不規則に削り、かすれの量を調整します。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Holographic foil — 角度で、虹色が入れ替わる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/optical-hologram.html
+カテゴリー: 質感・印刷表現 / グラデーション / 色・配色
+実装: Canvas 2D
+色の帯と細い線を重ね、ホログラム加工に似た色の変化を表します。立体ホログラムの再現ではありません。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Pearlescent surface — 真珠のように、色をひそませる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/optical-pearl.html
+カテゴリー: 質感・印刷表現 / 色・配色 / 影・光・奥行き
+実装: Canvas 2D
+淡い虹色と球面の陰影を組み合わせ、真珠のような光沢を模します。薄膜干渉の物理計算は行いません。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Glass lens refraction — 透明な面が、背景を曲げる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/optical-refraction.html
+カテゴリー: 写真・画像表現 / 質感・印刷表現
+実装: Canvas 2D
+レンズ内の画像を読む座標を変え、透明な球面による屈折を近似します。指先や矢印キーで位置を変えられます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Caustic light pattern — 水底に、光の網が揺れる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/optical-caustics.html
+カテゴリー: 質感・印刷表現 / 影・光・奥行き / 生成・アルゴリズム
+実装: Canvas 2D
+交差する明るい波で、水面が集める光の模様を近似します。光線追跡による計算ではありません。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Slice glitch — 映像の一部が、ずれて戻る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/film-glitch.html
+カテゴリー: 写真・画像表現 / 映像の見せ方
+実装: Canvas 2D
+横長の帯をずらし、信号が途切れたような表情をつくります。高速な全面点滅は使いません。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## CRT scanlines — 走査線を重ねて、画面の記憶をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/film-crt.html
+カテゴリー: 写真・画像表現 / 映像の見せ方 / 質感・印刷表現
+実装: Canvas 2D
+細い横線と周辺減光を重ね、ブラウン管を思わせる画面へ変えます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## VHS tracking drift — 水平の揺れで、テープの表情をつくる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/film-vhs.html
+カテゴリー: 写真・画像表現 / 映像の見せ方 / 質感・印刷表現
+実装: Canvas 2D
+横方向のずれと小さな追跡ノイズで、VHS映像の揺らぎを模します。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Pixel sorting — 画素を並べ替えて、色を流す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/film-pixelsort.html
+カテゴリー: 写真・画像表現 / 生成・アルゴリズム
+実装: Canvas 2D
+明度のしきい値を超える連続区間を選び、その中で画素を明るさ順に並べます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Sprite sheet animation — 一枚の画像から、動きを切り出す
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/frame-sprite.html
+カテゴリー: アニメーション / 映像の見せ方
+実装: Canvas 2D
+12コマを並べたオリジナルのシートをつくり、順番に切り出して動かします。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Stop-motion timing — コマを間引いて、手作りのリズムに
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/frame-stopmotion.html
+カテゴリー: アニメーション / 時間・リズム / 映像の見せ方
+実装: Canvas 2D
+連続する動きの時間を区切り、コマ撮りらしい間隔と手触りを比べます。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Frame sequence turntable — 連番画像で、商品を回して見る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/frame-turntable.html
+カテゴリー: 写真・画像表現 / 3D・立体表現
+実装: Canvas 2D
+模式的な箱の24方向をCanvas画像として用意し、角度に応じた画像を表示します。実写素材に置き換えられる構造です。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Hand-drawn line boil — 手描きの線が、小さく息をする
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/frame-lineboil.html
+カテゴリー: アニメーション / 形・線・輪郭 / 質感・印刷表現
+実装: Canvas 2D
+少しずつ異なる三枚の輪郭を交互に表示し、手描きアニメーションの線の揺らぎをつくります。
+用途: 文字や素材、映像の表情を比較し、意図に合う見せ方を選ぶとき。
+使い方: 数値を変えて違いを観察してください。動く見本は停止でき、最初から再生できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial
+
+## Infinite canvas — 画面の外へ、どこまでも進む
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/space-infinite.html
+カテゴリー: レイアウト・余白 / ジェスチャー・追従 / データの見せ方
+実装: HTML / CSS
+画面の移動に合わせて必要な範囲のカードだけを描き、終端のない座標空間を探索します。
+用途: 作品群や情報の関係を、空間として探索してもらうとき。
+使い方: ドラッグ、矢印ボタン、矢印キーで移動。倍率スライダーや＋／−で拡大できます。Homeで中心に戻ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Overview to detail — 全体から、気になる場所へ近づく
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/space-focus.html
+カテゴリー: レイアウト・余白 / ジェスチャー・追従 / データの見せ方
+実装: HTML / CSS
+一覧で関係を眺め、注目地点へ移動して拡大し、再び全体へ戻ります。
+用途: 作品群や情報の関係を、空間として探索してもらうとき。
+使い方: ドラッグ、矢印ボタン、矢印キーで移動。倍率スライダーや＋／−で拡大できます。Homeで中心に戻ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Navigable minimap — 小さな地図で、現在地を知る
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/space-minimap.html
+カテゴリー: レイアウト・余白 / ジェスチャー・追従 / データの見せ方
+実装: HTML / CSS
+全体図に今見ている範囲を重ねます。地図を押すと、その場所へ視点が移ります。
+用途: 作品群や情報の関係を、空間として探索してもらうとき。
+使い方: ドラッグ、矢印ボタン、矢印キーで移動。倍率スライダーや＋／−で拡大できます。Homeで中心に戻ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Semantic zoom — 近づくほど、説明が詳しくなる
+URL: https://djnaoyaman.github.io/gooooooooood_expression/expressions/space-semantic.html
+カテゴリー: レイアウト・余白 / ジェスチャー・追従 / データの見せ方
+実装: HTML / CSS
+縮小時は点、標準では名前、拡大時は説明へ切り替えます。倍率に応じて情報の密度を変えます。
+用途: 作品群や情報の関係を、空間として探索してもらうとき。
+使い方: ドラッグ、矢印ボタン、矢印キーで移動。倍率スライダーや＋／−で拡大できます。Homeで中心に戻ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events

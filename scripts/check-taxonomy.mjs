@@ -28,3 +28,5 @@ assert.deepEqual(report.entries.map(e=>e.id),all.map(e=>e.id));
 console.log('Passed: taxonomy coverage, cross-references, unique counts, combined facets, intent search and generated catalogue data.');
 
 assert.equal(existsSync(new URL('../dist/_qa.html',import.meta.url)),false,'Run npm run qa:clean before publishing');
+
+assert.equal(existsSync(new URL('../dist/qa-extensions.html',import.meta.url)),false,'Run npm run qa:clean before publishing');
