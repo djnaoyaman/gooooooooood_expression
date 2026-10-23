@@ -4,6 +4,8 @@
 
 **196種類 / 19カテゴリー**。モノトーンの画面で表現を探し、実演・解説・用途・コードを結びつけます。
 
+**公開サイト：[gooooooooood expression](https://djnaoyaman.github.io/gooooooooood_expression/)**
+
 - 48種類のモーション、64種類の視覚表現、36種類のイージング、16種類の合成音
 - 8種類の操作デモ、16種類のスクロール・パララックス表現
 - 一覧はスクロールに応じて続きを自動追加。既存カードとスクロール位置を保持し、末尾で終了
@@ -39,7 +41,7 @@ python3 -m http.server 8080 --directory dist
 
 各ページに固有のtitle、description、canonical、OGP、Twitter Card、JSON-LDを出力します。全項目を含むsitemap、robots.txt、llms.txt、llms-full.txt、1200×630のOG画像、SVG/ICO/PNG favicon、180/167/152px Apple Touch Icon、192/512pxアイコンとmaskableアイコン、Web App Manifestを同梱しています。
 
-`site.config.json` の `url` を実際の公開先に変更して `npm run build` を実行すると、canonical・OGP・sitemap・テキスト資料のURLを揃えて再生成できます。現在の値は `https://djnaoyaman.github.io/gooooooooood_expression` です。GitHub Pagesへの移行用の設定とワークフローを準備済みです。リポジトリ公開とPages有効化は未完了のため、このURLの稼働はまだ確認していません。
+`site.config.json` の `url` を実際の公開先に変更して `npm run build` を実行すると、canonical・OGP・sitemap・テキスト資料のURLを揃えて再生成できます。現在は `https://djnaoyaman.github.io/gooooooooood_expression` に統一し、GitHub Pagesで公開しています。
 
 認証が必要な非公開サイトでは、外部の検索・SNSクローラーは本文やOG画像を取得できません。SEO/LLMOの設定は順位、掲載、引用を保証しません。llms.txtは補助資料であり、検索エンジンへの登録機能ではありません。
 
@@ -53,11 +55,11 @@ Manifestはホーム画面用の名前・アイコンを定義します。オフ
 
 [確認用デザイン](docs/brand-preview.png) / [仕様と共有時のルール](docs/brand-and-sharing.md)
 
-## GitHub Pagesへの移行準備
+## GitHub Pagesでの公開
 
-`.github/workflows/pages.yml` は `dist` をビルド・検査して公開します。現在のアカウントでは非公開リポジトリのPagesが利用できないため、リポジトリが非公開の間はデプロイジョブをスキップします。公開への変更は所有者の明示的な承認後に行います。
+所有者の承認を受け、リポジトリとGitHub Pagesを一般公開しました。`.github/workflows/pages.yml` は `dist` をビルド・検査して公開します。リポジトリが非公開の場合はデプロイジョブをスキップします。
 
-承認後にリポジトリをPublicに変更し、Settings → Pages → SourceをGitHub Actionsに設定して、Actionsの `Deploy website to GitHub Pages` を実行します。以後はmainへのpushで更新されます。canonical・OGP・sitemap・LLM向けテキストは同じ公開URLを使用します。
+Settings → Pages → SourceはGitHub Actionsに設定済みです。mainへのpushで自動更新され、Actionsの `Deploy website to GitHub Pages` から手動実行もできます。canonical・OGP・sitemap・LLM向けテキストは同じ公開URLを使用します。
 
 GitHub Pagesのプロジェクト配下の `robots.txt` は、ホスト直下のクロール制御には使われません。またGoogle検索のfaviconはホスト名単位です。他の作品のルート設定を変更せず、このサイトのHTMLと共有画像を設定しています。
 
