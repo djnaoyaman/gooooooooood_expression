@@ -1,0 +1,12 @@
+{
+  "name": "gooooooooood_expression",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An interactive Japanese encyclopedia of web expression.",
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "engines": { "node": ">=20" }
+}

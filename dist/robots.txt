@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://gooooooooood-expression.mossyelf3.chatgpt.site/sitemap.xml

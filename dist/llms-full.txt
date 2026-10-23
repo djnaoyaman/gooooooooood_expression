@@ -1,0 +1,1508 @@
+# gooooooooood expression
+
+作者 宮崎直哉
+アニメーション、イージング、パララックス、音、色、文字、質感を、見て、触って、覚えて、使えるWeb表現図鑑。実演・解説・用途・コピーできるコードを収録。
+
+## Fade in — ふわっと現れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/fade-in.html
+カテゴリー: アニメーション
+透明な状態から、少しずつ姿を現します。
+用途: 読み込み後の画像や補足情報を穏やかに表示するとき。
+使い方: 移動を加えず、透明度だけで変化を伝えられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+
+## Fade out — 静かに消える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/fade-out.html
+カテゴリー: アニメーション
+輪郭を保ったまま、透明になって消えます。
+用途: 役目を終えた通知や補助表示を閉じるとき。
+使い方: 表示を消す処理は、アニメーションの終了後に行います。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+
+## Slide up — 下からせり上がる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/slide-up.html
+カテゴリー: アニメーション
+下にある要素が、上へ移動して定位置に収まります。
+用途: カードや見出しを順に紹介するとき。
+使い方: この見本は位置だけが変わり、透明度は変わりません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Slide down — 上から降りてくる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/slide-down.html
+カテゴリー: アニメーション
+上にある要素が、下へ移動して定位置に収まります。
+用途: 上部から出る案内やメニューを示すとき。
+使い方: 長い移動より、短い距離のほうが画面を追いやすくなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Slide left — 右から入る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/slide-left.html
+カテゴリー: アニメーション
+右側から左へ動き、中央に収まります。
+用途: 次のカードや横から開くパネルを見せるとき。
+使い方: 画面全体が横にはみ出さないよう、表示領域の外側を隠します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Slide right — 左から入る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/slide-right.html
+カテゴリー: アニメーション
+左側から右へ動き、中央に収まります。
+用途: 前の画面に戻る方向や、左から開くパネルを示すとき。
+使い方: 進む・戻るの方向は、画面内で統一すると理解しやすくなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Zoom in — 小さく始まり、大きく
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/zoom-in.html
+カテゴリー: アニメーション
+中心を保ちながら、小さな形から通常の大きさになります。
+用途: 注目してほしい画像や選択状態を見せるとき。
+使い方: 文字を大きく拡大すると、途中で輪郭が甘く見える場合があります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Zoom out — 大きく始まり、収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/zoom-out.html
+カテゴリー: アニメーション
+大きな形が縮み、通常の大きさに収まります。
+用途: 写真や見出しの登場に奥行きを添えるとき。
+使い方: 過度な拡大を避けると、落ち着いた印象にできます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Pop in — ぽん、と現れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/pop-in.html
+カテゴリー: アニメーション
+一度少し大きくなってから、定位置の大きさに戻ります。
+用途: 追加した項目や、短い成功メッセージを見せるとき。
+使い方: 最終サイズを少しだけ超えることで、弾む感触が生まれます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Bounce — ぽんぽん跳ねる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/bounce.html
+カテゴリー: アニメーション
+上へ跳ね、次第に小さな跳ね方になって着地します。
+用途: 遊び心のある操作案内や、目を向けてほしい要素に。
+使い方: 高さが徐々に小さくなると、着地の終わりが伝わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Float — ふわふわ浮く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/float.html
+カテゴリー: アニメーション
+ゆっくり持ち上がり、同じ場所へ戻ります。
+用途: 装飾やイラストに軽さを添えるとき。
+使い方: 繰り返す場合は移動距離を控えめにし、停止も選べるようにします。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Pulse — ゆっくり脈打つ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/pulse.html
+カテゴリー: アニメーション
+大きさを少し増やし、元に戻します。
+用途: 現在位置や、今選べる操作を控えめに示すとき。
+使い方: 色の点滅ではなく、大きさの緩やかな変化で注意を促します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Swing — 吊られて揺れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/swing.html
+カテゴリー: アニメーション
+上端を支点に、左右へ揺れて落ち着きます。
+用途: タグや看板など、吊るされた形の演出に。
+使い方: 支点を変えると、同じ回転でも揺れ方が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Wobble — ぐらぐら揺れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/wobble.html
+カテゴリー: アニメーション
+横移動と回転を重ねて、揺れながら中央へ戻ります。
+用途: 遊び心を出したいアイコンやキャラクターに。
+使い方: 揺れが収まる終点を用意すると、次の操作に集中しやすくなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Shake X — 左右に首を振る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shake-x.html
+カテゴリー: アニメーション
+回転せず、短い距離を左右に往復します。
+用途: 入力を見直してほしい場所を示すとき。
+使い方: 動きだけに頼らず、修正内容を文章でも伝えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Shake Y — 上下に小さく揺れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shake-y.html
+カテゴリー: アニメーション
+回転せず、短い距離を上下に往復します。
+用途: 上下方向の操作を、短い動きで案内するとき。
+使い方: 動きを繰り返し続けず、必要な場面で一度だけ見せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Rubber band — ゴムのように伸びる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/rubber-band.html
+カテゴリー: アニメーション
+横に伸び、縦に縮み、反動をつけて元に戻ります。
+用途: タップへの反応や、遊び心のあるロゴに。
+使い方: 縦横を逆方向へ変形すると、弾力を感じさせられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Jelly — ぷるんと震える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/jelly.html
+カテゴリー: アニメーション
+斜め方向の変形を交互に重ね、ぷるんと元に戻ります。
+用途: 柔らかい素材感や、軽快な操作感を出したいとき。
+使い方: 斜めに傾けるskewを使った表現例です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Spin — くるりと一回転
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/spin.html
+カテゴリー: アニメーション
+中心を支点に、一定の速さで一周します。
+用途: 処理中の表示や、回転する仕組みの説明に。
+使い方: 円だけでは回転が見えないため、目印のある形を使います。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Flip X — 縦にひっくり返る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/flip-x.html
+カテゴリー: アニメーション
+横軸を支点に、奥行きをつけて一回転します。
+用途: カードの表裏や、入れ替わりを立体的に見せるとき。
+使い方: この見本は一枚の回転です。実際の表裏には別の面を用意します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Flip Y — 横にひっくり返る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/flip-y.html
+カテゴリー: アニメーション
+縦軸を支点に、奥行きをつけて一回転します。
+用途: カードやパネルの面を切り替える演出に。
+使い方: 遠近法の距離を短くすると、奥行きの変化が強くなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## 3D tilt — 立体的に傾く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/tilt-3d.html
+カテゴリー: アニメーション
+縦と横の回転を重ね、面の傾きを変えます。
+用途: 商品カードや、奥行きのある見本に。
+使い方: ポインター位置に連動させる場合は、別途イベント処理が必要です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Orbit — 円を描いて巡る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/orbit.html
+カテゴリー: アニメーション
+向きを保ったまま、中心のまわりを一周します。
+用途: 軌道や周回の関係を説明するとき。
+使い方: 回転・移動・逆回転を重ねると、向きを保って周回できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Figure eight — 8の字をたどる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/figure-eight.html
+カテゴリー: アニメーション
+左右の輪を巡り、8の字の軌跡を描きます。
+用途: 移動経路の違いや、反復する流れを示すとき。
+使い方: この見本は複数の位置を結んで軌道を近似しています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Spiral in — 回りながら現れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/spiral-in.html
+カテゴリー: アニメーション
+小さく回転した形が、拡大しながら正面に収まります。
+用途: ロゴや短い見出しに、はっきりした登場感を添えるとき。
+使い方: 拡大と回転を同じtransform内で組み合わせます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Hinge out — 端からぶら下がり、落ちる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/hinge-out.html
+カテゴリー: アニメーション
+左上を支点に傾き、少し揺れてから下へ落ちます。
+用途: 取り外す、片づけるなどの動作を遊び心とともに示すとき。
+使い方: 重要な情報の退場には、内容を読む時間も確保します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Roll in — 転がって入る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/roll-in.html
+カテゴリー: アニメーション
+横から転がるように回転し、正しい向きで止まります。
+用途: バッジや丸いアイコンの登場に。
+使い方: 移動と回転の量を調整すると、転がる重さの印象が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Blur in — ぼやけた輪郭が結ばれる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/blur-in.html
+カテゴリー: アニメーション
+ぼかしを減らしながら、はっきりした形になります。
+用途: 写真や大きな見出しを、静かに印象づけるとき。
+使い方: ぼかしの処理負荷は要素の大きさや端末によって変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+## Blur out — ぼやけながら消える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/blur-out.html
+カテゴリー: アニメーション
+輪郭がぼやけ、透明になって消えます。
+用途: 画面切り替えや、補助的な文字の退場に。
+使い方: 背景のぼかしとは異なり、filterは要素そのものに作用します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+
+## Wipe right — 左から幕が開く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/wipe-right.html
+カテゴリー: アニメーション
+左端から右端へ、見える範囲が広がります。
+用途: 画像や見出しを、方向を持たせて紹介するとき。
+使い方: 要素を移動せず、clip-pathで見える範囲だけを変えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Wipe up — 下から幕が開く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/wipe-up.html
+カテゴリー: アニメーション
+下端から上端へ、見える範囲が広がります。
+用途: 高さのある写真や、積み上がる内容を見せるとき。
+使い方: 同じマスクでも、開く方向で読ませる流れが変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Circle reveal — 円が広がって現れる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/circle-reveal.html
+カテゴリー: アニメーション
+中央の小さな円から、見える範囲が広がります。
+用途: 写真の注目点から全体を見せるとき。
+使い方: 円の中心を変えると、タップした場所から開くようにも見せられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Diamond reveal — ひし形が開く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/diamond-reveal.html
+カテゴリー: アニメーション
+中央の一点から、ひし形の窓が大きくなります。
+用途: 幾何学的な画面や、図形を主役にした切り替えに。
+使い方: 多角形同士を変化させるときは、頂点の数と順番をそろえます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Curtain open — 中央から左右に開く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/curtain-open.html
+カテゴリー: アニメーション
+中央の細い窓が、左右へ均等に広がります。
+用途: 対称性のある構図や、大切な見出しの登場に。
+使い方: 左右を同じ割合で切り抜くと、中心を動かさずに開けます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Diagonal wipe — 斜めに切り開く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/diagonal-wipe.html
+カテゴリー: アニメーション
+斜めの境界線が進み、形全体が現れます。
+用途: 写真の切り替えや、方向感のある登場演出に。
+使い方: この例は同じ数の頂点を持つ多角形の間を補間しています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Blob morph — 有機的に形を変える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/blob-morph.html
+カテゴリー: アニメーション
+角の丸みを別々に変え、柔らかな塊の形をつくります。
+用途: イラストの背景や、有機的な装飾に。
+使い方: この見本はSVGのパス変形ではなく、border-radiusによる形の変化です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+## Square to circle — 四角が丸になる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/square-to-circle.html
+カテゴリー: アニメーション
+四隅の丸みを増やし、四角から円へ変化します。
+用途: 角丸の仕組みや、形の連続性を説明するとき。
+使い方: 正方形を使うと円になり、長方形ではカプセル状になります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius
+
+## Color shift — 色が移り変わる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-shift.html
+カテゴリー: アニメーション
+形を保ったまま、背景色が順に移り変わります。
+用途: 状態の変化や、配色のつながりを見せるとき。
+使い方: 状態を伝えるときは、色に加えてラベルや形も使います。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/background-color
+
+## Glow — やわらかく光る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/glow.html
+カテゴリー: アニメーション
+周囲の光が広がって強まり、ゆっくり元に戻ります。
+用途: 選択中の要素や、発光する質感の表現に。
+使い方: 明滅を速くせず、光の広がりをゆっくり変えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+## Shadow lift — 影とともに浮き上がる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shadow-lift.html
+カテゴリー: アニメーション
+少し持ち上がりながら、下の影が広がります。
+用途: カードに触れたときや、ドラッグ開始の反応に。
+使い方: 移動と影を組み合わせると、持ち上げた状態が伝わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+## Letter spread — 文字の間がひらく
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/letter-spread.html
+カテゴリー: アニメーション
+文字の形を保ちながら、字間が広がります。
+用途: 短いロゴや、余韻をつけたい見出しに。
+使い方: 長い文章では改行位置が変わるため、短い文字列から試します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+## Tracking in — 文字が寄り集まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/tracking-in.html
+カテゴリー: アニメーション
+広がった字間を詰めながら、文字がくっきり現れます。
+用途: 短いタイトルや、ブランド名の登場に。
+使い方: 文字ごとに動かす演出とは異なり、文字列全体の字間を変えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing
+
+## Text glow — 文字の縁が光る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/text-glow.html
+カテゴリー: アニメーション
+文字のまわりに色のついた光が広がり、また収まります。
+用途: ネオンのような見出しや、暗い背景のアクセントに。
+使い方: text-shadowは文字の輪郭に沿った影をつくります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API/Keyframe_Formats
+
+## Skew in — 斜めの勢いで入る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/skew-in.html
+カテゴリー: アニメーション
+横に傾いた文字が、滑りながらまっすぐに収まります。
+用途: 速度感のある短い見出しや、スポーティーな表現に。
+使い方: 傾きは最後に解消すると、読みやすい状態で止められます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Typewriter reveal — 文字を段階的に見せる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/typewriter.html
+カテゴリー: アニメーション
+見える範囲を4段階で広げ、短い文字列を現します。
+用途: 入力しているような雰囲気を、短いテキストに添えるとき。
+使い方: この見本は4段階のマスクです。文字幅が異なる書体では、一文字ずつには一致しません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+## Squash & stretch — つぶれて、伸びる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/squash-stretch.html
+カテゴリー: アニメーション
+着地でつぶれ、跳び上がるときに縦へ伸びます。
+用途: キャラクターやボールに、重さと弾力を感じさせたいとき。
+使い方: アニメーションの原則として知られる表現を、拡縮で近似しています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Grow X — 左端から伸びる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/grow-x.html
+カテゴリー: アニメーション
+左端を支点に、横幅が伸びていきます。
+用途: 進捗バーや、見出しの下線を描くとき。
+使い方: この見本はscaleXを使い、レイアウト上の幅は変更しません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## Elastic in — ばねのように収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/elastic-in.html
+カテゴリー: アニメーション
+大きさが行き過ぎて戻る動きを繰り返し、徐々に落ち着きます。
+用途: 遊び心のある選択反応や、小さな通知の登場に。
+使い方: これはキーフレームによるばね風の近似で、物理シミュレーションではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+
+## HEX color — 16進数のカラーコード
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-hex.html
+カテゴリー: 色・配色
+赤・緑・青の量を、6桁の16進数で指定します。
+用途: 色を正確に共有するとき。
+使い方: #RGBは各桁を重ねた#RRGGBBの省略形です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/hex-color
+
+## Alpha transparency — 色の透け具合
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-alpha.html
+カテゴリー: 色・配色
+同じ色でも透明度によって、下の色との重なり方が変わります。
+用途: 重なりや、写真の上に色を重ねる場面。
+使い方: 要素全体を薄くするopacityと、色だけに指定するalphaは作用が異なります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/rgb
+
+## HSL color — 色相・彩度・明度
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-hsl.html
+カテゴリー: 色・配色
+色相を回転させ、彩度と明度を分けて指定する色の表し方です。
+用途: 色相をそろえたバリエーションをつくるとき。
+使い方: HSLの明度が同じでも、色相ごとの見た目の明るさはそろいません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/hsl
+
+## OKLCH lightness — 知覚を考慮した明るさ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-oklch.html
+カテゴリー: 色・配色
+色相と彩度を固定し、OKLCHの明度だけを段階的に変えます。
+用途: 一つの色から濃淡のパレットを組むとき。
+使い方: 指定した色が画面で再現できる範囲を超えることもあります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch
+
+## Color mixing — CSSで色を混ぜる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/color-mix.html
+カテゴリー: 色・配色
+二つの色を、指定した色空間と比率で混ぜます。
+用途: ブランドカラーから淡い背景色をつくるとき。
+使い方: 混ぜる色空間によって、中間色は変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/color-mix
+
+## Linear gradient — 線形グラデーション
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/gradient-linear.html
+カテゴリー: グラデーション
+一直線の方向に沿って色が移り変わります。
+用途: 背景、帯、進行方向を感じさせる面。
+使い方: 角度と色の停止位置を分けて考えると調整しやすくなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/linear-gradient
+
+## Radial gradient — 放射状グラデーション
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/gradient-radial.html
+カテゴリー: グラデーション
+中心から外側へ色が変わる、円や楕円のグラデーションです。
+用途: 光、柔らかな背景、視線を集めたい面。
+使い方: 中心位置をずらすだけでも、光源のような表現になります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient
+
+## Conic gradient — 円錐形グラデーション
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/gradient-conic.html
+カテゴリー: グラデーション
+中心のまわりを一周する方向で色が移り変わります。
+用途: 色相環、円グラフ風の背景、光沢の表現。
+使い方: 円周の始点と終点を同じ色にすると、継ぎ目が目立ちにくくなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient
+
+## Repeating gradient — 繰り返すグラデーション
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/gradient-repeat.html
+カテゴリー: グラデーション
+色の並びを反復して、縞やリズムをつくります。
+用途: パターン、区切り、進行中の表示。
+使い方: 色の切り替え位置をそろえると、ぼかしのない縞になります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-linear-gradient
+
+## Layered gradients — 重ねてつくる色の雲
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/gradient-layered.html
+カテゴリー: グラデーション
+複数の放射状グラデーションを重ね、色の塊をつくります。
+用途: メッシュグラデーション風の抽象背景。
+使い方: これは複数のCSS背景による表現で、専用のメッシュ構文ではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-image
+
+## Letter spacing — 字間
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/type-tracking.html
+カテゴリー: タイポグラフィ
+文字どうしの間隔を調整し、密度やリズムを変えます。
+用途: 短い見出し、ラベル、ロゴの検討。
+使い方: 長文では、見た目だけでなく読み進めやすさも確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing
+
+## Line height — 行間
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/type-leading.html
+カテゴリー: タイポグラフィ
+行の高さを変えると、文章の詰まり具合が変わります。
+用途: 本文の読みやすさを整えるとき。
+使い方: 行間は文字サイズや一行の長さと一緒に調整します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/line-height
+
+## Text outline — 文字の輪郭線
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/type-outline.html
+カテゴリー: タイポグラフィ
+文字の輪郭を線で描き、内部の塗りを抜きます。
+用途: 大きな見出しや、背景を透かした文字。
+使い方: 細かな文字では輪郭線が読みづらくなるため、大きさも確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/-webkit-text-stroke
+
+## Gradient text — 文字にグラデーション
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/type-gradient.html
+カテゴリー: タイポグラフィ
+背景のグラデーションを、文字の形で切り抜いて見せます。
+用途: 短いタイトルや、色の変化を楽しむ文字。
+使い方: 背景画像が使えない場合の文字色も用意しておきます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip
+
+## Vertical writing — 縦書き
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/type-vertical.html
+カテゴリー: タイポグラフィ
+文字の進む方向を縦にし、行を横に並べます。
+用途: 和文のタイトル、詩、編集的な画面。
+使い方: 英数字の向きはtext-orientationで調整できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/writing-mode
+
+## CSS Grid — 縦横をそろえるグリッド
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/layout-grid.html
+カテゴリー: レイアウト・余白
+行と列を定義し、二方向の整列をつくります。
+用途: カード一覧、誌面のような構成、複雑な整列。
+使い方: 列の比率とgapを先に決めると、構成が整理できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns
+
+## Flexbox — 一方向に並べる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/layout-flex.html
+カテゴリー: レイアウト・余白
+要素を一列に並べ、空き領域を分け合います。
+用途: ナビゲーション、ラベル列、カード内の整列。
+使い方: 折り返した各行の列幅をそろえたい場合はGridも比較します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/flex
+
+## Spanning grid — 大小を組み合わせるグリッド
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/layout-bento.html
+カテゴリー: レイアウト・余白
+一部の要素を複数の行や列にまたがって配置します。
+用途: 情報の大きさに強弱をつけるカード構成。
+使い方: 見た目の配置を変えても、読む順序は自然に保ちます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column
+
+## Layered composition — 重ねて組む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/layout-overlap.html
+カテゴリー: レイアウト・余白
+位置をずらした要素を重ね、前後関係をつくります。
+用途: ビジュアルの編集、複数の写真や情報の関係づけ。
+使い方: z-indexは重なりコンテキストの中で働きます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/z-index
+
+## Spacing scale — 余白の尺度
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/layout-spacing.html
+カテゴリー: レイアウト・余白
+一定の尺度で余白を決め、まとまりと間隔を整えます。
+用途: 画面全体の間隔をそろえたいとき。
+使い方: 数値を共通化しても、内容の関係に応じて大小を使い分けます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/gap
+
+## Border radius — 角丸
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shape-radius.html
+カテゴリー: 形・線・輪郭
+四隅の丸みを変えて、輪郭の印象を調整します。
+用途: カード、ボタン、写真の枠。
+使い方: 角丸の比率が大きいと、同じ指定でも要素の縦横比で形が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius
+
+## Organic radius — 有機的な輪郭
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shape-blob.html
+カテゴリー: 形・線・輪郭
+横方向と縦方向の角丸を別々に指定し、不均一な形をつくります。
+用途: 有機的な背景や、親しみのある図形。
+使い方: border-radiusはスラッシュの前後で横と縦の半径を分けられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-radius
+
+## Polygon clipping — 多角形で切り抜く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shape-polygon.html
+カテゴリー: 形・線・輪郭
+頂点の座標を指定し、要素を多角形に切り抜きます。
+用途: バッジ、切り欠き、幾何学的な構成。
+使い方: 切り抜きは見た目を変えますが、通常のレイアウト領域はそのままです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
+
+## Border styles — 線の表情
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shape-border.html
+カテゴリー: 形・線・輪郭
+実線、破線、点線など、輪郭線の種類を変えます。
+用途: 領域の区切り、選択範囲、補助的な枠。
+使い方: 線の種類だけに意味を持たせず、ラベルも組み合わせます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/border-style
+
+## Soft shadow — 柔らかな影
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shadow-soft.html
+カテゴリー: 影・光・奥行き
+ぼかした影を下に落とし、面が浮いて見えるようにします。
+用途: カードや、背景から少し離したい要素。
+使い方: 影の距離とぼかしを変えると、浮いている高さの印象が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+
+## Hard shadow — 輪郭のある影
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shadow-hard.html
+カテゴリー: 影・光・奥行き
+ぼかしをなくし、くっきりした影をずらして置きます。
+用途: ポスター風のカードや、力強いボタン。
+使い方: 影にぼかしを指定しないと、形がはっきり残ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+
+## Inset shadow — 内側の影
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shadow-inset.html
+カテゴリー: 影・光・奥行き
+要素の内側に影を描き、くぼみのような印象をつくります。
+用途: 押し込まれた状態や、凹みの表現。
+使い方: insetの有無で、影が要素の内側か外側か変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+
+## Outer glow — 外側への発光
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/shadow-glow.html
+カテゴリー: 影・光・奥行き
+輪郭のまわりに色付きのぼかしを重ね、光を表現します。
+用途: 暗い背景での強調や、光る輪郭。
+使い方: 発光を強めすぎると輪郭が読みにくくなるので比較します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+
+## Frosted glass — すりガラス
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/texture-glass.html
+カテゴリー: 質感・合成
+半透明の面の背後をぼかし、すりガラスのように見せます。
+用途: 背景を感じさせながら情報を重ねたい場面。
+使い方: filterは要素自身、backdrop-filterは背後に作用します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backdrop-filter
+
+## Halftone dots — 網点のパターン
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/texture-halftone.html
+カテゴリー: 質感・合成
+小さな点を一定間隔で並べ、印刷の網点を思わせる面をつくります。
+用途: ポスターや、質感を足す背景。
+使い方: この例は均一なドット柄で、写真の階調を網点に変換する処理ではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/radial-gradient
+
+## Multiply blend — 乗算で重ねる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/texture-multiply.html
+カテゴリー: 質感・合成
+前後の色を乗算し、重なる部分を暗く合成します。
+用途: インクの重なりや、色付きのレイヤー。
+使い方: 合成対象を区切りたいときはisolationも確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mix-blend-mode
+
+## Checker pattern — 市松模様
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/texture-checker.html
+カテゴリー: 質感・合成
+円錐形グラデーションをタイル状に繰り返し、格子をつくります。
+用途: 透明部分の目印や、幾何学的な背景。
+使い方: 背景の大きさで、模様の細かさを調整します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/repeating-conic-gradient
+
+## Grayscale filter — 白黒にする
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/image-grayscale.html
+カテゴリー: 写真・画像表現
+画像の彩度を取り除き、グレースケールで表示します。
+用途: 色を抑えた写真や、色の有無を比較するとき。
+使い方: 画像ファイルそのものを書き換えず、表示にフィルターを適用します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/grayscale
+
+## Hue rotation — 色相を回転する
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/image-hue.html
+カテゴリー: 写真・画像表現
+画像の色に色相回転のフィルターをかけます。
+用途: 素材の色の変化を試すとき。
+使い方: すべての色がHSL上で単純に同じ角度だけ移る処理ではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/filter-function/hue-rotate
+
+## Gradient mask — なだらかに隠す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/image-mask.html
+カテゴリー: 写真・画像表現
+マスクの透明度に応じて、画像の一部を徐々に隠します。
+用途: 写真と背景を柔らかくつなぐ場面。
+使い方: マスクの黒さではなく、通常は透明度が見える範囲を決めます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/mask-image
+
+## Circular crop — 円形にトリミング
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/image-crop.html
+カテゴリー: 写真・画像表現
+同じ素材を円の領域に切り抜いて見せます。
+用途: アバターや、図版の輪郭をそろえるとき。
+使い方: 重要な被写体が切れないか、中心位置も確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
+
+## Stroke linecap — 線の端の形
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/svg-linecap.html
+カテゴリー: SVG・アイコン
+線の端を、平ら・丸・四角に描き分けます。
+用途: 線画アイコンの統一感を整えるとき。
+使い方: roundとsquareは、線の座標より外側まで端が伸びます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-linecap
+
+## Stroke dasharray — 線を破線にする
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/svg-dash.html
+カテゴリー: SVG・アイコン
+線と空白の長さを指定し、パスを破線で描きます。
+用途: 点線のアイコン、経路、進行の表現。
+使い方: 円でも曲線でも、同じ線の指定が使えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dasharray
+
+## Bézier curve — ベジェ曲線
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/svg-bezier.html
+カテゴリー: SVG・アイコン
+始点・終点と制御点で、滑らかな曲線を描きます。
+用途: アイコン、経路、図形の輪郭。
+使い方: 制御点は曲線が必ず通る点ではなく、曲がり方を決める点です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorials/SVG_from_scratch/Paths
+
+## Even-odd fill — 重なる内側を抜く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/svg-fill-rule.html
+カテゴリー: SVG・アイコン
+輪郭をまたぐ回数の偶奇によって、塗る領域を決めます。
+用途: 穴のある図形や、複数の輪郭からできたアイコン。
+使い方: 同じパスでもfill-ruleによって内側の塗り方が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/fill-rule
+
+## Disclosure — 開閉する情報
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/ui-details.html
+カテゴリー: UIパーツ
+見出しを押すと、補足情報を展開します。
+用途: FAQや、必要な人だけが読む解説。
+使い方: detailsとsummaryで、基本の開閉をHTMLだけで実装できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details
+
+## Toggle switch — 切り替えスイッチ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/ui-toggle.html
+カテゴリー: UIパーツ
+チェックボックスをスイッチとして見せ、状態を切り替えます。
+用途: 有効・無効を切り替える設定。
+使い方: 見た目を変えても、入力要素とラベルの関係を保ちます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/checkbox
+
+## Range input — 連続値のスライダー
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/ui-range.html
+カテゴリー: UIパーツ
+つまみを動かして、範囲内の値を選びます。
+用途: 音量、強度、大きさなどの連続的な調整。
+使い方: キーボードの矢印キーでも値を変更できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/range
+
+## Segmented selection — 選択肢を並べる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/ui-segmented.html
+カテゴリー: UIパーツ
+排他的な選択肢を、横に並んだボタンのように見せます。
+用途: 表示方法や、少数の条件の切り替え。
+使い方: ラジオボタンのグループ名をそろえると、一つだけ選べます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/radio
+
+## Hover elevation — 触れると浮く
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/interaction-hover.html
+カテゴリー: 操作・反応
+ポインターを乗せると、位置と影が変わります。
+用途: 押せるカードやボタンへの補助的な反応。
+使い方: タッチ端末にはホバーがないため、押したときの反応も用意します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transition
+
+## Focus ring — 操作位置を示す輪郭
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/interaction-focus.html
+カテゴリー: 操作・反応
+キーボードで移動すると、現在操作している要素が輪郭でわかります。
+用途: キーボード操作を迷わず行える画面。
+使い方: Tabキーでこのボタンへ移動すると輪郭を確認できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible
+
+## Scroll snap — 区切りに吸着するスクロール
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/interaction-scroll-snap.html
+カテゴリー: 操作・反応
+横へスクロールすると、カードの区切りで止まりやすくなります。
+用途: カード一覧や、小さなギャラリー。
+使い方: 操作の対象が伝わるよう、次のカードを少し見せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type
+
+## Resizable region — 大きさを変えられる領域
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/interaction-resize.html
+カテゴリー: 操作・反応
+角のつまみをドラッグすると、領域の幅や高さが変わります。
+用途: レイアウトの確認や、入力欄の大きさ調整。
+使い方: リサイズ操作の提供方法はブラウザや端末によって異なります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/resize
+
+## Bar chart — 棒グラフ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/data-bars.html
+カテゴリー: データの見せ方
+棒の長さで、項目どうしの量を比べます。
+用途: カテゴリごとの数量を比較するとき。
+使い方: これは説明用の値です。量を比べる棒グラフは、原則としてゼロを基準にします。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles/img_role
+
+## Donut chart — ドーナツグラフ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/data-donut.html
+カテゴリー: データの見せ方
+円周を分割し、全体に対する割合を見せます。
+用途: 少数の項目の構成比を伝えたいとき。
+使い方: これは例示データです。割合は数値でも併記します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/gradient/conic-gradient
+
+## Sparkline — 小さな折れ線グラフ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/data-sparkline.html
+カテゴリー: データの見せ方
+短い折れ線で、値の変化の傾向を示します。
+用途: 表やカード内で、推移を簡潔に添えるとき。
+使い方: 数値の読み取りが重要なら、軸やラベルも用意します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Element/polyline
+
+## Heatmap — 色で量を示す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/data-heatmap.html
+カテゴリー: データの見せ方
+セルの色の濃淡に、値の大小を対応させます。
+用途: 時刻と曜日など、二つの軸に沿った分布。
+使い方: 色だけに頼らず、値や説明にもアクセスできるようにします。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity
+
+## CSS perspective — 遠近感をつける
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/three-perspective.html
+カテゴリー: 3D・立体表現
+奥にある辺が小さく見えるように、要素へ遠近感を与えます。
+用途: 立体的なカードや、奥行きのある構成。
+使い方: perspectiveの距離が短いほど、遠近感が強くなります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective
+
+## CSS cube — CSSで組む立方体
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/three-cube.html
+カテゴリー: 3D・立体表現
+平面の要素を三次元空間に配置し、立方体に見せます。
+用途: 構造や立体感を説明する小さな図形。
+使い方: transform-styleで子要素の三次元配置を保ちます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform-style
+
+## Card flip — 裏返して見せる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/three-flip.html
+カテゴリー: 3D・立体表現
+操作に合わせてカードを回転させ、裏面を見せます。
+用途: 表と裏が対応する、少量の補足情報。
+使い方: 裏面はbackface-visibilityで隠し、重なって見えるのを防ぎます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/backface-visibility
+
+## Isometric-style layers — 等角投影風の重なり
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/three-isometric.html
+カテゴリー: 3D・立体表現
+斜め方向から見た面を重ねて、構造を立体的に見せます。
+用途: 階層や、構成要素を説明する図。
+使い方: この例はCSSの回転でつくる等角投影風の表現です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform
+
+## Waveform graphic — 波形のグラフィック
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/media-waveform.html
+カテゴリー: 映像の見せ方
+縦棒の高さを変え、音の波形を思わせる図形をつくります。
+用途: 音声コンテンツの見た目を検討するとき。
+使い方: これは静的な図形です。音声の解析や再生は行いません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/align-items
+
+## Aspect ratio — 映像の縦横比
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/media-aspect.html
+カテゴリー: 映像の見せ方
+幅に対する高さの比率を決め、表示領域の形を保ちます。
+用途: 動画枠、サムネイル、正方形の画像。
+使い方: 実際の動画とは別に、枠の縦横比を指定できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/aspect-ratio
+
+## Caption contrast — 字幕の背景
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/media-captions.html
+カテゴリー: 映像の見せ方
+文字の背後に半透明の面を敷き、映像と字幕を分けます。
+用途: 動画や、写真に重ねる短いテキスト。
+使い方: これは字幕の見た目の例です。動画字幕の実装ではtrack要素などを使います。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/track
+
+## Minimal composition — 要素を絞った構成
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/style-minimal.html
+カテゴリー: デザイン様式
+文字、線、余白を少数に絞り、関係をはっきりさせます。
+用途: 情報の優先順位を整えた画面の検討。
+使い方: 要素を減らしたあとも、操作や意味の手がかりは残します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/letter-spacing
+
+## Typographic grid — 文字とグリッドの構成
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/style-swiss.html
+カテゴリー: デザイン様式
+強い文字の大小差と整列で、情報に秩序をつくります。
+用途: 文字を主役にしたポスターや編集的な画面。
+使い方: これはタイポグラフィとグリッドを使ったオリジナルの構成例です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid
+
+## Bold borders — 太い輪郭と強い配色
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/style-brutal.html
+カテゴリー: デザイン様式
+太い線、くっきりした影、大きな文字を組み合わせます。
+用途: 勢いのあるカードや、主張の強い告知。
+使い方: 同じ要素の組み合わせでも、余白で読みやすさを整えられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-shadow
+
+## Editorial contrast — 書体にコントラストをつける
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/style-editorial.html
+カテゴリー: デザイン様式
+明朝系の大きな文字と、小さなラベルを組み合わせます。
+用途: 雑誌のような読み物や、作品紹介。
+使い方: 書体の対比に加えて、大きさや余白の差も効きます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family
+
+## Retro interface — レトロな画面構成
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/style-retro.html
+カテゴリー: デザイン様式
+等幅文字、平面的なボタン、強い枠線で画面を組みます。
+用途: 昔のコンピューターを連想させる演出。
+使い方: 雰囲気を再現しながら、現在の操作性も確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family
+
+## Linear — ずっと、同じ速さ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-linear.html
+カテゴリー: イージング
+始めから終わりまで、一定の速さで進みます。
+用途: 進捗表示、回転、一定速度を伝える表現に。
+使い方: 時間が半分なら、移動距離もちょうど半分です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function
+
+## Ease — すっと進み、ゆっくり止まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-ease.html
+カテゴリー: イージング
+ゆっくり動き始め、すぐに加速した後、長めに減速します。
+用途: ボタンやカードなど、自然な変化を添えたい場面に。
+使い方: CSS標準のeaseです。ease-in-outよりも前半で速く進みます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Ease in — ゆっくり始め、速く終わる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-ease-in.html
+カテゴリー: イージング
+動き始めはゆっくりで、終わりに向かって加速します。
+用途: 画面外へ去る要素など、勢いをつけたい場面に。
+使い方: 最後は減速せず終わります。到着を見せたい場面ではease-outとも比べてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Ease out — 速く始め、静かに止まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-ease-out.html
+カテゴリー: イージング
+動き始めが速く、終わりに向かって減速します。
+用途: メニューや通知など、すぐ反応して定位置に収まる場面に。
+使い方: 操作直後の反応と、到着時の落ち着きを両立しやすい曲線です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Ease in out — ゆっくり、速く、ゆっくり
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-ease-in-out.html
+カテゴリー: イージング
+ゆっくり始まり、中間で速くなり、終わりに再び減速します。
+用途: 状態間の移動や、視線を追わせる連続した変化に。
+使い方: 始点と終点で落ち着く、左右対称の曲線です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Sine in — 穏やかに加速する
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-sine-in.html
+カテゴリー: イージング
+加速の変化を穏やかに抑えながら、前へ進みます。
+用途: 控えめな移動や、静かな演出の退場に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Sine out — 穏やかに減速する
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-sine-out.html
+カテゴリー: イージング
+大きく勢いをつけすぎず、滑らかに減速します。
+用途: 小さな移動や、軽い操作への反応に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Sine in out — 波のように、滑らかに
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-sine-in-out.html
+カテゴリー: イージング
+加速と減速が、波のように穏やかにつながります。
+用途: 浮遊感を出す動きや、繰り返す揺れに。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quad in — 少しずつ、速くなる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quad-in.html
+カテゴリー: イージング
+序盤の進み方を抑え、後半へ向けて穏やかに加速します。
+用途: 控えめな退場や、自然に勢いがつく動きに。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quad out — 少しずつ、ゆっくりになる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quad-out.html
+カテゴリー: イージング
+早めに動き始め、終点へ向かって穏やかに減速します。
+用途: リストの移動や、小さな操作への落ち着いた反応に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quad in out — ほどよい緩急で進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quad-in-out.html
+カテゴリー: イージング
+加速と減速を半分ずつ使い、中央を滑らかにつなぎます。
+用途: 控えめな画面遷移や、移動先を追いやすくしたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Cubic in — じわりと始まり、一気に進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-cubic-in.html
+カテゴリー: イージング
+序盤の動きを小さく抑え、後半で強く加速します。
+用途: 引き込まれるような退場や、勢いのある移動に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Cubic out — すばやく進み、余韻を残す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-cubic-out.html
+カテゴリー: イージング
+前半で大きく進み、残りの距離をゆっくり詰めます。
+用途: カードやパネルを、きびきび表示したいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Cubic in out — 前後をためて、中央で加速
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-cubic-in-out.html
+カテゴリー: イージング
+始まりと終わりをゆっくりにし、中央付近で強く動きます。
+用途: 画面の切り替えや、はっきりした移動の表現に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quart in — 深くためて、勢いをつける
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quart-in.html
+カテゴリー: イージング
+序盤の進みを小さく抑え、後半で大きく加速します。
+用途: 力をためるような動きや、強い退場の演出に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quart out — 素早く移動し、長く減速
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quart-out.html
+カテゴリー: イージング
+初めに大きく距離を進み、終わりをゆっくり仕上げます。
+用途: すぐに操作へ応えつつ、到着を滑らかに見せたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quart in out — 静かな両端、速い中央
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quart-in-out.html
+カテゴリー: イージング
+始点と終点の動きを小さくし、中央付近の速度を上げます。
+用途: 大きなパネルや、切り替わりを印象づける移動に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quint in — じっくりためて、駆け出す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quint-in.html
+カテゴリー: イージング
+長めに動きをため、終点へ向かって強く加速します。
+用途: 一気に画面外へ出す演出や、ためを強調する動きに。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quint out — すぐに届き、そっと収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quint-out.html
+カテゴリー: イージング
+序盤でほとんどの距離を進み、最後に長く減速します。
+用途: 操作への素早い反応と、滑らかな着地を見せたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Quint in out — 中央で一気に切り替わる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-quint-in-out.html
+カテゴリー: イージング
+始まりと終わりを強く抑え、中央の移動を際立たせます。
+用途: はっきりした切り替えや、緩急を比較する教材に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Expo in — 静かな始まりから、急加速
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-expo-in.html
+カテゴリー: イージング
+始めの動きは小さく、後半で急に速度を増します。
+用途: 鋭い退場や、強く引き込まれるような移動に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Expo out — 勢いよく進み、細かく近づく
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-expo-out.html
+カテゴリー: イージング
+強い初速から、急速に速度を落として終点へ近づきます。
+用途: 短い操作反応や、鋭い登場演出に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。指定時間の終わりに必ず到着します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Expo in out — 中央を鋭く、前後を静かに
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-expo-in-out.html
+カテゴリー: イージング
+前後の動きを抑え、中央付近を鋭く通過します。
+用途: 短い画面遷移や、動きのコントラストをつけたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Circ in — 円弧のように加速する
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-circ-in.html
+カテゴリー: イージング
+序盤は穏やかに、終点付近では強く加速します。
+用途: 動きの後半に勢いを集めたい、短い退場に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。移動経路が円になるわけではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Circ out — 勢いをすぐ抑えて収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-circ-out.html
+カテゴリー: イージング
+速い出だしから速度を落とし、最後は静かに収まります。
+用途: すばやく出したい小さなパネルや、選択への反応に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。円弧を描く軌道ではなく、時間に対する進み方です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Circ in out — 中央に勢いが集まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-circ-in-out.html
+カテゴリー: イージング
+両端は穏やかにし、中央で動きを大きく変えます。
+用途: 変化の中心を際立たせたい、往復や切り替えの演出に。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Back in — 少し引いてから進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-back-in.html
+カテゴリー: イージング
+一度進行方向と逆へ引き、そこから前へ進みます。
+用途: 力をためてから動く、予備動作をつくりたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。値が0を下回るため、始点側にも余白を確保します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Back out — 少し行き過ぎ、戻って止まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-back-out.html
+カテゴリー: イージング
+終点を少し超え、戻ることで弾力を感じさせます。
+用途: 小さな通知や、選択された要素を軽快に示すとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。値が一時的に1を超えるため、終点側に余白を確保します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Back in out — 引いて、行き過ぎて、収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-back-in-out.html
+カテゴリー: イージング
+始めに逆方向へ引き、終わりには終点を超えて戻ります。
+用途: 予備動作と反動の両方で、弾力を伝えたいとき。
+使い方: 名称は曲線の系統を示します。この見本は同名の数式そのものではなく、3次ベジェ曲線による近似です。進み具合が0未満・1超になるので、両側に余白を確保します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/cubic-bezier
+
+## Bounce in — 小さな跳ねから、駆け出す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-bounce-in.html
+カテゴリー: イージング
+始点付近で小さく跳ね、跳ね幅を広げてから終点へ進みます。
+用途: 小さな跳ね返りを、動き始めの予備動作に使うとき。
+使い方: Bounce outを反転した曲線を、CSS linear()で近似しています。物理計算ではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Bounce out — 着地して、跳ね返る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-bounce-out.html
+カテゴリー: イージング
+終点に届いた後、小さな跳ね返りを繰り返して収まります。
+用途: ボールやキャラクターなど、着地を感じさせたいとき。
+使い方: Bounce系の曲線を細かく採った点で近似し、CSS linear()で結んでいます。物理計算ではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Bounce in out — 跳ねて出発、跳ねて着地
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-bounce-in-out.html
+カテゴリー: イージング
+始点付近の小さな跳ねから出発し、終点付近でも跳ね返ります。
+用途: 始まりと終わりの両方に、跳ねる感触をつけたいとき。
+使い方: Bounce inとBounce outを半分ずつつないだ曲線を、CSS linear()で近似しています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Elastic in — 揺れをためて、飛び出す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-elastic-in.html
+カテゴリー: イージング
+始点の前後で揺れを大きくし、最後に終点へ飛び出します。
+用途: 引き絞るような動きや、柔らかい物体の出発に。
+使い方: Elastic outを反転した曲線を、CSS linear()で近似しています。逆方向への移動に備えて余白を確保します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Elastic out — ばねのように、揺れて収まる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-elastic-out.html
+カテゴリー: イージング
+終点の前後を行き来しながら、揺れ幅を小さくして止まります。
+用途: 柔らかい質感や、遊び心のある操作反応に。
+使い方: Elastic系の曲線をCSS linear()の折れ線で近似しています。ばねの物理シミュレーションではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Elastic in out — 前後で弾み、中央を抜ける
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-elastic-in-out.html
+カテゴリー: イージング
+始点側で揺れをため、中央を通り、終点側で揺れを収めます。
+用途: 伸び縮みする素材や、ばねらしい動きを強調するとき。
+使い方: Elastic系の数式を細かい折れ線で近似しています。動きの両側に余白を確保してください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/linear
+
+## Steps — 4段階で、かくっと進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/easing-steps-4.html
+カテゴリー: イージング
+滑らかに移動せず、時間を4つに区切って段階的に進みます。
+用途: コマ送り、スプライト、段階のある変化を見せるとき。
+使い方: jump-endは各区間の終わりで進みます。開始直後は動かず、最後の瞬間に終点へ到着します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps
+
+## Click — 小さなクリック
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-click.html
+カテゴリー: 音・サウンド
+高いノイズを短く切り、軽く硬いクリックをつくります。
+用途: ボタンを押した瞬間の、ごく短い反応。
+使い方: 連打される操作では、音の重なりや頻度も確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Pop — はじけるポップ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-pop.html
+カテゴリー: 音・サウンド
+高い音から低い音へ素早く落とし、丸くはじける感触をつくります。
+用途: 小さな要素の登場や、軽快な操作。
+使い方: 音程の落ちる速さで、弾力の印象が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Soft tap — 柔らかなタップ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-tap.html
+カテゴリー: 音・サウンド
+低めの音に短いノイズを重ね、柔らかく触れる音にします。
+用途: 控えめな選択や、落ち着いた画面の反応。
+使い方: 小型スピーカーでは低い音の聞こえ方が変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Ascending notification — 上がる通知音
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-notify-up.html
+カテゴリー: 音・サウンド
+二つの音を低い順に鳴らし、上向きの変化を感じさせます。
+用途: 新しい情報の到着を軽く知らせる場面。
+使い方: 通知の意味は、音だけでなく文字や表示でも伝えます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Descending notification — 下がる通知音
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-notify-down.html
+カテゴリー: 音・サウンド
+二つの音を高い順に鳴らし、落ち着くような変化をつくります。
+用途: 画面を閉じる操作や、区切りの演出。
+使い方: 音の印象は、実際の画面と一緒に確認します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Success phrase — 完了を知らせるフレーズ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-success.html
+カテゴリー: 音・サウンド
+四つの音を順に上げ、短い達成のフレーズにします。
+用途: 送信完了や、ひと区切りついたとき。
+使い方: 毎回鳴らす必要があるかも含め、使用場面を選びます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Low double tone — 低い二音のサイン
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-error.html
+カテゴリー: 音・サウンド
+三角波の二つの音を下げ、ほかの通知と違う音色にします。
+用途: 入力内容の確認など、操作の見直しを促す場面。
+使い方: エラーの理由と直し方は、見える場所にも示します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Double reminder — 二回のリマインド
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-warning.html
+カテゴリー: 音・サウンド
+間を空けて同じ音を二回鳴らし、気づきのきっかけをつくります。
+用途: 短い確認や、見落としを減らしたい場面。
+使い方: このサンプルは一度だけ再生し、自動で繰り返しません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Switch snap — スイッチの切り替え
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-switch.html
+カテゴリー: 音・サウンド
+質感の違う二つの短いノイズで、機械的な切り替えを表します。
+用途: 設定を切り替えたことへの補助的な反応。
+使い方: 現在の状態はラベルや形でもわかるようにします。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Soft bell — 柔らかなベル
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-bell.html
+カテゴリー: 音・サウンド
+複数の高さの音を重ね、余韻のあるベルを合成します。
+用途: ゆっくり気づいてほしい通知や、静かな区切り。
+使い方: 高音の成分と減衰の長さで、金属らしさが変わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Three-note chime — 三音のチャイム
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-chime.html
+カテゴリー: 音・サウンド
+三つの音を重ねるように鳴らし、余韻をつなぎます。
+用途: 開始や完了を少し丁寧に知らせる場面。
+使い方: 長めの音は操作の邪魔にならない場面に絞ります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Shimmer — きらめく粒
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-shimmer.html
+カテゴリー: 音・サウンド
+高い音を小刻みに重ね、光の粒のような響きをつくります。
+用途: 特別な達成や、装飾的な演出。
+使い方: 短い高音を重ねるため、小さい音量で印象を確かめます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Pitch sweep — 音程のスイープ
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-sweep.html
+カテゴリー: 音・サウンド
+ひとつの音の高さを連続的に上げます。
+用途: 上昇や、次の段階への移動を表す演出。
+使い方: 音程が飛び飛びに変わるフレーズとの違いを聴き比べられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Filtered whoosh — 風のような通過音
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-whoosh.html
+カテゴリー: 音・サウンド
+ノイズの通る周波数を変え、風が抜けるような音をつくります。
+用途: 大きめの移動や、画面転換の演出。
+使い方: 風の録音ではなく、フィルターをかけたノイズの合成です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Even pulse — 等間隔のパルス
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-pulse.html
+カテゴリー: 音・サウンド
+短い音を等間隔に三回鳴らし、一定のリズムをつくります。
+用途: リズムや間隔を感じさせたい短い演出。
+使い方: 継続的なループではなく、三回で止まるサンプルです。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Double beat — 二連の鼓動
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/sound-heartbeat.html
+カテゴリー: 音・サウンド
+低い二連の音を二組鳴らし、鼓動を思わせるリズムをつくります。
+用途: 身体的なリズムや、静かな緊張感の演出。
+使い方: 心音の録音や測定結果ではなく、合成した表現です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Advanced_techniques
+
+## Scroll scrub — スクロール量に連動
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-scroll-scrub.html
+カテゴリー: アニメーション
+スクロールした量に合わせて、位置と進捗が前後に変わります。
+用途: 読む進度や、移動と連動した表現。
+使い方: 枠の中だけをスクロールしてください。scrollイベントによる実装例です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event
+
+## Scroll reveal once — 見えたら一度だけ再生
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-scroll-reveal.html
+カテゴリー: アニメーション
+枠の中に入った要素が、一度だけ浮かび上がります。
+用途: 読み進める順序に沿った、要素の登場。
+使い方: 連動型とは違い、表示位置をきっかけに時間ベースのアニメーションが始まります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver
+
+## Staggered entrance — 時間差で登場
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-stagger.html
+カテゴリー: アニメーション
+同じ動きを少しずつ遅らせ、順番に要素を登場させます。
+用途: 項目のまとまりや、読む順序を感じさせたい場面。
+使い方: 遅延は要素ごとに100msずつ増やしています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
+
+## SVG line drawing — 線を描いて見せる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-stroke-draw.html
+カテゴリー: SVG・アイコン
+破線の開始位置を動かし、一本の線が描かれるように見せます。
+用途: ロゴの輪郭、経路、手描きのような演出。
+使い方: パスの長さを測って破線長に使うため、図形を変えても合わせられます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset
+
+## Pointer spotlight — 指先を追うスポットライト
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-pointer-spotlight.html
+カテゴリー: 操作・反応
+ポインターやタップ位置に合わせて、光の中心が移動します。
+用途: 領域の中を探索するような表現。
+使い方: タップでも位置を変えられます。フォーカス後の矢印キーにも対応します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events
+
+## Spring return — 離すとばねで戻る
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-spring-drag.html
+カテゴリー: 操作・反応
+つまみを離すと、振動しながら元の位置へ戻ります。
+用途: ドラッグ操作に弾力を加える表現。
+使い方: ばねの力と減衰を数値で計算しています。矢印キーでも試せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame
+
+## FLIP layout transition — 配置換えをなめらかに
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-flip-layout.html
+カテゴリー: アニメーション
+並べ替え前後の座標を測り、その差を打ち消してから動かします。
+用途: カードの並べ替えや、レイアウト変更。
+使い方: FLIPはFirst・Last・Invert・Playの略です。この例は位置の変化を扱います。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+
+## Eased motion path — 曲線に沿って加減速
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/adv-eased-path.html
+カテゴリー: アニメーション
+曲線上の位置を求め、加速と減速を加えて移動させます。
+用途: 軌道や経路をたどる演出。
+使い方: この例はSVGのパスから座標を取り出しています。CSSのoffset-pathでも経路を指定できます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/SVGGeometryElement/getPointAtLength
+
+## Layered parallax — 層ごとに速さを変える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-layered-parallax.html
+カテゴリー: スクロール・視差
+背景・中景・前景を異なる速さで動かし、奥行きを感じさせます。
+用途: 風景や、複数の層を持つキービジュアル。
+使い方: 前にある層を大きく動かすと、遠近感をつくりやすくなります。動きを抑える設定では層を固定します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform
+
+## Depth parallax — 奥行き方向へ進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-depth-parallax.html
+カテゴリー: スクロール・視差
+遠近法を使い、スクロールに応じて面が手前へ近づきます。
+用途: 奥へ入る、手前へ抜ける感覚の演出。
+使い方: translateZとperspectiveによるCSSの立体表現です。大きな拡大は控えめに調整します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/perspective
+
+## Counter-moving columns — 反対向きに流す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-counter-parallax.html
+カテゴリー: スクロール・視差
+並んだ二つの列を反対方向へ動かし、ずれを楽しみます。
+用途: 作品の一覧や、編集的なタイポグラフィ。
+使い方: 文章を読む領域より、短い言葉や図版の演出に向きます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform
+
+## Pinned storytelling — 留まる画面で話を進める
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-pinned-story.html
+カテゴリー: スクロール・視差
+見本をその場に留め、スクロールに沿って説明を切り替えます。
+用途: 工程や、順序のある説明を見せる場面。
+使い方: position: stickyで見本を留め、章の切り替えをJavaScriptで行っています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position
+
+## Vertical-to-horizontal scroll — 縦の操作で横へ進む
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-horizontal-track.html
+カテゴリー: スクロール・視差
+見本の中を縦にスクロールすると、横並びの面が移動します。
+用途: 短いギャラリーや、横方向につながる物語。
+使い方: 縦スクロールを取り上げず、独立した見本の中だけで連動させています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event
+
+## Scroll zoom-out — 引いて全体を見せる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-zoom-out.html
+カテゴリー: スクロール・視差
+近づいた画面から徐々に引き、全体像を見せます。
+用途: 写真や図版の一部から、全体へ視線を導く場面。
+使い方: 素材はオリジナルのSVGです。動きを抑える設定では全体像を固定表示します。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform
+
+## Circular scroll reveal — 円を広げて見せる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-circle-reveal.html
+カテゴリー: スクロール・視差
+円形の切り抜きを広げて、隠れていた面を見せます。
+用途: テーマの切り替えや、印象的な登場。
+使い方: clip-pathの円の半径をスクロール量へ対応させています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/clip-path
+
+## Scroll text fill — 文字に色を満たす
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-text-fill.html
+カテゴリー: スクロール・視差
+薄い文字の上を、濃い色が左から右へ満たしていきます。
+用途: 短いメッセージの読み進みを感じさせる演出。
+使い方: background-clip: textと背景の大きさを組み合わせています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/background-clip
+
+## Scene crossfade — 景色を重ねて切り替える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-scene-crossfade.html
+カテゴリー: スクロール・視差
+二つの背景を重ね、透明度を変えて次の景色へ移ります。
+用途: 時間や気分の移り変わりを見せる場面。
+使い方: 途中では二つの面が同時に見えます。動きを抑えると中間地点で切り替わります。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/opacity
+
+## Reading progress ring — 読む進みを円で示す
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-reading-ring.html
+カテゴリー: スクロール・視差
+見本の文章を読み進めると、円形の進捗が満たされます。
+用途: 読み物や、複数段階の説明の進み具合。
+使い方: 進捗は見本内のスクロール量です。実際に読んだ割合を測っているわけではありません。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/SVG/Reference/Attribute/stroke-dashoffset
+
+## Scroll-snap storytelling — 一場面ずつ切り替える
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-snap-story.html
+カテゴリー: スクロール・視差
+スクロールの止まりどころをそろえ、各場面を見やすくします。
+用途: 短いストーリーや、少数のスライド。
+使い方: ブラウザ標準のscroll-snapを使います。下のスライダーからも場面を選べます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/scroll-snap-type
+
+## Scroll-aware header — 上へ戻すと現れるヘッダー
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-direction-header.html
+カテゴリー: スクロール・視差
+下へ読むと隠れ、上へ戻ると現れるヘッダーです。
+用途: 読む領域を広く保ちながら、移動手段を残したい場面。
+使い方: 位置ではなく、直前からのスクロール方向を見ています。見本の中で試せます。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event
+
+## Stacked sticky cards — カードが積み重なる
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-stacked-cards.html
+カテゴリー: スクロール・視差
+後から来るカードが前のカードの上へ重なり、層をつくります。
+用途: 工程や、章ごとにまとまった情報。
+使い方: カードごとにstickyの止まる位置を少しずつずらしています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position
+
+## Scroll-spread typography — 文字を左右へほどく
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-split-typography.html
+カテゴリー: スクロール・視差
+文字を一つずつ分け、中心から左右へ広げます。
+用途: 短い見出しや、印象を変えるタイポグラフィ。
+使い方: 読みやすさが必要な文章とは分けて使います。見本は一つの単語を分割しています。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/transform
+
+## Viewport progress — 見える位置に連動する
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-view-progress.html
+カテゴリー: スクロール・視差
+要素が枠へ入り、中央を通り、出ていく位置に応じて変化します。
+用途: 要素ごとに、画面内での登場と退出を制御したい場面。
+使い方: 要素と見本枠の座標から進み具合を計算しています。スクロール全体の進捗とは別です。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect
+
+## Scroll-velocity skew — 速さで傾く文字
+URL: https://gooooooooood-expression.mossyelf3.chatgpt.site/expressions/scroll-velocity-skew.html
+カテゴリー: スクロール・視差
+スクロールの速さと向きに応じて文字が傾き、止めると元へ戻ります。
+用途: 動きの勢いを感じさせる短い装飾。
+使い方: 位置ではなく移動量と経過時間を使います。ゆっくり・速く、両方試してみてください。
+公式資料: https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event

@@ -1,0 +1,8 @@
+export function rgbFromHex(hex){return [1,3,5].map(i=>parseInt(hex.slice(i,i+2),16))}
+export function linearize(n){n/=255;return n<=.04045?n/12.92:((n+.055)/1.055)**2.4}
+export function luminance(hex){const [r,g,b]=rgbFromHex(hex).map(linearize);return .2126*r+.7152*g+.0722*b}
+export function contrast(a,b){const x=luminance(a),y=luminance(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05)}
+export function hslFromHex(hex){let [r,g,b]=rgbFromHex(hex).map(x=>x/255);const max=Math.max(r,g,b),min=Math.min(r,g,b),l=(max+min)/2,d=max-min;let h=0,s=0;if(d){s=d/(1-Math.abs(2*l-1));switch(max){case r:h=((g-b)/d)%6;break;case g:h=(b-r)/d+2;break;default:h=(r-g)/d+4}h*=60;if(h<0)h+=360}return [h,s*100,l*100]}
+export function hexFromHsl(h,s,l){h=((h%360)+360)%360;s/=100;l/=100;const c=(1-Math.abs(2*l-1))*s,x=c*(1-Math.abs((h/60)%2-1)),m=l-c/2;let rgb=h<60?[c,x,0]:h<120?[x,c,0]:h<180?[0,c,x]:h<240?[0,x,c]:h<300?[x,0,c]:[c,0,x];return '#'+rgb.map(n=>Math.round((n+m)*255).toString(16).padStart(2,'0')).join('')}
+export function oklchFromHex(hex){const [r,g,b]=rgbFromHex(hex).map(linearize);const l=Math.cbrt(.4122214708*r+.5363325363*g+.0514459929*b),m=Math.cbrt(.2119034982*r+.6806995451*g+.1073969566*b),s=Math.cbrt(.0883024619*r+.2817188376*g+.6299787005*b);const L=.2104542553*l+.793617785*m-.0040720468*s,A=1.9779984951*l-2.428592205*m+.4505937099*s,B=.0259040371*l+.7827717662*m-.808675766*s;const C=Math.sqrt(A*A+B*B);return [L*100,C,C<.00001?0:(Math.atan2(B,A)*180/Math.PI+360)%360]}
+export function normalizeHex(v){v=v.trim();if(/^#?[0-9a-f]{3}$/i.test(v)){v=v.replace('#','');return '#'+[...v].map(c=>c+c).join('')}return /^#?[0-9a-f]{6}$/i.test(v)?'#'+v.replace('#',''):null}

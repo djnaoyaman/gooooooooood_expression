@@ -1,0 +1,32 @@
+{
+  "id": "./",
+  "name": "gooooooooood expression",
+  "short_name": "good expression",
+  "description": "アニメーション、イージング、パララックス、音、色、文字、質感を、見て、触って、覚えて、使えるWeb表現図鑑。実演・解説・用途・コピーできるコードを収録。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#222327",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
