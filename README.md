@@ -105,3 +105,10 @@ WebGL非対応でもシェーダーのパラメーターを試せるCanvas代替
 今回追加した38見本は、Chromeで埋め込み実演38件、コピー用HTML38件の検証を通過。スライダーの最小・最大、320px幅、動きを減らす設定、並べ替え・リスト移動・キーボードによる入力候補の選択、条件チップの解除を確認しています。iOS/Safari実機の検証は未実施です。
 
 
+
+
+## Site update date
+
+The shared generated footer shows **サイト最終更新** in JST on the homepage and every generated document. The build derives it from the latest checked-out commit affecting `dist/`, `scripts/build-pages.mjs`, `scripts/site-update-date.mjs`, or `site.config.json`. The Pages checkout retains Git history so documentation-only builds do not invent a new site date. Missing history is an error, never a fallback to build time or a visitor clock. Dates remain identical on repeat visits and without JavaScript.
+
+The author page's separate profile-review date is preserved; this site revision date does not claim every article or fact was reviewed again. `dist/site-update.json` and all visible footer dates come from one build value. The read-only Site update date workflow checks JST rollover, every generated footer, separate author date preservation, and local-only 390/1280px/no-JavaScript rendering with external requests blocked. No runtime request, tracking, or additional deployment permission is introduced.
