@@ -16,13 +16,27 @@ const server = http.createServer((req,res)=>{
 (async()=>{
   await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
   const origin=`http://127.0.0.1:${server.address().port}`;
+  // 404.html intentionally has an absolute production base. Fulfill that known
+  // path from this checkout as a local fixture; never send a public request.
+  const routeLocal=route=>{
+    const u=new URL(route.request().url());
+    if(u.origin===origin)return route.continue();
+    const prefix='/gooooooooood_expression/';
+    if(u.origin==='https://djnaoyaman.github.io'&&u.pathname.startsWith(prefix)){
+      const local=path.resolve(root,u.pathname.slice(prefix.length));
+      if(local.startsWith(root+path.sep)&&fs.existsSync(local)&&fs.statSync(local).isFile())
+        return route.fulfill({path:local,contentType:types[path.extname(local)]||'application/octet-stream'});
+      return route.fulfill({status:404,body:'Missing local fixture'});
+    }
+    return route.abort();
+  };
   const browser=await chromium.launch();
   const results=[];
   fs.mkdirSync('test-artifacts/site-update',{recursive:true});
   try{
     for(const width of [390,1280]){
       const context=await browser.newContext({viewport:{width,height:900},reducedMotion:'reduce',timezoneId:'America/Los_Angeles'});
-      await context.route('**/*',route=>route.request().url().startsWith(origin+'/')?route.continue():route.abort());
+      await context.route('**/*',routeLocal);
       for(const file of config.pages){
         const page=await context.newPage();
         await page.goto(`${origin}/${file}`,{waitUntil:'domcontentloaded'});
@@ -36,7 +50,6 @@ const server = http.createServer((req,res)=>{
         assert.match(await date.innerText(),/JST/);
         assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),true,file+' horizontal overflow');
         const box=await date.boundingBox();assert(box&&box.width>0&&box.x>=0&&box.x+box.width<=width+1&&box.y>=0&&box.y+box.height<=900+1,'date inside screenshot viewport');
-        await page.locator('footer').screenshot({path:`test-artifacts/site-update/footer-${file.replace(/[^a-z0-9.-]/gi,'-')}-${width}.png`});
         await date.scrollIntoViewIfNeeded();
         await page.screenshot({path:`test-artifacts/site-update/${file.replace(/[^a-z0-9.-]/gi,'-')}-${width}.png`});
         await page.reload({waitUntil:'domcontentloaded'});
@@ -47,7 +60,7 @@ const server = http.createServer((req,res)=>{
       await context.close();
     }
     const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}});
-    await context.route('**/*',route=>route.request().url().startsWith(origin+'/')?route.continue():route.abort());
+    await context.route('**/*',routeLocal);
     for(const file of config.pages){const page=await context.newPage();await page.goto(`${origin}/${file}`);const date=page.locator('time[data-site-updated]');await date.scrollIntoViewIfNeeded();assert.equal(await date.isVisible(),true,file+' no-JS');assert.equal(await date.getAttribute('datetime'),config.date);await page.close();}
     await context.close();
     fs.writeFileSync('test-artifacts/site-update/report.json',JSON.stringify({results,noJavaScript:true,externalRequests:'blocked'},null,2));
