@@ -26,6 +26,8 @@ const server = http.createServer((req,res)=>{
       for(const file of config.pages){
         const page=await context.newPage();
         await page.goto(`${origin}/${file}`,{waitUntil:'domcontentloaded'});
+        await page.waitForLoadState('networkidle');
+        await page.evaluate(()=>document.fonts.ready);
         const date=page.locator('time[data-site-updated]');
         await date.scrollIntoViewIfNeeded();
         assert.equal(await date.count(),1,file);
@@ -33,7 +35,9 @@ const server = http.createServer((req,res)=>{
         assert.equal(await date.getAttribute('datetime'),config.date,file+' stable date');
         assert.match(await date.innerText(),/JST/);
         assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),true,file+' horizontal overflow');
-        const box=await date.boundingBox();assert(box&&box.width>0&&box.x>=0&&box.x+box.width<=width+1);
+        const box=await date.boundingBox();assert(box&&box.width>0&&box.x>=0&&box.x+box.width<=width+1&&box.y>=0&&box.y+box.height<=900+1,'date inside screenshot viewport');
+        await page.locator('footer').screenshot({path:`test-artifacts/site-update/footer-${file.replace(/[^a-z0-9.-]/gi,'-')}-${width}.png`});
+        await date.scrollIntoViewIfNeeded();
         await page.screenshot({path:`test-artifacts/site-update/${file.replace(/[^a-z0-9.-]/gi,'-')}-${width}.png`});
         await page.reload({waitUntil:'domcontentloaded'});
         assert.equal(await date.getAttribute('datetime'),config.date,file+' repeat load');
