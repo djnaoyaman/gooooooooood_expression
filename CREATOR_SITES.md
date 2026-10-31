@@ -10,4 +10,4 @@ The creator's sites are introduced within the existing biography and project sec
 - [SUBURBIA CLASSICA](https://djnaoyaman.github.io/suburbia-classica/): クラシックの名曲を、制作背景・構成・録音エピソードとともに聴く音楽ガイド。
 - [CRATE DIGGIN’](https://djnaoyaman.github.io/cratediggin/): Hip Hopの楽曲からサンプル、プロデューサー、街や時代をたどる音楽アーカイブ。
 - [酸冷交代浴のススメ](https://djnaoyaman.github.io/sanreikotaiyoku/): 炭酸泉と水風呂の楽しみ方を、体験・施設情報・文献から編集する入浴ガイド。
-- [Book Keeping](https://djnaoyaman.github.io/bookkeeping/): 日商簿記・全経簿記・USCPAの仕訳や計算を反復演習し、学習記録と復習につなげる学習サイト。
+- [IL MASTRO](https://djnaoyaman.github.io/bookkeeping/): 日商簿記・全経簿記・USCPAの仕訳や計算を反復演習し、学習記録と復習につなげる学習サイト。
